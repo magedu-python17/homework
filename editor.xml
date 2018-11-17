@@ -3,9 +3,6 @@
     <option name="FONT_SIZE" value="13" />
     <option name="FONT_FAMILY" value="Monaco" />
     <option name="USE_LIGATURES" value="true" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
+    <option name="SECONDARY_FONT_FAMILY" value="DejaVu Sans Mono" />
   </component>
 </application>
