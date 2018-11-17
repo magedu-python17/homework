@@ -4,4 +4,8 @@
     <option name="FONT_FAMILY" value="Monaco" />
     <option name="USE_LIGATURES" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
 </application>
