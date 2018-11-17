@@ -17,6 +17,17 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/111.py" timestamp="1536342318154">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1536345964595">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/homework/P17058-zhanghaipeng/20181118.py" timestamp="1542476786437">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/1.py" timestamp="1542029738228">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="0" column="0" />
@@ -29,16 +40,10 @@
         <mark key="]" line="0" column="13" />
         <mark key="." line="0" column="13" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/111.py" timestamp="1536342318154">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1536345964595">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/PycharmProjects/homework/P17058-zhanghaipeng/20181118.py" timestamp="1542476786437">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/Documents/GitHub/homework/P17058-zhanghaipeng/11.sh" timestamp="1542486059332">
+        <mark key="[" line="0" column="3" />
+        <mark key="]" line="0" column="3" />
+        <mark key="." line="0" column="3" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.sh" timestamp="1536345924668">
         <mark key="[" line="0" column="0" />
@@ -69,17 +74,7 @@ call vundle#end()            &quot; required
 filetype plugin indent on    &quot; required</text>
       </register>
       <register name="&quot;" type="4">
-        <text>set nocompatible &quot; be iMproved, required
-filetype off                  &quot; required
-
-&quot; 将Vundle插件的目录添加到gvim的运行时变量中
-set rtp+=C:\Users\Administrator\.vim\bundle\Vundle.vim\
-call vundle#begin('$USERPROFILE/.vim/bundle/')
-&quot; All of your Plugins must be added before the following line
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-call vundle#end()            &quot; required
-filetype plugin indent on    &quot; required</text>
+        <text>u</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">CnNldCBub2NvbXBhdGlibGUgIiBiZSBpTXByb3ZlZCwgcmVxdWlyZWQKZmlsZXR5cGUgb2ZmICAgICAgICAgICAgICAgICAgIiByZXF1aXJlZAoKIiC9q1Z1bmRsZbLlvP61xMS/wrzM7bzTtb1ndmlttcTUy9DQyrGx5MG/1tAKc2V0IHJ0cCs9JEhPTUUvLnZpbS9idW5kbGUvVnVuZGxlLnZpbS8KY2FsbCB2dW5kbGUjYmVnaW4oJyRVU0VSUFJPRklMRS8udmltL2J1bmRsZS8nKQoiIEFsbCBvZiB5b3VyIFBsdWdpbnMgbXVzdCBiZSBhZGRlZCBiZWZvcmUgdGhlIGZvbGxvd2luZyBsaW5lClBsdWdpbiAnVnVuZGxlVmltL1Z1bmRsZS52aW0nClBsdWdpbiAnc2Nyb29sb29zZS9uZXJkdHJlZScKY2FsbCB2dW5kbGUjZW5kKCkgICAgICAgICAgICAiIHJlcXVpcmVkCmZpbGV0eXBlIHBsdWdpbiBpbmRlbnQgb24gICAgIiByZXF1aXJlZA==</text>
@@ -106,7 +101,7 @@ filetype plugin indent on    &quot; required</text>
         <text encoding="base64">Imxhbmd1YWdlIG1lc3NhZ2VzIHpoX0NOLlVURi04Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>u</text>
       </register>
     </registers>
     <search>
