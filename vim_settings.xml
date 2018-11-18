@@ -25,8 +25,10 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/homework/P17058-zhanghaipeng/20181118.py" timestamp="1542476786437">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/homework/P17058-zhanghaipeng/20181118.py" timestamp="1542531708452">
+        <mark key="[" line="0" column="22" />
+        <mark key="]" line="0" column="22" />
+        <mark key="." line="0" column="22" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/1.py" timestamp="1542029738228">
         <mark key="'" line="1" column="0" />
@@ -61,6 +63,12 @@
     </jumps>
     <registers>
       <register name="1" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
         <text>set nocompatible &quot; be iMproved, required
 filetype off                  &quot; required
 
@@ -73,32 +81,26 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            &quot; required
 filetype plugin indent on    &quot; required</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>u</text>
-      </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">CnNldCBub2NvbXBhdGlibGUgIiBiZSBpTXByb3ZlZCwgcmVxdWlyZWQKZmlsZXR5cGUgb2ZmICAgICAgICAgICAgICAgICAgIiByZXF1aXJlZAoKIiC9q1Z1bmRsZbLlvP61xMS/wrzM7bzTtb1ndmlttcTUy9DQyrGx5MG/1tAKc2V0IHJ0cCs9JEhPTUUvLnZpbS9idW5kbGUvVnVuZGxlLnZpbS8KY2FsbCB2dW5kbGUjYmVnaW4oJyRVU0VSUFJPRklMRS8udmltL2J1bmRsZS8nKQoiIEFsbCBvZiB5b3VyIFBsdWdpbnMgbXVzdCBiZSBhZGRlZCBiZWZvcmUgdGhlIGZvbGxvd2luZyBsaW5lClBsdWdpbiAnVnVuZGxlVmltL1Z1bmRsZS52aW0nClBsdWdpbiAnc2Nyb29sb29zZS9uZXJkdHJlZScKY2FsbCB2dW5kbGUjZW5kKCkgICAgICAgICAgICAiIHJlcXVpcmVkCmZpbGV0eXBlIHBsdWdpbiBpbmRlbnQgb24gICAgIiByZXF1aXJlZA==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">c2V0IGZpbGVlbmNvZGluZ3M9dXRmLTgsZ2JrMjMxMixnYmssZ2IxODAzMCxjcDkzNgo=</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">c2V0IGZpbGVlbmNvZGluZ3M9dXRmLTgsZ2JrMjMxMixnYmssZ2IxODAzMCxjcDkzNgo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">c2V0IGVuY29kaW5nPXV0Zi04Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">c2V0IGxhbmdtZW51PXpoX0NOCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">c2V0IGVuY29kaW5nPXV0Zi04Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">c2V0IGxhbmdtZW51PXpoX0NOCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">Imxhbmd1YWdlIG1lc3NhZ2VzIHpoX0NOLlVURi04Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
