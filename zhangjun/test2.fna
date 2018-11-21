@@ -1,2 +1,5 @@
 for i in range(10):
 print(i)
+
+
+今天我通过各种手段查阅了git 与GitHub的不同，同时还使用linux系统学习如何在本地仓库中通过git软件上传代码到github，现在不知道能够成功。看我的吧:。
