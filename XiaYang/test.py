@@ -27,3 +27,4 @@ for i in range(e,n+e):
     else:
         print('*'+' '*(n-2)+'*')
 
+
