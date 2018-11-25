@@ -1,0 +1,135 @@
+lsblk
+lscpu
+
+free
+
+#mount /dev/sr0 /mnt
+rpm -ivh /package/home/package-name
+
+screen -S help #'help' is session name
+screen -x help #'help' is session name
+
+
+bc # first set obase, then ibase.
+
+
+echo file-{1,2,3}    # echo file{1 , 2, 3}  echo file {1 , 2, 3}
+echo file-{1..10}
+echo file-{a..z}
+echo file-{000..20..2}
+echo file-{000..020..2}
+echo file-{000..30..2}
+echo file-{000..30..3}
+echo file-{1,2,3}.{txt,log}
+
+
+echo `date +%F`.log
+echo $(date +%F).log
+touch `date +%F`.log
+touch $(date +%F).log
+
+
+enable
+type ls
+
+
+date
+clock
+cal
+
+
+whatis ls
+whatis rm
+whatis cd
+type cd
+help cd
+type history
+help history
+help
+
+
+which -a rm
+
+
+type enable
+help cd
+
+type ls
+man ls
+
+type ！
+man bash
+
+!
+!n
+!-n
+!!
+lspci
+lscpu
+!ls
+!?ls
+
+
+whichis
+whereis
+whatis
+
+
+man -a xxx
+man -k xxx
+key: j, k, /xxx, n, N
+
+
+basename
+dirname
+
+
+file
+
+
+atime,   cat /proc/mounts   relatime
+
+
+alias rm="mv -t /backups"
+ls -i #show inode number
+
+
+dd if=/dev/zero of=bigfile bs=1M count=512
+
+
+rm 之前有没有办法检查文件有没有被使用？
+
+file 
+
+bash shell var, $$ $PPID
+ls -l /proc/$$/fd   // or tty
+echo "hello" > /dev/pts/x    # x = 0, 1, 2, 3, 4, ......
+
+
+who
+
+
+pushd
+popd
+
+
+set -C
+set +C
+
+
+ls /home/exist > log_output.txt
+ls /home/noexist 1> log_output.txt
+ls /home/noexist 2> log_error.txt
+
+ls /home/exist /home/noexist > log_output.txt 2> log_error.txt
+
+ls /home/exist /home/noexist &> log_all.txt
+
+ls /home/exist /home/noexist > log_all.txt 2>&1
+
+
+hexdump
+
+tr
+ls /home/nouser 2>&1 | tr 'a-z' 'A-Z'
+ls /home/nouser |& tr 'a-z' 'A-Z'
