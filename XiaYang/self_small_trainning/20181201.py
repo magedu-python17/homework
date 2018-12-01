@@ -24,3 +24,4 @@ else:
 # 解法2
 lst_x = [x for x in s if x.islower()]
 print(s.lower()) if len(s)//2 <= len(lst_x) else print(s.upper())
+
