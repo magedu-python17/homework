@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 count = 0
 for num in range(100000):
-    if num ==0 and num == 1:
+    if num ==0 or num == 1:
         continue
-    elif num <= 3:
+    elif num == 2 or num == 3:
         print(num,end=" ")
         count += 1
     else: 
