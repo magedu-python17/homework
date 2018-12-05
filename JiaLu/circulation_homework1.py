@@ -6,4 +6,4 @@ for i in range(1,10):
             print("%d * %d = %d" % (j,i,j*i))
         else:
             print("%d * %d = %d" % (j,i,i*j),end="\t")
-    print("\n")
+    print()
