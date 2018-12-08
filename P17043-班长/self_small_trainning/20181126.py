@@ -42,14 +42,14 @@
 # 6  3 2
 # 7  3 1
 
-line = 15
-for x in range(-(line-1)//2,(line-1)//2):
-    if x < 0:
-        print('{}{}'.format(' '*(-x),'*'*((line-1)//2+x)))
-    elif x == 0:
-        print('*'*(line-1))
-    elif x > 0:
-        print('{}{}'.format(' '*((line-1)//2),'*'*((line-1)//2-x)))
+# line = 15
+# for x in range(-(line-1)//2,(line-1)//2):
+#     if x < 0:
+#         print('{}{}'.format(' '*(-x),'*'*((line-1)//2+x)))
+#     elif x == 0:
+#         print('*'*(line-1))
+#     elif x > 0:
+#         print('{}{}'.format(' '*((line-1)//2),'*'*((line-1)//2-x)))
 
 
 #求斐波那契数列
@@ -65,17 +65,17 @@ for x in range(-(line-1)//2,(line-1)//2):
 #     print(next(g))
 
 #求10万以内质数
-# import  time
-# start = time.time()
-# count = 0
-# for jj in range(3,100000,2):
-#     if jj > 10 and jj % 10 == 5:
-#         continue
-#     for ii in range(3,int(jj**(0.5))+1):
-#         if jj % ii == 0:
-#             break
-#     else:
-#         #print(jj)
-#         count += 1
-# print(count)
-# print(time.time()-start)
+import  time
+start = time.time()
+count = 0
+for jj in range(3,100,2):
+    if jj > 10 and jj % 10 == 5:
+        continue
+    for ii in range(3,int(jj**(0.5))+1):
+        if jj % ii == 0:
+            break
+    else:
+        print(jj)
+        count += 1
+print(count)
+print(time.time()-start)
