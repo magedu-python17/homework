@@ -34,13 +34,18 @@ def delete_user():
     else:
         print("The user does not exist!")
 
-def add_user():
+def add_user(user_info):
     print("Please enter user's infomation like this: \n    username:age:contact infomation")
     user_input = input(">>> ")
     user_name = user_input.split(":")[0]
-    user_age = user_input.split(":")[1]
-    user_contact = user_input.split(":")[2]
-    user_info.append({"user_name":user_name,"user_age":user_age,"user_contact":user_contact})
+    for item in user_info:
+        if item["user_name"] == user_name:
+            print("The user does exist! Please use the 'update' command to update existing user information!")
+            break
+    else:
+        user_age = user_input.split(":")[1]
+        user_contact = user_input.split(":")[2]
+        user_info.append({"user_name":user_name,"user_age":user_age,"user_contact":user_contact})
 
 def search_user():
     print("Please enter user's username to search: ")
@@ -109,7 +114,7 @@ while True:
     if command == "help":
         get_help()
     elif command == "add":
-        add_user()
+        add_user(user_info)
     elif command == "delete":
         delete_user()
     elif command == "find":
