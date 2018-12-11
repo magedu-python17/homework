@@ -67,6 +67,10 @@ def update_user():
         print("The user does not exist!")
 
 def list_user(user_info):
+    print("{:<5}:  {:<10}  |  {:<10}  |  {:<10}  ".format("field","user_name","user_age","user_contact"))
+    #print("field : user_name | user_age | user_contact")
+    print("{:<5}:  {:<10}  |  {:<10}  ".format("sort","reverse","default"))
+    #print("sort : reverse | default")
     mode = input("Please enter how you want to sort and by field (format: field sort): ")
     field = mode.split(" ")[0]
     sort_mode = mode.split(" ")[1]
