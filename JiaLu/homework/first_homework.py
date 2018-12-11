@@ -43,8 +43,8 @@ def add_user(user_info):
             print("The user does exist! Please use the 'update' command to update existing user information!")
             break
     else:
-        user_age = user_input.split(":")[1]
-        user_contact = user_input.split(":")[2]
+        user_age = int(user_input.split(":")[1])
+        user_contact = int(user_input.split(":")[2])
         user_info.append({"user_name":user_name,"user_age":user_age,"user_contact":user_contact})
 
 def search_user():
@@ -63,8 +63,8 @@ def update_user():
     user_name = user_input.split(":")[0]
     for index in range(len(user_info)):
         if user_info[index]["user_name"] == user_name:
-            user_age = user_input.split(":")[1]
-            user_contact = user_input.split(":")[2]
+            user_age = int(user_input.split(":")[1])
+            user_contact = int(user_input.split(":")[2])
             user_info[index] = {"user_name":user_name,"user_age":user_age,"user_contact":user_contact}
             print(user_info[index])
             break
@@ -72,13 +72,17 @@ def update_user():
         print("The user does not exist!")
 
 def list_user(user_info):
-    print("{:<5}:  {:<10}  |  {:<10}  |  {:<10}  ".format("field","user_name","user_age","user_contact"))
+    print("{:<5}:  {:<15}  |  {:<15}  |  {:<15}  ".format("field","[user_name]","user_age","user_contact"))
     #print("field : user_name | user_age | user_contact")
-    print("{:<5}:  {:<10}  |  {:<10}  ".format("sort","reverse","default"))
+    print("{:<5}:  {:<15}  |  {:<15}  ".format("sort","reverse","[default]"))
     #print("sort : reverse | default")
     mode = input("Please enter how you want to sort and by field (format: field sort): ")
-    field = mode.split(" ")[0]
-    sort_mode = mode.split(" ")[1]
+    if mode != "":
+        field = mode.split(" ")[0]
+        sort_mode = mode.split(" ")[1]
+    else:
+        field = "user_name"
+        sort_mode = "default"
     if sort_mode == "reverse":
         new_user_info = sorted(user_info,key=lambda x:x[field],reverse=True)
     else:

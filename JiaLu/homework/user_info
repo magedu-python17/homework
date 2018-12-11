@@ -1,1 +1,1 @@
-[{'user_contact': '123456', 'user_name': 'juliajia', 'user_age': '21'}, {'user_contact': '12344321', 'user_name': 'jialu', 'user_age': '30'}, {'user_contact': '123456', 'user_name': 'juliajia', 'user_age': '18'}]
+[{'user_name': 'juliajia', 'user_contact': 3215456, 'user_age': 20}, {'user_name': 'Bge', 'user_contact': 888888, 'user_age': 30}, {'user_name': 'niuB', 'user_contact': 666666, 'user_age': 3}]
