@@ -58,20 +58,33 @@ def new_exit():
 
 
 def main():
+    action_dict = {
+        'delete': new_delete,
+        'update': new_update,
+        'find': new_find,
+        'show': new_show,
+        'exit': new_exit
+    }
     while True:
         action = input(">>> ")
-        if action == 'delete':
-            new_delete()
-        elif action == 'update':
-            new_update()
-        elif action == 'find':
-            new_find()
-        elif action == 'show':
-            new_show()
-        elif action == 'exit':
-            new_exit()
+        if not action:
+            continue
+        if action in action_dict:
+            func = action_dict.get(action)
+            func()
         else:
             print('命令格式: [delete|update|find|show|exit]')
+        # if action == 'delete':
+        #     new_delete()
+        # elif action == 'update':
+        #     new_update()
+        # elif action == 'find':
+        #     new_find()
+        # elif action == 'show':
+        #     new_show()
+        # elif action == 'exit':
+        #     new_exit()
+
 
 if __name__ == "__main__":
     main()
