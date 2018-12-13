@@ -67,6 +67,8 @@ def main():
     }
     while True:
         action = input(">>> ")
+        if not action:
+            continue
         if action in action_dict:
             func = action_dict.get(action)
             func()
