@@ -21,7 +21,7 @@ def open_file(use_mode,user_info):    #用户数据文件读取＆写入
     elif use_mode == "save":    #如果模式是save就执行下面代码
             mode = 'w+'     #模式是w+   打开文件并更改文件内容
             f = open(file_path,mode)
-            f.write(str(user_info))   将user_info里的内容转换成字符串并写入到指定文件中去
+            f.write(str(user_info))   #将user_info里的内容转换成字符串并写入到指定文件中去
             f.close()
 
 
