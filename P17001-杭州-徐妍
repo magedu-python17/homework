@@ -1,0 +1,9 @@
+第一次接触github，试试怎么传文件
+#猴子吃桃
+n=10
+p=1
+for i in range(1,n):
+  a=2*(1+p)
+  p=a
+  print(a,end=' ')
+  # 咦？这里是只能贴代码，不能run的嘛？
