@@ -76,3 +76,5 @@ while True:
 	elif i=='exit':
 		savefile()
 		sys.exit()
+
+# 逻辑上没有问题， 需要添加个提示菜单的操作，还有代码里面有个小问题，你再看看

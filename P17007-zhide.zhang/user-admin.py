@@ -105,3 +105,5 @@ while a < 3:
             a = 4
     else:
         print("please enter push/delete/update/find/exit")
+
+# 逻辑上没有什么，想想如果用字典的话，如何保存， 还有如何把用户信息保存下来

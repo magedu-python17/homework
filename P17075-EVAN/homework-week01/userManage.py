@@ -56,3 +56,4 @@ while True:
         print('查无此人')
         continue
 
+# 少个add的操作，list的时候，显示的结果不太友好，想想优化下，别的没有什么问题

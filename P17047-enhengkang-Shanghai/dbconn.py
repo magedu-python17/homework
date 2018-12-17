@@ -69,3 +69,4 @@ if __name__ == '__main__':
                 'charset': 'utf8'}
     db=lyncmysql(dbconfig)
 
+# 既然用到了mysql，那么想想，在入库的时候假如遇到了异常，是不是应该回退呢？

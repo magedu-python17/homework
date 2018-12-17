@@ -52,3 +52,5 @@ while True:   #死循环
         break
     else:
         print('Command input error') #命令输入错误的输出
+
+# 和前面的那个一样的，想想哈

@@ -144,3 +144,4 @@ if __name__ == "__main__":
     else:
         print("your enter command error!")
 
+# 尝试用while True 试下，正常来说，一个操作系统，应该有用户来选择操作的，而不是运行一次就结束

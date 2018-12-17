@@ -90,3 +90,5 @@ while True:   #死循环
         break
     else:
         print('Command input error') #命令输入错误的输出
+
+# 别的没有什么问题,就是每次进行操作前，command：add|delete|update|find|list|exit  这些最好再提示一次好点，很简单的 想想

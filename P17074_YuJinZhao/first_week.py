@@ -81,3 +81,4 @@ while True:
 
     if command == 'exit':
         break
+# 逻辑上没有什么，想想如何用一个while 实现呢？

@@ -147,3 +147,5 @@ class UserManagerSystem:
 if __name__ == '__main__':
     p1 = UserManagerSystem()
     p1.welcome()
+
+# 少个提示操作的菜单，别的没有啥问题，再来个对用户操作的时候，加个验证密码，比如首次运行时候，add 和 update 和delete的等操作的时候，需要验证管理员密码
