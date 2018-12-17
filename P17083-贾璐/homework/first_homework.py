@@ -1,6 +1,20 @@
 #!/usr/bin/env python
 import os
 import readline
+
+
+
+def check_null(str1):
+    if str1 == "" or str1.count(":") != 3:
+        return False
+    else:
+        return True
+def check_null2(str1):
+    if str1 == "":
+        return False
+    else:
+        return True
+
 def open_file(use_mode,user_info):    #用户数据文件读取＆写入
     #输入用户信息文件读取存放绝对路径---需要带文件名
     file_path = input("Please enter your user_info file path: ")
@@ -28,49 +42,61 @@ def open_file(use_mode,user_info):    #用户数据文件读取＆写入
 def delete_user():      #删除用户
     print("Please enter user's username to delete: ")    #提示信息
     user_name = input(">>> ")   #将用户输入的用户名赋值给user_name变量
-    for index in range(len(user_info)):     #将用户信息遍历
-        if user_info[index]["user_name"] == user_name:    #找出符合的用户
-            del user_info[index]   #删除这个用户信息
-            break    #跳出循环
-    else:    #如果用户不存在就执行下面代码
-        print("The user does not exist!")
+    if check_null2(user_name):
+        for index in range(len(user_info)):     #将用户信息遍历
+            if user_info[index]["user_name"] == user_name:    #找出符合的用户
+                del user_info[index]   #删除这个用户信息
+                break    #跳出循环
+        else:    #如果用户不存在就执行下面代码
+            print("The user does not exist!")
+    else:
+        print("Please input the user_name!")
 
 def add_user(user_info):    #添加用户
     print("Please enter user's infomation like this: \n    username:age:contact infomation") #提示信息
     user_input = input(">>> ")    #将用户输入的用户信息赋值给user_input
-    user_name = user_input.split(":")[0]   #分片出用户名
-    for item in user_info:   #遍历user_info
-        if item["user_name"] == user_name:   #如果用户存在执行下面代码并跳出循环
-            print("The user does exist! Please use the 'update' command to update existing user information!")
-            break
-    else:    #用户不存在的话执行下面代码
-        user_age = int(user_input.split(":")[1])
-        user_contact = int(user_input.split(":")[2])
-        user_info.append({"user_name":user_name,"user_age":user_age,"user_contact":user_contact})
+    if check_null(user_input):
+        user_name = user_input.split(":")[0]   #分片出用户名
+        for item in user_info:   #遍历user_info
+            if item["user_name"] == user_name:   #如果用户存在执行下面代码并跳出循环
+                print("The user does exist! Please use the 'update' command to update existing user information!")
+                break
+        else:    #用户不存在的话执行下面代码
+            user_age = int(user_input.split(":")[1])
+            user_contact = int(user_input.split(":")[2])
+            user_info.append({"user_name":user_name,"user_age":user_age,"user_contact":user_contact})
+    else:
+        print("Please input the command!")
 
 def search_user():   #查找用户
     print("Please enter user's username to search: ")
     user_name = input(">>> ")
-    for index in range(len(user_info)):
-        if user_info[index]["user_name"] == user_name:
-            print(user_info[index])
-            break
+    if check_null2(user_name):
+        for index in range(len(user_info)):
+            if user_info[index]["user_name"] == user_name:
+                print(user_info[index])
+                break
+        else:
+            print("The user does not exist!")
     else:
-        print("The user does not exist!")
+        print("Please input the user_name!")
 
 def update_user():    #更新用户信息
     print("Please use the following format to update user information: \n    username:age:contact infomation")
     user_input = input(">>> ")
-    user_name = user_input.split(":")[0]
-    for index in range(len(user_info)):
-        if user_info[index]["user_name"] == user_name:
-            user_age = int(user_input.split(":")[1])
-            user_contact = int(user_input.split(":")[2])
-            user_info[index] = {"user_name":user_name,"user_age":user_age,"user_contact":user_contact}
-            print(user_info[index])
-            break
+    if check_null(user_input):
+        user_name = user_input.split(":")[0]
+        for index in range(len(user_info)):
+            if user_info[index]["user_name"] == user_name:
+                user_age = int(user_input.split(":")[1])
+                user_contact = int(user_input.split(":")[2])
+                user_info[index] = {"user_name":user_name,"user_age":user_age,"user_contact":user_contact}
+                print(user_info[index])
+                break
+        else:
+            print("The user does not exist!")
     else:
-        print("The user does not exist!")
+        print("Please input the command")
 
 def list_user(user_info):   #列出所有用户信息并根据指定字段进行升序/降序排序
     print("{:<5}:  {:<15}  |  {:<15}  |  {:<15}  ".format("field","[user_name]","user_age","user_contact"))
