@@ -32,7 +32,6 @@ def list_user():
         userinfo[i[0]] = list(i[1:])
     return userinfo
 
-
 if __name__ == '__main__':
     dbconfig = {'host': '10.10.3.128',
                 'port': 3306,
@@ -72,4 +71,4 @@ if __name__ == '__main__':
             method.get(nums)(nameinfo)
 
 
-# 没有什么问题，
+
