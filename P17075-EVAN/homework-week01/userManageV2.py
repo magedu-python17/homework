@@ -41,15 +41,14 @@ def userPrt():
     for i in range(length):
         print(userInfo[i])
 def funSort():
-    sortcmd = input('请输入排序依据：name,age,cont').lower()
+    print('请输入排序依据：name,age,cont >>>')
+    sortcmd = input().lower()
     if sortcmd == 'name':
-        sortcmd(userInfo,key=itemgetter(0))
+        print(sorted(userInfo, key=itemgetter(0)))
     if sortcmd == 'age':
-        sortcmd(userInfo, key=itemgetter(1))
-    if sortcmd == 'age':
-        sortcmd(userInfo, key=itemgetter(2))
-    else:
-        print('参数错误')
+        print(sorted(userInfo, key=itemgetter(1)))
+    if sortcmd == 'cont':
+        print(sorted(userInfo, key=itemgetter(2)))
 
 userInfo = [['zhangsan','18','13533333333'],['lishi','22','13733333333'],['wangwu','38','12344444444'],['zhaoliu','44','13788228888']]
 pwd1 = input('请初化始管理员密码:')
@@ -71,9 +70,6 @@ while True:
                 userfind()
             if cmd == 'list':
                 userPrt()
-#            if cmd == 'exit':
-#                print('系统开始退出...')
-#                break
         else:
             print('密码错误，系统退出。')
             break
@@ -81,14 +77,7 @@ while True:
         print('系统开始退出...')
         break
     elif cmd == 'sort':
-        sortcmd = input('请输入排序依据：name,age,cont').lower()
-        if sortcmd == 'name':
-            pass
-        if sortcmd == 'age':
-            pass
-        if sortcmd == 'cont':
-            pass
-
+            funSort()
     else:
         print('命令不存在，请重新输入：')
 

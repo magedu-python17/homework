@@ -4,9 +4,17 @@ b='wuage:33:454545'
 bb=b.split(':')
 bb
 userInfo.extend([bb])
-print(userInfo)
+#print(userInfo)
 #userInfo[5]
-print(sorted(userInfo,key=itemgetter(0)))
-print(sorted(userInfo,key=itemgetter(1)))
-print(sorted(userInfo,key=itemgetter(2)))
-
+#print(sorted(userInfo,key=itemgetter(0)))
+#print(sorted(userInfo,key=itemgetter(1)))
+#print(sorted(userInfo,key=itemgetter(2)))
+sortcmd = input('请输入排序依据：name,age,cont >>>').lower()
+if sortcmd == 'name':
+    print(sorted(userInfo, key=itemgetter(0)))
+if sortcmd == 'age':
+    print(sorted(userInfo, key=itemgetter(1)))
+if sortcmd == 'cont':
+    print(sorted(userInfo, key=itemgetter(2)))
+#else:
+#    print('参数错误')
