@@ -1,9 +1,12 @@
 #*******************************************
 # welcome to my blog : http://101.132.77.52
 #*******************************************
-#
-#for循环实现100以内的奇数和
-s=0
-for i in range(1,100,2):
-	s=s+i
-print(s)
+#求输入的阶乘
+num=input('num:')
+s=int(num)
+a=int(1)
+m=int(1)
+while a<=s:
+	m=m*a
+	a=a+1
+print(m)
