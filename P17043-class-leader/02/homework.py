@@ -109,5 +109,3 @@ class run():
 if __name__ == "__main__":
     f = run()
     f.main()
-
-# 逻辑上没有什么太大的问题，想想用with open 来操作文件的读写 试试
