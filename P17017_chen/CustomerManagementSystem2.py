@@ -142,4 +142,3 @@ while True:
         ver_exit()
         break
 
-
