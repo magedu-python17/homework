@@ -79,15 +79,15 @@ class run():
         print('程序启动啦！！！')
         with open(self.passwd, 'r') as fb:
             self.passwd_dict = json.loads(fb.read())
-            a = self.passwd_dict.get('password',None)
-            if a is None:
-                passwd = getpass.getpass('由于是第一次登陆，请输入管理员密码:')
-                with open(self.passwd, 'r') as fb2:
-                    self.passwd_dict = json.loads(fb2.read())
-                    self.passwd_dict['password'] = passwd
-                with open(self.passwd, 'w') as fb3:
-                    fb3.write(json.dumps(self.passwd_dict, indent=4, sort_keys=True, ensure_ascii=False))
-                print('管理员密码设置成功！！！')
+        a = self.passwd_dict.get('password',None)
+        if a is None:
+            passwd = getpass.getpass('由于是第一次登陆，请输入管理员密码:')
+            with open(self.passwd, 'r') as fb2:
+                self.passwd_dict = json.loads(fb2.read())
+                self.passwd_dict['password'] = passwd
+            with open(self.passwd, 'w') as fb3:
+                fb3.write(json.dumps(self.passwd_dict, indent=4, sort_keys=True, ensure_ascii=False))
+            print('管理员密码设置成功！！！')
         with open(self.filename, 'r') as fb1:
             self.new_dict = json.loads(fb1.read())
             while True:
