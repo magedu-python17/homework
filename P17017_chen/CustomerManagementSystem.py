@@ -11,7 +11,7 @@ test_user = []  # 定义列表，存储数据
 
 
 def ver_save():  # 保存数据，将数据保存到文件中
-    SaveFile = open('testfile', 'w')
+    SaveFile = open('testfile', 'w+')
     for n in test_user:
         SaveFile.write(str(n))
     SaveFile.close()
