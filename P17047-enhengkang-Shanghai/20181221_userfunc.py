@@ -1,6 +1,5 @@
-#import json
+import msvcrt,sys
 from dbconn import lyncmysql
-
 
 def decorator(func):
     def wapper(*args):
@@ -14,6 +13,7 @@ def decorator(func):
                 print('错误，请以：分割！已退出')
                 exit()
         else:
+
             _user ,_passwd = sqlrst[0]
             passwd = input("请输入管理员密码：")
             cnt = 0
@@ -23,8 +23,12 @@ def decorator(func):
                 if cnt>1:
                     print("密码错误超过3次，强制退出。。。")
                     exit()
-            return func(*args)
-        return wapper
+        return func(*args)
+    return wapper
+
+@decorator
+def zero(info):
+    return None
 
 def useradmin():
     sqladmin = 'select user,passwd from admin'
@@ -108,8 +112,29 @@ def find_user(username):
         input('enter 键继续。。。')
     else:
         input('用户不存在！ enter键继续。。。')
+
+# def pass_input(msg = ''):
+#     if msg != '':
+#         sys.stdout.write(msg)
+#     chars = []
+#     while True:
+#         newchar = msvcrt.getch()
+#         if newchar in b'\03\r\n':
+#             print('')
+#             if newchar in b'\03':
+#                 chars = []
+#             break
+#         elif newchar == b'\x08':
+#             if chars:
+#                 del chars[-1]
+#                 sys.stdout.write('\x08 \x08')
+#         else:
+#             chars.append(newchar)
+#             sys.stdout.write('*')
+#     return ''.join(x.decode() for x in chars)
+
 if __name__ == '__main__':
-    """ 对比sourcefile  db 配置放置这里 """
+
     dbconfig = {'host': '10.10.3.128',
                 'port': 3306,
                 'user': 'repl',
@@ -118,8 +143,9 @@ if __name__ == '__main__':
                 'charset': 'utf8'}
     sql = 'select name,age,connection from user order by name  desc '
     db = lyncmysql(dbconfig)
-
-    useradmin()
+    zero('')
+    # pass_input('请输入admin密码>>>')
+    # useradmin()
     list1 =['exit','delete', 'update', 'find', 'list','add']
     method = {
         '0': exit,
@@ -127,6 +153,7 @@ if __name__ == '__main__':
         '3':find_user,'4':list_user,
         '5':add_user
     }
+
     while True:
         userinfo = {}
         if len(list_user(sql)) == 0:
@@ -150,4 +177,8 @@ if __name__ == '__main__':
         else:
             nameinfo = input('请输入用户名>>>')
             method.get(nums)(nameinfo)
-    ###### 问题在这里  method get 方法时  return None 就找不到对应的 方法了
+
+
+
+
+
