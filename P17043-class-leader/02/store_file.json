@@ -1,0 +1,37 @@
+{
+    "1": {
+        "age": "10",
+        "tel": "123",
+        "username": "aaa"
+    },
+    "2": {
+        "age": "20",
+        "tel": "124",
+        "username": "bbb"
+    },
+    "3": {
+        "age": "30",
+        "tel": "125",
+        "username": "ccc"
+    },
+    "4": {
+        "age": "1",
+        "tel": "1",
+        "username": "a"
+    },
+    "5": {
+        "age": "2",
+        "tel": "10",
+        "username": "1"
+    },
+    "6": {
+        "age": "18",
+        "tel": "7654",
+        "username": "jialuxiaojiejie"
+    },
+    "7": {
+        "age": "22",
+        "tel": "543",
+        "username": "xulei"
+    }
+}

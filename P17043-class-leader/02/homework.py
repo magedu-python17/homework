@@ -1,10 +1,11 @@
 import json
-
+import getpass
 
 class run():
 
     def __init__(self):
         self.filename = 'store_file.json'
+        self.passwd = 'passwd_file.json'
         self.action_dict = {
             'delete': self.new_delete,
             'update': self.new_update,
@@ -52,8 +53,18 @@ class run():
     def new_show(self):
         if self.new_dict:
             print('{:>20} |{:>20} |{:>20}'.format('username', 'age', 'tel'))
-            for k,v in self.new_dict.items():
-                print('{:>20} |{:>20} |{:>20}'.format(v["username"],v["age"],v['tel']))
+            field = input('请输入想要排序的字段(默认username):')
+            if len(field) == 0 or field == 'username':
+                for k,v in sorted(self.new_dict.items(),key=lambda e:e[1]['username']):
+                    print('{:>20} |{:>20} |{:>20}'.format(v["username"],v["age"],v['tel']))
+            else:
+                if field == 'age':
+                    for k, v in sorted(self.new_dict.items(), key=lambda e: int(e[1]['age'])):
+                        print('{:>20} |{:>20} |{:>20}'.format(v["username"], v["age"], v['tel']))
+                if field == 'tel':
+                    for k, v in sorted(self.new_dict.items(), key=lambda e: int(e[1]['tel'])):
+                        print('{:>20} |{:>20} |{:>20}'.format(v["username"], v["age"], v['tel']))
+
         else:
             print('目前啥都没有')
 
@@ -65,31 +76,38 @@ class run():
             exit(0)
 
     def main(self):
-        with open(self.filename, 'r') as fb:
-            self.new_dict = json.loads(fb.read())
+        print('程序启动啦！！！')
+        with open(self.passwd, 'r') as fb:
+            self.passwd_dict = json.loads(fb.read())
+        a = self.passwd_dict.get('password',None)
+        if a is None:
+            passwd = getpass.getpass('由于是第一次登陆，请输入管理员密码:')
+            with open(self.passwd, 'r') as fb2:
+                self.passwd_dict = json.loads(fb2.read())
+                self.passwd_dict['password'] = passwd
+            with open(self.passwd, 'w') as fb3:
+                fb3.write(json.dumps(self.passwd_dict, indent=4, sort_keys=True, ensure_ascii=False))
+            print('管理员密码设置成功！！！')
+        with open(self.filename, 'r') as fb1:
+            self.new_dict = json.loads(fb1.read())
             while True:
                 action = input(">>> ")
                 if not action:
                     continue
                 if action in self.action_dict:
-                    func = self.action_dict.get(action)
-                    func()
+                    passwd = getpass.getpass('请输入管理员密码:')
+                    if self.passwd_dict['password'] == passwd:
+                        func = self.action_dict.get(action)
+                        func()
+                    else:
+                        print('密码输入错误！！！')
                 else:
                     print('命令格式: [delete|update|find|show|exit]')
-            # if action == 'delete':
-            #     new_delete()
-            # elif action == 'update':
-            #     new_update()
-            # elif action == 'find':
-            #     new_find()
-            # elif action == 'show':
-            #     new_show()
-            # elif action == 'exit':
-            #     new_exit()
 
 
 if __name__ == "__main__":
     f = run()
     f.main()
-
-# 逻辑上没有什么太大的问题，想想用with open 来操作文件的读写 试试
+	
+	
+	
