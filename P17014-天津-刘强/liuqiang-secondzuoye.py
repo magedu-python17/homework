@@ -296,7 +296,6 @@ while True:
                                 insertstring[tag] = int(insertstring[tag])
                             data.append(insertstring)
                             datalengthcount += 1
-                            print(type(data[3][1]),type(data[1][1]),type(data[2][1]))
                     # 保存内存数据到本地文件存储，并且跳出三层死循环结束整个程序
                     elif comstring == 'exit':
                         print("保存数据，退出管理系统!!!")
