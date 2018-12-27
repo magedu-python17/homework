@@ -1,5 +1,5 @@
 #*******************************************
-# welcome to my blog : http://101.132.77.52
+# Welcome to My blog http://www.my-blog.top
 #*******************************************
 #
 s=int(input('num:'))
