@@ -1,20 +1,10 @@
-from operator import itemgetter, attrgetter
-userInfo = [['zhangsan','18','13533333333'],['lishi','22','13733333333'],['wangwu','38','12344444444'],['zhaoliu','44','13788228888']]
-b='wuage:33:454545'
-bb=b.split(':')
-bb
-userInfo.extend([bb])
-#print(userInfo)
-#userInfo[5]
-#print(sorted(userInfo,key=itemgetter(0)))
-#print(sorted(userInfo,key=itemgetter(1)))
-#print(sorted(userInfo,key=itemgetter(2)))
-sortcmd = input('请输入排序依据：name,age,cont >>>').lower()
-if sortcmd == 'name':
-    print(sorted(userInfo, key=itemgetter(0)))
-if sortcmd == 'age':
-    print(sorted(userInfo, key=itemgetter(1)))
-if sortcmd == 'cont':
-    print(sorted(userInfo, key=itemgetter(2)))
-#else:
-#    print('参数错误')
+#接受一个参数n,n为正整数，左右两种打印方式，要求数字对齐
+def f3(x):
+    print(x)
+    weight=(10*len(str(x)) )*2+x
+    print(weight)
+    for i in range(1,x+1):
+#        print('{:>{}}'.format(' '.join(str(j) for j in range(i,0,-1)),weight))
+        print('{:>{}}'.format(' '.join(sorted((str(j) for j in range(1,x-i)),reverse=True,key=int)),weight))
+
+f3(22)
