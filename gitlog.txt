@@ -1,0 +1,2764 @@
+commit 43a9add6bb63bf697de22dd2326838bbdac320ab
+Author: gdgoodman <19412452@qq.com>
+Date:   Thu Dec 27 23:19:26 2018 +0800
+
+    name
+
+commit 14bea1b1a7b912d9695bd68bcc93b4c7aab97832
+Author: CuredHoo <46187805+CuredHoo@users.noreply.github.com>
+Date:   Thu Dec 27 17:36:54 2018 +0800
+
+    Create P17046-Cured_UserAdminSystemV1.0.py
+
+commit 9ff01adb04ba6f802b88f59eb3dcb751b995bc71
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Wed Dec 26 16:56:06 2018 +0800
+
+    week2 task
+
+commit 2c55331a2d6e3354a6d587dc72e278f65a2b3806
+Author: root <root@localhost.localdomain>
+Date:   Tue Dec 25 18:39:24 2018 +0800
+
+    增加了set的学习代码
+
+commit e1f6d6d94895abc98f923da8f7523006b6219c50
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Tue Dec 25 10:25:11 2018 +0800
+
+    second commit
+
+commit 4b102aa9300fc2e18f7982a0e56bfac109baa667
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Mon Dec 24 16:51:58 2018 +0800
+
+    第二次作业
+
+commit 6f89971cc5fb72f52a3687067e655fdcf4413b54
+Merge: 73f61e3 65910c5
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Mon Dec 24 16:46:21 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 73f61e3adf1fc18751291f2559ff7ea39c19ca37
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Mon Dec 24 16:45:16 2018 +0800
+
+    最后修改实现密码验证
+
+commit 65910c5b92a4eebb42def8afb4e25a0b7f792265
+Author: lqmoonxiaobaibai <44559228+lqmoonxiaobaibai@users.noreply.github.com>
+Date:   Mon Dec 24 16:36:05 2018 +0800
+
+    Update liuqiang-secondzuoye.py
+
+commit 6c2249eb3c29aae6cd6415a25b848b1e57c37cff
+Merge: 870d74e 93e52af
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Mon Dec 24 11:06:04 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 870d74e131daa4075c5715c5f1c43e7351dddd98
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Mon Dec 24 11:02:02 2018 +0800
+
+    second commit(暂时没实现用户验证)
+
+commit 93e52af6f1cad616d9edf4ed1e8d1bb3852d079f
+Author: enhengkang <yk_lu@enhengkangdeMacBook-Pro.local>
+Date:   Sun Dec 23 20:09:16 2018 +0800
+
+    second homework
+
+commit 52363986294a4bbdda6d773aacfe7be10e25886f
+Author: gdgoodman <19412452@qq.com>
+Date:   Sun Dec 23 16:58:10 2018 +0800
+
+    倒着打印9x9
+
+commit 16058e665c1783d2739b7fb1f0886645532f6beb
+Author: gdgoodman <19412452@qq.com>
+Date:   Sun Dec 23 15:41:51 2018 +0800
+
+    print flash
+
+commit 50816de9fa517f01fd83fa657b1397712ac5fca2
+Author: wyf091913 <44830841+wyf091913@users.noreply.github.com>
+Date:   Sun Dec 23 12:36:24 2018 +0800
+
+    第二周作业
+
+commit e522816a3294636a034fb34f2cd3378061cbf221
+Author: Platuhua <869009012@qq.com>
+Date:   Sun Dec 23 03:00:14 2018 +0800
+
+    第二次作业
+
+commit 5fe1dcd886b8688834c5df5463490c304f20f8d8
+Author: zhugeming0918 <1019798540@qq.com>
+Date:   Sun Dec 23 02:30:11 2018 +0800
+
+    second commit
+
+commit d78015f0b1aeecff354ad0d65881f9493d1c6e49
+Author: gdgoodman <19412452@qq.com>
+Date:   Sat Dec 22 19:21:13 2018 -0500
+
+    diamond2
+
+commit 3fb4f1e3070754bd5af5ad5faa3310a500abd0b7
+Author: gdgoodman <45174531+gdgoodman@users.noreply.github.com>
+Date:   Sat Dec 22 21:50:02 2018 +0800
+
+    Delete square3.py
+
+commit 6d41375517f9b1afa37bc2ad80b6df8de48bd342
+Author: gdgoodman <19412452@qq.com>
+Date:   Sat Dec 22 16:43:48 2018 -0500
+
+    空心正方形
+
+commit c8c5fa7b1dec5feaa59ebeccf8f2b7c7facef6b2
+Author: Wenchen115 <1243103813@qq.com>
+Date:   Sat Dec 22 21:04:22 2018 +0800
+
+    第二次作业
+
+commit 0a8eb4772d5cf38b176d3f4599ea02e51204b39b
+Author: Wenchen115 <1243103813@qq.com>
+Date:   Sat Dec 22 21:02:44 2018 +0800
+
+    第一次作业修改，添加数据保存功能
+
+commit 3e55a7563722202f3294899c64738447428d8b30
+Author: gdgoodman <19412452@qq.com>
+Date:   Sat Dec 22 13:00:13 2018 -0500
+
+    等腰三角形
+
+commit d13d46790ba8471dc918f3fecee7b18216aa9091
+Author: gdgoodman <19412452@qq.com>
+Date:   Sat Dec 22 11:59:53 2018 -0500
+
+    空心正方形
+
+commit 2e17a5275e45f3547092dd6dca40b4c6650e1750
+Author: gdgoodman <19412452@qq.com>
+Date:   Sat Dec 22 11:00:27 2018 -0500
+
+    square
+
+commit fb02c4028f695ef414c724cf4698c60729cc7e4d
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 22 13:21:58 2018 +0800
+
+    20181222
+
+commit 938ce1fb7dd42703a49f9fb79c6ec7708fff3811
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 22 10:36:37 2018 +0800
+
+    20181222
+
+commit 2617b14628f783e4cc275bbc330fdd0af0404af1
+Merge: 221fb09 3ddc1a6
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Sat Dec 22 02:00:43 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 221fb092d5b828410abdfcca57c6ae7b23dc8634
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Sat Dec 22 01:50:42 2018 +0800
+
+    第三次作业
+    password文件是保存用户的信息
+    userinfo.txt文件是保存系统管理员登录的账户及密码
+
+commit 3ddc1a677a4a76adef3eb4791648c2c354362767
+Author: zhanhuihao <zhanhuihao@eastspider.commm>
+Date:   Fri Dec 21 23:55:33 2018 +0800
+
+    clean my workspace
+
+commit 909185bffcfcb6314c1470e4b7976d80a30e1e24
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Dec 21 14:33:06 2018 +0800
+
+    20181221
+
+commit 000cd87b6b21f53eb823b67603b46d4e238d97a6
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Dec 21 10:56:54 2018 +0800
+
+    20181221
+
+commit a30917248d4992cf2f4ce8ac0823c41ece469cb4
+Merge: 3818453 e5ed327
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Dec 21 10:56:11 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 3818453529990669cc9ad3e356809541b44cc2f3
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Dec 21 10:55:42 2018 +0800
+
+    201812221
+
+commit e5ed3274e8d75c241b6b5458e4ddb90ded13c5e4
+Author: gdgoodman <19412452@qq.com>
+Date:   Fri Dec 21 05:14:18 2018 +0800
+
+    fibonacci number
+
+commit ea40c6c96e57e695b6e911814177a4b4b4a5e3be
+Author: gdgoodman <19412452@qq.com>
+Date:   Fri Dec 21 02:59:42 2018 +0800
+
+    视频作业
+
+commit 732250032de421aa5c78a329f796c47c688e7f70
+Author: gdgoodman <45174531+gdgoodman@users.noreply.github.com>
+Date:   Thu Dec 20 20:03:50 2018 +0800
+
+    Delete square2.py
+
+commit a7dd1de38263761846cc344ab34cb9b81fcd01c4
+Author: gdgoodman <19412452@qq.com>
+Date:   Fri Dec 21 02:46:27 2018 +0800
+
+    视频作业
+
+commit 0e41c92d7db3efb0fed1aacd3058f301c8b1475d
+Author: gdgoodman <19412452@qq.com>
+Date:   Fri Dec 21 00:48:04 2018 +0800
+
+    new
+
+commit a81ebce9d857c3e509cbd2b02f11ef531bb66036
+Author: gdgoodman <19412452@qq.com>
+Date:   Fri Dec 21 00:01:16 2018 +0800
+
+    new commit
+
+commit 2f719c2d37396b996e13ae3927c824cb98f34e86
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 16:27:35 2018 +0800
+
+    20181220 add password
+
+commit 6a00c61f33c6fba96800a6017143dbd4e7108877
+Merge: 3978f8d 8671953
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 16:27:03 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 867195323d3496f9c9fbfa80935e7cd54c49c8e1
+Author: gdgoodman <19412452@qq.com>
+Date:   Thu Dec 20 11:04:27 2018 -0500
+
+    test
+
+commit fc75e072dea5893a8c4cba6d56d109a716ba7a68
+Author: gdgoodman <19412452@qq.com>
+Date:   Thu Dec 20 22:12:22 2018 +0800
+
+    test
+
+commit 3978f8d1f13cac2f7b792f61faedf6e44ad2bbd7
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 16:26:19 2018 +0800
+
+    20181220 add password
+
+commit 0a2cbace404186b0698794bba40901fc0b6f8ef2
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Thu Dec 20 13:15:05 2018 +0800
+
+    第二周作业完成
+
+commit d1f85e8b02654d168d6ff691367c1ca0da0af448
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 11:34:50 2018 +0800
+
+    20181220 作业2
+
+commit cd356f6b34b73cb8bc020a913c30d9e7b01ea6aa
+Merge: 0c07146 2e5c722
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 11:34:20 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 0c0714664f0aa5e820fbcf981ccd9d5720d5455c
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 20 11:33:51 2018 +0800
+
+    20181220 作业2
+
+commit 2e5c7227778f7ea1e5ef18d7753e5db8497431de
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:48 2018 +0800
+
+    Delete 随机数求最大最小.sh
+
+commit 4480301d76e872c32f8b282cba6c3fe8958119d5
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:44 2018 +0800
+
+    Delete 判断脚本.sh
+
+commit aa9ca1ecf7a8a31399f78609274ad2f116579014
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:41 2018 +0800
+
+    Delete 习题2.sh
+
+commit 586463605d4e5de344c6f5aa4389fc622943424e
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:38 2018 +0800
+
+    Create 五位数排序2.py
+
+commit 6284e056bc06467b7398a682f412a92412b93883
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:35 2018 +0800
+
+    Create square.py
+
+commit 2a4ba34487437b5516d1cfba031dd210989a6990
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:31 2018 +0800
+
+    Create readme.txt
+
+commit f71ed90c54e08101caf68fefa9aa1645c4148ae6
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:28 2018 +0800
+
+    Create 五位数排序1.py
+
+commit 43a20b9bc4473e95b0aba7ec01b1a767f2c9d497
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:23 2018 +0800
+
+    Create prime.py
+
+commit 3c60ad5e0e6c9a7f063a375a5b09b8f7918cb5ae
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:18 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit 0e802ec90b74969ce4a902c9e973b5c3cfded778
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:15 2018 +0800
+
+    Delete 计算文件的行数.sh
+
+commit 6dd71ca415ce952c142ac0bea18c89e0835f30e2
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:12 2018 +0800
+
+    Delete 取IP.sh
+
+commit f4084b5792ec607777a7c5f2b54531ba2454f765
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:08 2018 +0800
+
+    Delete 判断名和组名.sh
+
+commit 1422ad632d42f9c590b9d6fe3ea9e94077fba766
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:05 2018 +0800
+
+    Delete 0-100被3整除的和.sh
+
+commit d9fe407543d4c46c0ea5575a5fffc5bc87c09d43
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:08:02 2018 +0800
+
+    Delete readme.txt
+
+commit 89ef0c02fdcc94bcea7539c4e25a6a7b468c9f01
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:59 2018 +0800
+
+    Delete 乘法口诀.sh
+
+commit a856e35620305983ad636c1f48d5c8b5bb454389
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:55 2018 +0800
+
+    Delete 习题1.sh
+
+commit 00d36f272a7d6efa4e81245f0dc54112bbe0b193
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:50 2018 +0800
+
+    Create odd.py
+
+commit b20ca21e01080ab3d288171e567c962b766b2019
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:46 2018 +0800
+
+    Create 输出最大文件的大小.sh
+
+commit 72ed015fe5d328d513b0a68cc8be178bef65bf6e
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:42 2018 +0800
+
+    Create 随机数求最大最小.sh
+
+commit f9605054cfc27cff2567a3f00d2525365c9fa102
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:39 2018 +0800
+
+    Create 添加用户名和密码.sh
+
+commit 624eb1bed5050c442316c488053d60a8ab475925
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:35 2018 +0800
+
+    Create 计算文件的行数.sh
+
+commit 7cfa223f353b7182703bf1775477d6cb438af8e1
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:32 2018 +0800
+
+    Create 取IP.sh
+
+commit 4cef04e574187b0263b42b7ef08b9bb4456b649e
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:28 2018 +0800
+
+    Create 判断脚本.sh
+
+commit 90f0a0396a738852add1af6feac9b0747d32568c
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:25 2018 +0800
+
+    Create 判断名和组名.sh
+
+commit e84e255589f9872c4a05a2fedb4d2ae7b19517db
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:22 2018 +0800
+
+    Create 习题2.sh
+
+commit 336f9650b4837c88bac926b6f9bc4f16adb9dcf8
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:19 2018 +0800
+
+    Create 乘法口诀.sh
+
+commit 0c6ef81fc3bbe80a14a7709bd46326df49fa28e2
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:08 2018 +0800
+
+    Delete 输出最大文件的大小.sh
+
+commit aab4d424764ad4ff52125579e5a5f56296962316
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:05 2018 +0800
+
+    Delete prime.py
+
+commit 1910c617ea211b5d3aee8ae8e1e17ceb73c5bcb3
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:07:02 2018 +0800
+
+    Delete odd.py
+
+commit a461546fbe6fe32687e1de8f477e72343649399f
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:58 2018 +0800
+
+    Delete 五位数排序1.py
+
+commit 4336796accf520b3dbc8f418ab4d3f1a5f8abd0a
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:55 2018 +0800
+
+    Delete square.py
+
+commit a35eeece74403fd65ec1eb7389dd57f6e9f7e298
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:51 2018 +0800
+
+    Delete 五位数排序2.py
+
+commit f00822992293e622d510171b81dae9d12c134b42
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:42 2018 +0800
+
+    Delete readme.txt
+
+commit 189b21172054fb802ad466d99af88711ce070de6
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:36 2018 +0800
+
+    Create 习题1.sh
+
+commit b01a3a44c8fc82a05a18a3a2685b930c31ba840f
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:32 2018 +0800
+
+    Create readme.txt
+
+commit 20aff1a198411d88d880f86ecbfdb6254e5a57d0
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:06:27 2018 +0800
+
+    Create 0-100被3整除的和.sh
+
+commit 090938d507ffacabadf49055cf837f563711bb59
+Merge: 9e865e0 72d5fc5
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:05:28 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 9e865e08ec14335eb4c8b3374692f5a8ddb19580
+Author: readygood <readyforgood@163.com>
+Date:   Thu Dec 20 11:05:24 2018 +0800
+
+    Delete P17038-吴永峰
+
+commit 72d5fc5ce29cb213ec7cbcbe18c21987420c7c3f
+Author: python <python@localhost.localdomain>
+Date:   Thu Dec 20 10:41:40 2018 +0800
+
+    new commit
+
+commit f5b35a436f2b6b0b8a971b5dd6ab25545c6797df
+Author: EvanNing <ningmq@outlook.com>
+Date:   Thu Dec 20 10:02:09 2018 +0800
+
+    homework week 2&change name
+
+commit 97a4f068865317d24a9297069a06ecd2a3efc282
+Author: EvanNing <ningmq@outlook.com>
+Date:   Thu Dec 20 09:51:56 2018 +0800
+
+    homework week 2
+
+commit e3cc677ae2e6d08a661ab490fc542afd9698f43b
+Author: enhengkang <yk_lu@enhengkangdeMacBook-Pro.local>
+Date:   Wed Dec 19 22:47:23 2018 +0800
+
+    test file
+
+commit 9e37d504eda95fc7edf5929ddbb4b919458bab09
+Author: enhengkang <yk_lu@enhengkangdeMacBook-Pro.local>
+Date:   Wed Dec 19 22:41:22 2018 +0800
+
+    second commit have one test
+
+commit bf2eea5018853e0a26abef860b2d25e099c5aebc
+Author: python <python@localhost.localdomain>
+Date:   Wed Dec 19 19:09:06 2018 +0800
+
+    homework
+
+commit bbf05cff57ee98b51c29cfade60234ee72d0a0d6
+Author: python <python@localhost.localdomain>
+Date:   Wed Dec 19 18:43:07 2018 +0800
+
+    new commit
+
+commit b65ff8c97aabd1c40c068ae027c75a3c12fc49ae
+Merge: c238705 14efef8
+Author: EvanNing <ningmq@outlook.com>
+Date:   Wed Dec 19 18:08:51 2018 +0800
+
+    Merge branch 'master' of github.com:magedu-python17/homework
+
+commit c238705e810d97428a1bfda7cb53032115f4e2a5
+Author: EvanNing <ningmq@outlook.com>
+Date:   Wed Dec 19 18:07:24 2018 +0800
+
+    file add
+
+commit 14efef8eb789e481c4acd0b8d80645b35e932aac
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Dec 19 18:04:07 2018 +0800
+
+    use with open and class
+
+commit 966946cee6e946b4ebe6604aa0b60ce675dd5c20
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Wed Dec 19 17:37:20 2018 +0800
+
+    添加了一些2018年12月19日学习写的脚本
+
+commit 3590776b1d7c05e8ed6a6a6ee3b767f30d927a2a
+Author: EvanNing <ningmq@outlook.com>
+Date:   Wed Dec 19 14:45:27 2018 +0800
+
+    first commit
+
+commit 4f6bd70c710e39efe36982438a16a13f7ada4887
+Author: python <python@python.devops>
+Date:   Tue Dec 18 19:41:16 2018 +0800
+
+    new commit
+
+commit 3b469297d1dbe355ce9212851a7d5f9140ab2aa6
+Author: wyf091913 <44830841+wyf091913@users.noreply.github.com>
+Date:   Tue Dec 18 21:52:38 2018 +0800
+
+    第一周作业
+
+commit a78a10920c0324e8c38c46aae9e122ebbb0d8634
+Author: Platuhua <869009012@qq.com>
+Date:   Tue Dec 18 20:40:34 2018 +0800
+
+    作业V1.2版本
+
+commit cb7ec79a4ef45e2207059ebcb0657ff7d2ffd182
+Merge: 6898827 fbbbef6
+Author: Wenchen115 <1243103813@qq.com>
+Date:   Tue Dec 18 20:26:06 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6898827c3ac36c0923d1dced601d634e2c41d58e
+Author: Wenchen115 <1243103813@qq.com>
+Date:   Tue Dec 18 20:25:33 2018 +0800
+
+    第一次作业修改，添加数据保存功能
+
+commit fbbbef6be67ff8065f4e5beba73b6247716c65f3
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 18 19:53:48 2018 +0800
+
+    add 2018-12-18 class training
+
+commit 8da5b6571ee126110ec64ab1a8ea22de401259ae
+Author: lqmoonxiaobaibai <3148489341@qq.com>
+Date:   Tue Dec 18 09:56:37 2018 +0800
+
+    first commit
+
+commit 5f87e4af27ed890c4c5e862ff2ba12011a64f700
+Author: ghbsunny <951408320@qq.com>
+Date:   Mon Dec 17 23:32:01 2018 +0800
+
+    first commit
+
+commit 76dbe97e29d6c0a467e4e61ad73b24a5d250b94e
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:07:58 2018 +0800
+
+    Create readme.txt
+
+commit ef42af04f9f16b3f93f9041209c344d09c2c46c4
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:25 2018 +0800
+
+    Create 判断名和组名.sh
+
+commit e8019ac0d257044e79891861646ca4e67d502e71
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:22 2018 +0800
+
+    Create 判断脚本.sh
+
+commit 7fd9ceea915fcc0c3928272c9ca0e139f412fd42
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:16 2018 +0800
+
+    Create 取IP.sh
+
+commit 16631cd7b5996ecf4439fa426953898665cdd720
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:14 2018 +0800
+
+    Create 添加用户名和密码.sh
+
+commit 8d5dfd822ae3ec409730791237e40e4d8f4fa5e8
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:11 2018 +0800
+
+    Create 计算文件的行数.sh
+
+commit 2a51e1c4eb5a5672ca857573ed63e1b5688977d0
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:08 2018 +0800
+
+    Create 输出最大文件的大小.sh
+
+commit 6d7c76fe3866c0a4d5f46ea5a93c047f45346e1f
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:03 2018 +0800
+
+    Create 随机数求最大最小.sh
+
+commit 657a2a5e6f0eec727b1e6b125a9c98501386a2d1
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:06:00 2018 +0800
+
+    Delete 0-100被3整除的和.sh
+
+commit 93a55ae04cb748e64f52800117afd5fe480d522a
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:58 2018 +0800
+
+    Delete readme.txt
+
+commit 811e111485f2b8d7dc2cc07794df06d8d9c77aeb
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:56 2018 +0800
+
+    Delete 随机数求最大最小.sh
+
+commit f1313d4179cbd825bd30239fca0043ea9ecf1d4b
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:53 2018 +0800
+
+    Delete 输出最大文件的大小.sh
+
+commit 56322c458f63f2cab818195c86cbafd297ef611b
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:51 2018 +0800
+
+    Delete 计算文件的行数.sh
+
+commit 6b1fce6a2e4b6549eb9da43c055f80f59fff7fa9
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:49 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit f03fae415f5b6dd3df1bcde77dc052ee6bbb0de4
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:46 2018 +0800
+
+    Delete 取IP.sh
+
+commit c0b917a0b54351e4b251cb4530ab1f1fde720dfd
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:43 2018 +0800
+
+    Delete 判断脚本.sh
+
+commit 704a66d605a82f9b356ec972bd245a015320b495
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:41 2018 +0800
+
+    Delete 判断名和组名.sh
+
+commit 7f7f4573c89ab8481d36c0d86535ac670178d562
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:39 2018 +0800
+
+    Delete 习题2.sh
+
+commit 53e3698b394a2b8529e01ca471ad5709a224a003
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:36 2018 +0800
+
+    Delete 习题1.sh
+
+commit 60c3b653effe4cee52f5fe95a6ea58fb5ae6492a
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:34 2018 +0800
+
+    Delete 乘法口诀.sh
+
+commit 91404633fd1de8f3fa8e0091d7226eec2d4cf462
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:32 2018 +0800
+
+    Create 习题2.sh
+
+commit 5f106b69f49f0bfb3b3297ad7f1fb1a040d6b0eb
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:29 2018 +0800
+
+    Create 习题1.sh
+
+commit 644f953f95c8b21f6d2bf9c9efdaaf3bf3b51c42
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:27 2018 +0800
+
+    Create 乘法口诀.sh
+
+commit 63e1a222f0e02ab98f27e08024da50e73e1ae069
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:24 2018 +0800
+
+    Create readme.txt
+
+commit 40fca9d2363ca5874da56c4b5f48b1b7aac454ce
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:21 2018 +0800
+
+    Create 0-100被3整除的和.sh
+
+commit 6b52e5380fae6f837dba26f90bdca1e4a9be186f
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:05:18 2018 +0800
+
+    Create test.txt
+
+commit f3d6c2a957acf983e21241bbd311db7819567d74
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:27 2018 +0800
+
+    Create 随机数求最大最小.sh
+
+commit 9180a27a6773f883d2fc9118b00a346d0b4185cd
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:23 2018 +0800
+
+    Create 输出最大文件的大小.sh
+
+commit 786e95671326d35ba324c6358223e85c37393949
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:21 2018 +0800
+
+    Create 计算文件的行数.sh
+
+commit 67ee9a6e94723cc0b9b40f416bc230fffdf95cf3
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:18 2018 +0800
+
+    Create 添加用户名和密码.sh
+
+commit 0e3ba916d0be8e3fcd582c3911b5f6ea093b8f10
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:13 2018 +0800
+
+    Create 取IP.sh
+
+commit e8eb84fc29a6ab075c7b2dd3d036066ed4897505
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:11 2018 +0800
+
+    Create 判断脚本.sh
+
+commit 0ad9a31a75c53249aed76ff284ebfcaad047d3c9
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:09 2018 +0800
+
+    Create 判断名和组名.sh
+
+commit b258b4ec79b7de9eeeab4fe8bb674598f5f72f50
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:06 2018 +0800
+
+    Create 习题2.sh
+
+commit 90958ee283f5e92863aa6f2c6f3148be7f1153f0
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:03 2018 +0800
+
+    Create 习题1.sh
+
+commit 9dc998a63c898ceb73666c173e3c2871997965ac
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:03:00 2018 +0800
+
+    Create 乘法口诀.sh
+
+commit 66de096743553d5fce0b182875efbf4e94f294bc
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:58 2018 +0800
+
+    Create readme.txt
+
+commit 02e14ac5c2ecc0785ccb32b27a317ad3925a3712
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:55 2018 +0800
+
+    Create 0-100被3整除的和.sh
+
+commit 83fe8739b94b08f867dec0447c5c759fa3bf2914
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:50 2018 +0800
+
+    Delete 随机数求最大最小.sh
+
+commit cb58e635e01a980ee0b8b48fe33fbe1ec8812f69
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:46 2018 +0800
+
+    Delete 输出最大文件的大小.sh
+
+commit 845df8bcf58fe7462d4de1cb598eb5fbbeb8d9e7
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:44 2018 +0800
+
+    Delete 计算文件的行数.sh
+
+commit 67efa33061ce0141c4257efec749fac0228da2a3
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:41 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit 1ec54a57229ac07a4da7370342b0815de530565a
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:38 2018 +0800
+
+    Delete 取IP.sh
+
+commit d4349a8505131523127ab635626c244ea84c6f55
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:35 2018 +0800
+
+    Delete 判断脚本.sh
+
+commit 4a934d2713d3bbd06418c2fcefb4d8fed7c1154b
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:30 2018 +0800
+
+    Delete 判断名和组名.sh
+
+commit de71d7046f1f6accb46864db3b4160bd1b1807ac
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:26 2018 +0800
+
+    Delete 习题2.sh
+
+commit 0663b6899a2dc691e21ada0ce8355d760ac00f35
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:24 2018 +0800
+
+    Delete 习题1.sh
+
+commit 1f788dc1fbbd9509756cbf5c2cbd253258ebf227
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:21 2018 +0800
+
+    Delete 乘法口诀.sh
+
+commit 0f1789925f30352cd0b5bcf22808378f73d66466
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:12 2018 +0800
+
+    Delete readme.txt
+
+commit 570fe9c2a460a9ac2ab7594c71e2aab4a1a2af95
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:02:09 2018 +0800
+
+    Delete 0-100被3整除的和.sh
+
+commit 6e8f602e3ed8c3a6558801999cf8f2944112d1d1
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:01:02 2018 +0800
+
+    Delete test.py
+
+commit d414ebb0149a4aa1ff3c923caee80964cac82d59
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 14:00:59 2018 +0800
+
+    Delete test2.txt
+
+commit fa22b659fd7f5525c6bcdedb1b47a69206c37471
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:18 2018 +0800
+
+    Delete test2.txt
+
+commit 7fca48116f7398100b6a67f8d0af7043c396a741
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:16 2018 +0800
+
+    Delete test.py
+
+commit 2615261129721be3d7717b083bb01fbde036f367
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:13 2018 +0800
+
+    Delete 随机数求最大最小.sh
+
+commit d50ebbc9d9872ede5036112144abdd92f014eccd
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:10 2018 +0800
+
+    Delete 输出最大文件的大小.sh
+
+commit fb33a5caa23f80dbe54cd467df8d856111baa0a1
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:07 2018 +0800
+
+    Delete 计算文件的行数.sh
+
+commit fcceb48e77ee1fb9f86de44373417d69efa204e6
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:04 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit 043e551bea777b7b475f33e64eed9fcf089e030c
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:48:01 2018 +0800
+
+    Delete 取IP.sh
+
+commit e9470102a58488ffd12ba435fe235f529c595d6a
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:58 2018 +0800
+
+    Delete 判断脚本.sh
+
+commit 77656a670a35f01d74482f535fae5ca506f8cc34
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:55 2018 +0800
+
+    Delete 判断名和组名.sh
+
+commit e08533cb7a2d139c3382c31c30c3f8d9631ec84c
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:52 2018 +0800
+
+    Delete 习题2.sh
+
+commit 501247a06dc06c8a5a08a2993f276d3c3f873d75
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:49 2018 +0800
+
+    Delete 习题1.sh
+
+commit c595eed4345d257f2b1a30e8473516b93dad3c83
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:46 2018 +0800
+
+    Delete 乘法口诀.sh
+
+commit 109d7893786b0e9960d945e27f75df78f3bdd8e3
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:43 2018 +0800
+
+    Delete readme.txt
+
+commit 8aeec76dd7e0dcef434988a03d0744df87e9a66c
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 17 13:47:39 2018 +0800
+
+    Delete 0-100被3整除的和.sh
+
+commit 761e35e1f423ef51b003873f1193fba94b54d09c
+Author: python <python@python.devops>
+Date:   Mon Dec 17 11:49:40 2018 +0800
+
+    改名字
+
+commit c5461d0e6f2a855d01619f3b23516b779e5256b8
+Author: “xiaozhi” <“lz270978971@gmail.com”>
+Date:   Mon Dec 17 10:36:58 2018 +0800
+
+    修改说明文件
+
+commit c2078362408cf6ea92ff9c2efccde848e8345626
+Merge: bd6d005 84d5bb9
+Author: “xiaozhi” <“lz270978971@gmail.com”>
+Date:   Mon Dec 17 10:29:20 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit bd6d00552238f556ad4fe28514449a9237037fa6
+Author: “xiaozhi” <“lz270978971@gmail.com”>
+Date:   Mon Dec 17 10:28:43 2018 +0800
+
+    第一周作业检查
+
+commit 84d5bb9710cea87f7ae3e3d67603c9960585b297
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Mon Dec 17 10:18:04 2018 +0800
+
+    修改了我的目录为P17083-贾璐
+
+commit 1d79bd9eff61c9496ef3a7be301fcce4731263f2
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sun Dec 16 13:10:50 2018 -0500
+
+    lesson_1
+
+commit c2607cc326692062c65cfae54a020e2337534319
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sun Dec 16 12:04:45 2018 -0500
+
+    test
+
+commit aa6e4aaba3cc88f098d8fd91bd4229895612d331
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sun Dec 16 11:59:01 2018 -0500
+
+    test1.txt
+
+commit 7cd883d46909fdb2d766b04dbb33e790ce58c471
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sun Dec 16 11:55:49 2018 -0500
+
+    test
+
+commit 301a0733be8c2abe878e7a459a42404948b20fb8
+Author: xyromance1117 <44151735+xyromance1117@users.noreply.github.com>
+Date:   Sun Dec 16 22:17:30 2018 +0800
+
+    Delete xy's test code.py
+
+commit 0a0b04081bcb15d35ab25bfd4dda3011726f1acf
+Merge: 5868074 c9ffb56
+Author: zhanhuihao <zhanhuihao@eastspider.commm>
+Date:   Sun Dec 16 20:58:30 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 5868074211d4bfe555ae09f5d4d6ed100e57a411
+Author: zhanhuihao <zhanhuihao@eastspider.com>
+Date:   Sun Dec 16 20:19:54 2018 +0800
+
+    詹辉浩第一周作业20181216
+
+commit c9ffb563f10ac13eb75421ff23530054d1ff6388
+Author: chengduzhoujing <854021135@qq.com>
+Date:   Sun Dec 16 20:19:54 2018 +0800
+
+    周京第一次作业
+
+commit c95fb219105cf5e4f2c24f01233dcf0eaa0b2525
+Author: zhaoly <zhaoly@jiagouyun.com>
+Date:   Sun Dec 16 18:16:43 2018 +0800
+
+    第一周作业:用户管理系统
+
+commit b2426542152e68da23355e018b1e751024a706bc
+Author: yangli <1011107890@qq.com>
+Date:   Sun Dec 16 16:06:20 2018 +0800
+
+    fist homework1
+
+commit 2852aca2c7c0dd9e6ae810a81a84408776b57023
+Author: enhengkang <yk_lu@enhengkangdeMacBook-Pro.local>
+Date:   Sun Dec 16 15:20:20 2018 +0800
+
+    commit enhengkang
+
+commit a62d38b614f4e15096cfa4e958598d89a7cc4c67
+Merge: 889c47a b07769d
+Author: xyromance <2229341249@qq.com>
+Date:   Sun Dec 16 14:30:42 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 889c47a9d404fc4eafee38432c5f73a61fc05213
+Author: xyromance <2229341249@qq.com>
+Date:   Sun Dec 16 14:23:45 2018 +0800
+
+    第一周作业提交_xuyan
+
+commit b07769d1257eb2b7bec6ad8318a64d4b953a16a3
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sat Dec 15 17:40:30 2018 -0500
+
+    Delete Sarah
+
+commit b09100d79138c37143fd4cb20ceb31adc0a7a123
+Author: sarahliu186 <41393380+sarahliu186@users.noreply.github.com>
+Date:   Sat Dec 15 17:38:17 2018 -0500
+
+    Lesson_1
+
+commit 231f167b66e9b26ac5db4e2342c4e46c00753e2b
+Author: zhangzhide <40418185+zhangzhide@users.noreply.github.com>
+Date:   Sun Dec 16 03:32:57 2018 +0800
+
+    Create user-admin.py
+    
+    第一次作业提交
+
+commit ac9fb2eb6df58083e170b5e94ffa156fdfa1370e
+Author: Platuhua <869009012@qq.com>
+Date:   Sun Dec 16 01:43:54 2018 +0800
+
+    第一次作业修改本，能排序
+
+commit ba79c8a70e2c9bf0d818b709e66163a3d8ff5adf
+Author: jjzgood <jjzgood@126.com>
+Date:   Sun Dec 16 01:22:26 2018 +0800
+
+    The first homework
+
+commit 57328d98a3383a925211d980298c54bf237cf82d
+Merge: 4394a5b 08c63f0
+Author: jjzgood <jjzgood@126.com>
+Date:   Sun Dec 16 01:16:26 2018 +0800
+
+    Merge https://github.com/magedu-python17/homework
+
+commit 4394a5b624afbc3ad904e45249c4512c27d9ac2d
+Author: jjzgood <jjzgood@126.com>
+Date:   Sun Dec 16 01:08:17 2018 +0800
+
+    The First homework
+
+commit 08c63f0c3b0254095f93eeaa6f7771eaaa59cc39
+Author: jjzgood <jjzgood@126.com>
+Date:   Sun Dec 16 00:55:10 2018 +0800
+
+    Update README.md
+
+commit ac57396a03a74b6ede3babd66709d9e121c16be2
+Author: jjzgood <jjzgood@126.com>
+Date:   Sun Dec 16 00:54:39 2018 +0800
+
+    Update README.md
+
+commit 2df15eb912503bedac4be6d9f74935b1776903b6
+Author: YJZyjz185672 <44958443+YJZyjz185672@users.noreply.github.com>
+Date:   Sat Dec 15 18:38:35 2018 +0800
+
+    Delete test2.test
+
+commit 273e1c284d0fef7b089b7c2eb5eae80f763a8309
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Sat Dec 15 18:20:43 2018 +0800
+
+    week 1 task
+
+commit bed8040d43f14d80570bc7d400ffd69e15bfe950
+Author: xyromance <2229341249@qq.com>
+Date:   Fri Dec 14 23:50:59 2018 +0800
+
+    探索怎么提交python文件中
+
+commit c1a377b05ae834df9b32ba59474f796733e7ce23
+Author: xyromance <2229341249@qq.com>
+Date:   Fri Dec 14 23:34:39 2018 +0800
+
+    xy来测试windows下的git
+
+commit b61633faefc858875257c605953e0ccf0e3215a5
+Author: Platuhua <869009012@qq.com>
+Date:   Fri Dec 14 22:41:39 2018 +0800
+
+    第一周作业
+
+commit 84c7eaaebaeb9ebf2c00181c909222a4a1cb172a
+Author: python <python@localhost.localdomain>
+Date:   Sat Dec 15 06:35:45 2018 +0800
+
+    First commit for shell script practic with linux.
+
+commit 6a177a708579848c849cd35ffb6595b5ec9e43f8
+Author: python <python@localhost.localdomain>
+Date:   Sat Dec 15 06:27:37 2018 +0800
+
+    first
+
+commit e5dc3197762c9d8a926cc322f29f20580d2babe3
+Author: python <python@python.devops>
+Date:   Fri Dec 14 21:16:44 2018 +0800
+
+    First commit for shell script practic with linux.
+
+commit 53ccddcb7928816f812fd90b256d795c87073ed5
+Author: python <python@python.devops>
+Date:   Fri Dec 14 21:12:39 2018 +0800
+
+    First commit for shell script practic.
+
+commit b92651936f93ce6f77e51902a8366876a088fa4e
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:07:01 2018 +0800
+
+    Delete 输出最大文件的大小.sh
+
+commit 24d68e155052e2e76b3196795a31faa0791963dc
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:57 2018 +0800
+
+    Delete 判断脚本.sh
+
+commit d084e0758b76c876711502d4ac7fabc5c5a5fc19
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:55 2018 +0800
+
+    Delete 判断名和组名.sh
+
+commit 6c04ba22496e5d64f29ed3daf25b10e2bbbd1427
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:52 2018 +0800
+
+    Delete 习题2.sh
+
+commit 8c548171df7d62d89749f77e39474be53be9aa47
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:50 2018 +0800
+
+    Delete 习题1.sh
+
+commit cc8f94afba555bacb727e75e140695ee8d2def49
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:47 2018 +0800
+
+    Delete 乘法口诀.sh
+
+commit d085c923b7dbb692faf6856ceb3226f96cbbc5a6
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:45 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit df5c792ae27af13c0f6d9165e056d8f3d90f6912
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:42 2018 +0800
+
+    Delete 0-100被3整除的和.sh
+
+commit f78f4c5df141e83791fdd68b692239c21737a030
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:39 2018 +0800
+
+    Delete 习题2.sh
+
+commit ab74506ad1616fda102b18425cae8db4603afd16
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:35 2018 +0800
+
+    Delete test.py
+
+commit b36d7901b3429b914492e6caa7db04495b86495d
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:32 2018 +0800
+
+    Delete 随机数求最大最小.sh
+
+commit 18ef6b1c5e0e32e452ddb6115314ec817979b8e4
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:30 2018 +0800
+
+    Delete 取IP.sh
+
+commit 279b3021ff6efec0e2e1d1316af6040c0d1f8314
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:27 2018 +0800
+
+    Delete 计算文件的行数.sh
+
+commit 9fa75b18c1a8f7084c70795658112156239afced
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:23 2018 +0800
+
+    Delete 添加用户名和密码.sh
+
+commit 570be1931d893b45186b78ceddd34f3d5b016a76
+Author: readygood <readygood@163.com>
+Date:   Fri Dec 14 21:06:20 2018 +0800
+
+    Delete 习题1.sh
+
+commit 017ea41abec59503a55a3995c55e8c389d6933e5
+Author: python <python@python.devops>
+Date:   Fri Dec 14 21:02:21 2018 +0800
+
+    test
+
+commit 061e99044a453b056492787f38f8fbbe4c7b81fc
+Author: python <python@python.devops>
+Date:   Fri Dec 14 20:46:15 2018 +0800
+
+    test
+
+commit a421eaa3ec172be279aba71827460a5091152fef
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Fri Dec 14 20:09:22 2018 +0800
+
+    fix a bug
+
+commit 3648e1ce123e33a571723f6192f3c21165f07f12
+Author: Wenchen115 <1243103813@qq.com>
+Date:   Fri Dec 14 20:01:27 2018 +0800
+
+    作业提交
+
+commit 18c1cfef6643f9afd989695a8777b9d5e496ecf8
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Fri Dec 14 18:53:26 2018 +0800
+
+    添加注释
+
+commit 5dc4cd4c4fb31080b05be3b82a21f03aca80e39a
+Author: xyromance1117 <44151735+xyromance1117@users.noreply.github.com>
+Date:   Fri Dec 14 15:02:37 2018 +0800
+
+    Delete P17001-杭州-徐妍
+
+commit c0dc516e875b89e0051645b516c55af75dec05ba
+Author: xyromance1117 <44151735+xyromance1117@users.noreply.github.com>
+Date:   Fri Dec 14 15:00:01 2018 +0800
+
+    Create P17001-杭州-徐妍
+    
+    第一次接触github，探索怎么传文件，打扰啦
+
+commit 025d80daee5ad9a8df6375aecd5de844f7f032f9
+Merge: f14e5e8 926a466
+Author: EvanNing <ningmq@outlook.com>
+Date:   Thu Dec 13 23:02:52 2018 +0800
+
+    Merge branch 'master' of github.com:magedu-python17/homework
+
+commit f14e5e8c3c9bf8cb95f9681f90253767b3fed999
+Author: EvanNing <ningmq@outlook.com>
+Date:   Thu Dec 13 23:00:46 2018 +0800
+
+    file add
+
+commit 926a4668ee71a38ce4447c068146e439c87ee54f
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Thu Dec 13 17:39:55 2018 +0800
+
+    rm a wrong file
+
+commit b064e07588d5a198c94e331e413ee4b8135310d1
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Thu Dec 13 17:37:29 2018 +0800
+
+    add some list trianing
+
+commit 3f0a435e56b7c19eefff6d2f15ca449c7ee7d309
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 13 14:27:01 2018 +0800
+
+    20181213 add new function
+
+commit 325ad34d52dad5dcdc6139e9e1bf94ecfa92b7b5
+Author: eveyrdayx <everydayx@163.com>
+Date:   Thu Dec 13 14:00:13 2018 +0800
+
+    add somthing new 20181213
+
+commit 0bdffeaa335dd4178eeea86bc4e1fefa23e8cb99
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Thu Dec 13 00:02:24 2018 +0800
+
+    第二次作业
+
+commit 3d103e0aa08e46cc937c5f12ca808c69efd32f85
+Merge: 9d40042 a73cb38
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Wed Dec 12 23:55:52 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 9d4004284191b3578ce34569d6ee5583ff232bbe
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Wed Dec 12 23:55:01 2018 +0800
+
+    第二次作业：用户系统管理
+
+commit a73cb38e7d5220b3241693658f4c33dbe9d697b7
+Author: EvanNing <ningmq@outlook.com>
+Date:   Wed Dec 12 23:17:01 2018 +0800
+
+    file del
+
+commit b20cb0753ef093a5fdf1c3d92905c405511731fb
+Author: EvanNing <ningmq@outlook.com>
+Date:   Wed Dec 12 23:15:24 2018 +0800
+
+    test 3
+
+commit e8dde9171a7fc7cce5549490a031c5266891963c
+Author: P17075-EVAN <ningmq@outlook.com>
+Date:   Thu Dec 13 05:51:35 2018 +0800
+
+    add file
+
+commit 27c83ffe440726497a3ba09fc4d8e78652928e0f
+Author: P17075-EVAN <ningmq@outlook.com>
+Date:   Thu Dec 13 05:16:35 2018 +0800
+
+    test2
+
+commit ca6293874691f91b90b3e1e40eddda96e6108c47
+Author: P17075-EVAN <ningmq@outlook.com>
+Date:   Thu Dec 13 04:55:51 2018 +0800
+
+    first commit
+
+commit 4ced3dab2699e9a88096189e47c5798d15bce1f6
+Author: wyf091913 <44830841+wyf091913@users.noreply.github.com>
+Date:   Wed Dec 12 16:14:13 2018 +0800
+
+    Update P17038-吴永峰
+
+commit c9d4d42d9211089201ded102d7840c9242ea8aa5
+Author: wyf091913 <44830841+wyf091913@users.noreply.github.com>
+Date:   Wed Dec 12 16:06:36 2018 +0800
+
+    Create P17038-吴永峰
+
+commit 0f8c321a9db401a26ff1780ce4f1a9d1af561bed
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Dec 12 14:06:01 2018 +0800
+
+    删除了本来的文件夹
+
+commit ea836bda829e402d687667c31f81648dcb9fd73d
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Dec 12 13:56:42 2018 +0800
+
+    修改了文件夹名字
+
+commit 90d99e0c38ab0645ead0258be0075250453eaf69
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Dec 12 13:37:06 2018 +0800
+
+    homework_01_20181212
+
+commit 3196786fbab04065c18db499d2c418663c1c247b
+Author: YuanJie <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:57:24 2018 +0800
+
+    测试提交
+
+commit 8cc31a78f87974e5d64383827d30d49b7ecc3a30
+Author: YuanJie <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:51:38 2018 +0800
+
+    测试第一次提交
+
+commit f3ef3e651699ee60d15bb4dc282111a03a06aaa5
+Author: Jason <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:10:24 2018 +0800
+
+    Delete test
+
+commit 495516ed4e36744807e8242676104942e575b8be
+Author: Jason <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:10:04 2018 +0800
+
+    Create test
+
+commit 498aff189354f16ae7d968f5c48477326391786e
+Author: Jason <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:07:09 2018 +0800
+
+    Delete test
+
+commit f80e11081fd12702a65e5bf6a6e7bba2b8795dcb
+Author: Jason <yuanjie081215@qq.com>
+Date:   Wed Dec 12 11:06:58 2018 +0800
+
+    Delete test
+
+commit c6ddac5bb379db7df37eed4dc71a8973d7aec134
+Merge: 7401ce5 2b1943d
+Author: readygood <readygood@163.com>
+Date:   Wed Dec 12 00:11:14 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 2b1943d1c4eb4d00077d550630fb49554f67e491
+Author: zhanhuihao <37495233+zhanhuihao@users.noreply.github.com>
+Date:   Tue Dec 11 23:22:14 2018 +0800
+
+    Update README.txt
+    
+    添加学员信息
+
+commit d3eb6e75165b594faaac5c4a623cbcc07199d48b
+Author: zhanhuihao <zhanhuihao@eastspider.commm>
+Date:   Tue Dec 11 23:20:02 2018 +0800
+
+    first commit by zhanhuihao
+
+commit 17d6fd0d341b77fae6832a54404737f2a0e0dba3
+Author: zhanhuihao <zhanhuihao@eastspider.commm>
+Date:   Tue Dec 11 23:05:18 2018 +0800
+
+    first commit by zhanhuihao
+
+commit 7d4ae29e59a59e1ff438b01707702bf4cb375ec9
+Author: zhugeming0918 <43289006+zhugeming0918@users.noreply.github.com>
+Date:   Tue Dec 11 20:09:46 2018 +0800
+
+    Delete user_manager_class_20181211.py
+
+commit 9a66615a06fbfcdbc4f3735967fdfda2bf99bf21
+Author: zhugeming0918 <43289006+zhugeming0918@users.noreply.github.com>
+Date:   Tue Dec 11 20:09:29 2018 +0800
+
+    Delete zuoye_P17006_zhugejianxin_20181211.py
+
+commit 8b805119b6e46450e48fbeae2fdd91233ae89d0e
+Author: zhugeming0918 <1019798540@qq.com>
+Date:   Tue Dec 11 20:08:19 2018 +0800
+
+    first commit
+
+commit 57893de046079f10a9bdaa3237640b5ceabc06c9
+Author: zhugeming0918 <1019798540@qq.com>
+Date:   Tue Dec 11 20:02:47 2018 +0800
+
+    first commit
+
+commit 868ddfc05d405fa026f1f1648a6aec3892010127
+Author: zhugeming0918 <1019798540@qq.com>
+Date:   Tue Dec 11 19:58:32 2018 +0800
+
+    first commit
+
+commit e07f8cb51a2db9e7cc27e11f316fd416508a82e6
+Author: zhaoly <zhaoly@jiagouyun.com>
+Date:   Tue Dec 11 19:01:48 2018 +0800
+
+    first commit
+
+commit 88c1ec24b617d0ed68d67283ed9b67484074c014
+Author: zhaoly <zhaoly@jiagouyun.com>
+Date:   Tue Dec 11 19:00:35 2018 +0800
+
+    first commit
+
+commit b5c617969a1d8635203808068cde0d6d963c6c12
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 11 16:22:16 2018 +0800
+
+    add some function
+
+commit 7486e56548d426a224c45a2d53ec0d529ec10cb1
+Author: readygood <readyforgood@163.com>
+Date:   Tue Dec 11 11:23:48 2018 +0800
+
+    Create 判断脚本.sh
+
+commit 6ec91dc45f82be900629d7d8f969c3a85189129e
+Author: readygood <readyforgood@163.com>
+Date:   Tue Dec 11 11:07:38 2018 +0800
+
+    Create 输出最大文件的大小.sh
+
+commit 831601e1ef61ec14a8b5888c40ace35f0afff8d5
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 11 11:05:05 2018 +0800
+
+    fix some little bug
+
+commit c6274663f50321fcb8505a646057d0d26a387d8c
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 11 10:47:48 2018 +0800
+
+    add some check about user add
+
+commit 757ab7673db866a30b551b388556fa7833d48970
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 11 10:39:46 2018 +0800
+
+    add some tips in first homework
+
+commit db0e0669afdc25c9800b4a993a660e6e657d17a5
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 11 10:30:57 2018 +0800
+
+    add first homework
+
+commit 7984c39ce56742880b8c292ed22c806d0a79e98a
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:29:21 2018 +0800
+
+    Create 随机数求最大最小.sh
+
+commit baa929c6470a04ceb0dfb713bbf1022a625d5720
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:57 2018 +0800
+
+    Create 0-100被3整除的和.sh
+
+commit 4f9d165b67e9f13b4f6660d5aa14fb54b5fc67de
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:49 2018 +0800
+
+    Create 取IP.sh
+
+commit fdee3e26198a71a016037bef2fc9262dc61c2979
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:40 2018 +0800
+
+    Create 判断名和组名.sh
+
+commit ae857c29cb0186a221525f5b7890d652702859a7
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:29 2018 +0800
+
+    Create 计算文件的行数.sh
+
+commit ec4f6284298820ff17e3c7c9dcbe5e489d41042e
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:15 2018 +0800
+
+    Create 添加用户名和密码.sh
+
+commit fcb783b7f7e86fae00993cbfd2681e87b56e0809
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:28:08 2018 +0800
+
+    Create 乘法口诀.sh
+
+commit 18f6004bd4784904576750873196fbfe75dc8b30
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:27:47 2018 +0800
+
+    Create 习题2.sh
+
+commit 299b2ed84981f646a7b086ffbfd0f3fe115c1747
+Author: readygood <readyforgood@163.com>
+Date:   Mon Dec 10 19:27:04 2018 +0800
+
+    Create 习题1.sh
+
+commit 7401ce51b1ca413a53324ea518b0995a5696b76d
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 10 19:18:37 2018 +0800
+
+    Create 添加用户名和密码.sh
+
+commit 6902dcdea4a1d3ff50b911619f528d26d4cecea6
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 10 19:18:24 2018 +0800
+
+    Create 习题2.sh
+
+commit 03243050ab9d59ab0afad9d5e9faf98e00493cf9
+Author: readygood <readygood@163.com>
+Date:   Mon Dec 10 19:17:36 2018 +0800
+
+    Create 习题1.sh
+
+commit 6db028210aa77565a6709a13c4c31156c848cae3
+Author: Lausanne <873066434@qq.com>
+Date:   Mon Dec 10 18:48:45 2018 +0800
+
+    Delete 01:miaoh
+
+commit c25b9cdcefbf525d77c1210cd48857d3252b05e6
+Author: Lausanne <873066434@qq.com>
+Date:   Mon Dec 10 18:48:23 2018 +0800
+
+    Create test.py
+
+commit d2c06576e89c23e6ca40b8657ee2ae49055f4446
+Author: Lausanne <873066434@qq.com>
+Date:   Mon Dec 10 18:45:32 2018 +0800
+
+    Create 01:miaoh
+
+commit 62a42d7e5f4140d07a91199ad5b6c63978c7e9ac
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 8 15:13:48 2018 +0800
+
+    20181208
+    
+    new add
+
+commit ec42f4f31790031f973ee45ce0fd12fa1149e788
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 8 14:28:52 2018 +0800
+
+    add some training 20181208
+
+commit e6d00352da4a23b067cccd27ef7ecccf3cfde24e
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 8 14:25:37 2018 +0800
+
+    20181208
+    
+    add some training
+
+commit 71b48407b560a631d565f6a2cb336d603d372a9c
+Author: root <root@centos-test.(none)>
+Date:   Thu Dec 6 18:38:13 2018 +0800
+
+    second commit
+
+commit c4df213d8e68ba7d3fd949ebe992012480b28186
+Author: root <root@centos-test.(none)>
+Date:   Sat Nov 10 04:39:48 2018 +0800
+
+    first commit
+
+commit d46303c537445cc8e2760d6e08c5ef59a37bd35f
+Author: Mr.Wong <44759845+heltonWong@users.noreply.github.com>
+Date:   Thu Dec 6 17:53:04 2018 +0800
+
+    Delete P17051 - Helton
+
+commit 5c196c76af841ea05b73bd85996ae5143d9cf4b4
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Thu Dec 6 17:51:32 2018 +0800
+
+    add some training
+
+commit 8a9e2c0c83b3363fb1cd614d885f66efd76d56bb
+Author: Mr.Wong <44759845+heltonWong@users.noreply.github.com>
+Date:   Thu Dec 6 17:41:24 2018 +0800
+
+    Create P17051 - Helton
+
+commit fb0d02fc2d449a4656f8d952ffb17d043bb00a0a
+Author: wangguishe <1304995320@qq.com>
+Date:   Wed Dec 5 20:00:45 2018 +0800
+
+    first test
+
+commit a6427a4ee4c5ff008a8913205582ca0e7005f8b7
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Wed Dec 5 18:47:23 2018 +0800
+
+    add some training
+
+commit 87e4cc6e2d93d234e69173e60ec6aa76f45a9a61
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Wed Dec 5 16:31:05 2018 +0800
+
+    fix some little bug
+
+commit 577b34973de7b64d734b6ce6625fb54baa0b3201
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Wed Dec 5 11:40:57 2018 +0800
+
+    fix some wrong word
+
+commit e5a51103d460370654ec67c7b538c1c2de3136aa
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Wed Dec 5 10:47:58 2018 +0800
+
+    add floop homework
+
+commit cf55f7481a8f17010ce9d72c3d9378abab62c43f
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 4 19:30:45 2018 +0800
+
+    fix some bug
+
+commit 4c4bf625a3a6013647a639865c0cffc9c6e72bd6
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 4 19:17:22 2018 +0800
+
+    add floop training
+
+commit fe3cad958c8b22f64b37dee0fabb0826b90bbea7
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 4 16:25:32 2018 +0800
+
+    add if-while-for training
+
+commit 852679de151dbc2d32f30d42e384a12660d394a2
+Author: JuliaJia <shindousaijia@hotmail.com>
+Date:   Tue Dec 4 10:36:23 2018 +0800
+
+    add some python code into test.py
+
+commit 912e49e554e5fa11083bd8a5b25c4f5709641c40
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Mon Dec 3 20:51:20 2018 +0800
+
+    修改
+
+commit f8622f23cd450d97bb90934e1355630d7fe7e214
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Mon Dec 3 20:40:19 2018 +0800
+
+    排序算法
+
+commit bab78475fefc79c70e2a93d4568eb7205ab8b326
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Mon Dec 3 20:20:02 2018 +0800
+
+    test
+
+commit 70f231a1753354e21780ef951269ca53814d9923
+Author: molson265 <44839357+molson265@users.noreply.github.com>
+Date:   Mon Dec 3 20:00:05 2018 +0800
+
+    第一次使用  测试专用
+
+commit 0aec4f15cf82a7926b8b38fa8bf7c86ec5b0dc1c
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Dec 3 10:41:20 2018 +0800
+
+    20181203
+    
+    testtesttest
+
+commit af5a94204fa696dba335bf0542570f40f639a110
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Dec 3 10:31:53 2018 +0800
+
+    20181203
+    
+    测试
+
+commit 62abe9ac80477bfef1ffc7de4657488954651dc6
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Dec 3 10:30:03 2018 +0800
+
+    20181203
+    
+    change name
+
+commit 039fe79b540db2c2001bb0867a0045fa825a56d4
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 1 16:21:49 2018 +0800
+
+    20181201
+    
+    just for practice
+
+commit 722454ac2ca04478a4355426dd8cf80f699a5ff5
+Merge: 445073e 38229ae
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 1 16:20:06 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 445073efd37ed518281cc31090357f1c91cc1eca
+Author: eveyrdayx <everydayx@163.com>
+Date:   Sat Dec 1 16:19:33 2018 +0800
+
+    20181201
+    
+    for practice
+
+commit 38229ae7b3cad7ec43634066d7e3713768826fe4
+Author: readygood <readygood@163.com>
+Date:   Wed Nov 28 14:03:07 2018 +0800
+
+    Delete 测试.txt
+
+commit a1ee533819aff12098c7e098d20b33bfccdd0d0c
+Author: readygood <readygood@163.com>
+Date:   Wed Nov 28 14:02:10 2018 +0800
+
+    Create 测试.txt
+
+commit a07e0e6971b3971678336c04dd56e4489f806242
+Author: readygood <readygood@163.com>
+Date:   Wed Nov 28 13:59:51 2018 +0800
+
+    Create test.py
+
+commit d5dcd80f98676283630feb6af48dff27b1b5b65d
+Merge: c122eef 9fd81d6
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 25 15:10:02 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+    
+    * 'master' of https://github.com/magedu-python17/homework:
+      first commit
+
+commit c122eefead1ec0d029daa8c78fae6541114646ad
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 25 14:50:05 2018 +0800
+
+    Delete homework
+
+commit 9fd81d63e5d519afdd1969c34f85a180304a6830
+Author: johnfeifei <john.guo@aliyun.com>
+Date:   Sun Nov 25 07:36:50 2018 +0800
+
+    first commit
+
+commit 061c1962f3be24581b26223fd58e7810cb815d14
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sat Nov 24 01:50:15 2018 +0800
+
+    Update hello.jar
+
+commit 415b53ad24c65e3770ce187a634c8d90568294c4
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sat Nov 24 01:46:30 2018 +0800
+
+    helloword
+    
+    Signed-off-by: zhp9959 <zhp9959@qq.com>
+
+commit 702c325a33ceab325d8dcf6d8c5a9d137cdb7227
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 23:26:08 2018 +0800
+
+    Delete 新建文本文档.txt
+
+commit 2f6da77a4037e4ffa161348976f4c9bce6f3c964
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 23:25:43 2018 +0800
+
+    Create token.json
+
+commit 8fec9a29d709c5af50a8bf161d9abc07e9277a97
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 23:25:18 2018 +0800
+
+    Create 新建文本文档.txt
+
+commit 55f9c21b184db0dd5f225a970db4c4b2edae6372
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 22:16:34 2018 +0800
+
+    Create hello.sh
+
+commit 1a1004e2577492f5e51a82dc18efa6cf0c6dfbd4
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 17:27:51 2018 +0800
+
+    Create helloword.py
+
+commit 4d2895c97d6879c6c319e45f686844a0dfc936bc
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Fri Nov 23 17:24:41 2018 +0800
+
+    11
+    
+    11
+
+commit 9dc225a4969f1e38f0c434d2cd7892dfc0cf5a4f
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Nov 23 11:53:34 2018 +0800
+
+    20181123
+
+commit a623291dd6add3a6c83b9baa8348a24d0225ee45
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Nov 23 11:51:38 2018 +0800
+
+    20181123
+
+commit ce53b0edcbcde97850765e7efceccbd26199a135
+Merge: 12a953d edc51af
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Nov 23 11:50:26 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 12a953d0ddb5e2c0d25e563118f1a8f7a8d96795
+Author: eveyrdayx <everydayx@163.com>
+Date:   Fri Nov 23 11:50:00 2018 +0800
+
+    20181123
+    
+    exercise
+
+commit edc51af351838d2095749af30795fb3b962b59b3
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Thu Nov 22 22:27:08 2018 +0800
+
+    Delete 20181118.py
+
+commit 1186c73d625b359367ab54e25eae6f5e334ffa72
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Nov 21 11:20:21 2018 +0800
+
+    20181121
+
+commit ba5297662a147aa75ce8d6724bae99277c161bfc
+Merge: 909691d ec84632
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Nov 21 11:19:16 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 909691d2021005f09fe6cf01599b46ad4e81bee5
+Author: eveyrdayx <everydayx@163.com>
+Date:   Wed Nov 21 11:18:41 2018 +0800
+
+    20181121
+
+commit ec84632d2661db8a49ba062e849656d044a4a24f
+Author: Willasa <junzhang0227@163.com>
+Date:   Tue Nov 20 22:06:16 2018 +0800
+
+    注意啦：  这又是一次新的提交练习操作！！！！
+
+commit c625811c6609251aeda34e2031a97c69cce4c56e
+Merge: 6fab52b c92b5e0
+Author: Willasa <junzhang0227@163.com>
+Date:   Tue Nov 20 22:01:24 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit c92b5e0fc9d6c8838d3f3469572aca3f0f6cbb19
+Author: zhangjun <zhangjun@centos7.localdomain>
+Date:   Wed Nov 21 21:18:09 2018 +0800
+
+    Linux 系统中学习如何提交
+
+commit 0b8ab4e947ea43932375db4d35ca9b36c0f845e1
+Author: zhangjun <zhangjun@centos7.localdomain>
+Date:   Wed Nov 21 20:56:11 2018 +0800
+
+    first commit
+
+commit 6fab52b57d5a6e5643a3a5c6810413eb09080d2c
+Author: Willasa <junzhang0227@163.com>
+Date:   Tue Nov 20 21:56:07 2018 +0800
+
+    注意啦：   这又是一次新的提交练习操作！！！！
+
+commit 6dbff8bc217ea03e7609011447a296628c099732
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:15:19 2018 +0800
+
+    Create test
+
+commit ec729f1d762292df9ef7b3954f59754bda278892
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:14:13 2018 +0800
+
+    Delete test
+
+commit 2b15b3800d995632e47812869e1526142432bb01
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:13:59 2018 +0800
+
+    Create test
+
+commit f669ff4de6ed9c8343031cf516ab043760c68535
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:07:44 2018 +0800
+
+    Create test
+
+commit 80c1da68f2d1a6fb048ba15455a520c637420148
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:06:57 2018 +0800
+
+    Delete YuanJie
+
+commit 9e6a85856137586b71d83472f455b5fdd44a6c04
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 09:04:06 2018 +0800
+
+    Create YuanJie
+
+commit 0c7c1024dbc06c856dcd42fff685524139f34eb2
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 08:59:20 2018 +0800
+
+    Delete YuanJie
+
+commit 3419eebbf5b56e514a1cd8c56b1a98df702a0efd
+Author: Jason <yuanjie081215@qq.com>
+Date:   Tue Nov 20 08:57:21 2018 +0800
+
+    Create YuanJie
+
+commit 697fad1fd49951159f0e86840bf5b643fbcf80a0
+Author: Willasa <junzhang0227@163.com>
+Date:   Mon Nov 19 23:17:10 2018 +0800
+
+    你好，怎么就不能够推送上去呢？
+
+commit 20c0a668e72c441918c603f14144d83e12f76ce1
+Author: readygood <readygood@163.com>
+Date:   Mon Nov 19 23:10:46 2018 +0800
+
+    Update P17084_ZhangmengRui/test.txt
+
+commit 9fa092b6485b4fec9b389bd61c0c7a3e3ed2038f
+Author: readygood <readygood@163.com>
+Date:   Mon Nov 19 22:59:11 2018 +0800
+
+    Update P17084_ZhangmengRui/test.txt
+
+commit bddcaf1e010cd9b2d4c077cbd1acd180454a722c
+Author: readygood <readygood@163.com>
+Date:   Mon Nov 19 22:41:27 2018 +0800
+
+    Delete P17084_ZhangmengRui
+
+commit b4670a0103d7d6bdcb2e1e6c231c25af57148260
+Author: readygood <readygood@163.com>
+Date:   Mon Nov 19 22:41:04 2018 +0800
+
+    Create P17084_ZhangmengRui
+
+commit 4e5999cf7a03ea6e2c68bdbfe689b227e9a6106d
+Author: 15666661331 <15666661331@163.com>
+Date:   Mon Nov 19 21:11:04 2018 +0800
+
+    just a  test from zhang
+
+commit 9acf79743debeacc4b337e5f37c4ca439de533e2
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 20:12:55 2018 +0800
+
+    test3
+
+commit faf616ad8858bf054fa6ef0c67f0e16edebfb56a
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:53:12 2018 +0800
+
+    test
+
+commit 410939459db05eb6b5d20c89e5e435b28e3cdc86
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:48:26 2018 +0800
+
+    test2
+
+commit 46a250c7fae21d2215a805a27665f2d96ffa9968
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:45:41 2018 +0800
+
+    test
+
+commit 432ddb9c129d969709afa3da7f57ec4b99ee19a2
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:44:49 2018 +0800
+
+    test
+
+commit 6f4390aa82fae05b544c31b35178eee247e6a30b
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:41:39 2018 +0800
+
+    third commit
+
+commit c2f751e94572f7b21638a7b845b74e4dca54f9e0
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:35:22 2018 +0800
+
+    second commit
+
+commit 655b56a28ab3c2c3bacd3bb74829fa861e9fce37
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 19:27:14 2018 +0800
+
+    first commit
+
+commit ab54d411030793ec099b470e27777efc331778d6
+Author: YJZyjz185672 <2522756847@qq.com>
+Date:   Mon Nov 19 18:18:39 2018 +0800
+
+    测试windows git
+
+commit c9b445b15eac713560b3069f2bffdf46e8bf51ce
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Nov 19 14:00:28 2018 +0800
+
+    一题多解
+
+commit 4031d4da5454cad69404ffd2dc44ca66cb4730f9
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Nov 19 10:37:35 2018 +0800
+
+    测试提交github
+    
+    Signed-off-by: eveyrdayx <everydayx@163.com>
+
+commit c29ca8d4152b62a8b7ac34f8661ef22ba9dd985b
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Nov 19 10:36:03 2018 +0800
+
+    测试提交github
+
+commit 0f28f6792e61c5fc71b428eb4d15499cae503a33
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Nov 19 10:29:31 2018 +0800
+
+    20181119
+    
+    just for test
+
+commit 17344e363851902bab84ef31fc756e4463e90468
+Author: eveyrdayx <everydayx@163.com>
+Date:   Mon Nov 19 10:21:20 2018 +0800
+
+    测试提交github
+    
+    20181119
+
+commit f3acecb719d91cb1655af9c5d388bfc95436a8a5
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Mon Nov 19 00:41:40 2018 +0800
+
+    Update 20181118.py
+
+commit 65d6e2344b8cf08be788feb3e879f688e84c1dbb
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Mon Nov 19 00:40:45 2018 +0800
+
+    Set theme jekyll-theme-cayman
+
+commit 74898cabf32469548249f7d861c3cec7c6d0c754
+Merge: c7db6e6 5f24fd6
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 23:14:41 2018 +0800
+
+    Merge branch 'master' of https://github.com/magedu-python17/homework
+
+commit 5f24fd6c6ab767129f396817528738cbc646fb90
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 16:56:35 2018 +0800
+
+    Delete P17050-弥沛
+
+commit d235eeeb3a7915f9149fd10f501f762ccf37fdf5
+Author: mipei <44965582+mipei@users.noreply.github.com>
+Date:   Sun Nov 18 10:21:02 2018 +0800
+
+    Create P17050-弥沛
+
+commit af4e722231b9007ac3910fde1db9d445957adf62
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:36:23 2018 +0800
+
+    Delete _config.yml
+
+commit b888676ca6344b0531bc52694c577fb38f59e79e
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:35:40 2018 +0800
+
+    Set theme jekyll-theme-leap-day
+
+commit 850e72f8fbce7fbf65e161bd07fcfb3228a27f3d
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:29:45 2018 +0800
+
+    Delete filetypes.xml
+
+commit 8d1d8c609d95c16a9ff065a1633b4e751a6baae1
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:29:35 2018 +0800
+
+    Delete debugger.xml
+
+commit 014c0e4dfd4ae75fb6a7c1b9e4d0eb1ce203ae6e
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:29:26 2018 +0800
+
+    Delete projectView.xml
+
+commit 6570962e2b2df3b466b0c850cc9ab11982bbf2f2
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:29:16 2018 +0800
+
+    Delete vim_settings.xml
+
+commit d312586ca848f925b0524fbf3d054559ee4e41b8
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:29:07 2018 +0800
+
+    Delete code.style.schemes.xml
+
+commit 658599221d122cbecb568318df7532c350524eb8
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:28:56 2018 +0800
+
+    Delete Default.xml
+
+commit c7db6e6970ffd68c8df6b5335641d402c0878d72
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 04:28:26 2018 +0800
+
+    111
+    
+    Signed-off-by: zhp9959 <zhp9959@qq.com>
+
+commit 844a53f68f7b9f672ecaa270b5071082ff4f5804
+Merge: 92927e4 f05afcb
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 04:26:25 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Merge branch 'master'
+    
+    Conflicts:
+            vim_settings.xml
+
+commit 92927e4c147762a56041537242d14ebc8ed11990
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 04:26:16 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml       Create filetypes.xml, projectView.xml, code.style.schemes.xml, Default.xml, debugger.xml
+
+commit f05afcb813326a9039500f0aab1c89e4521647f3
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:18:59 2018 +0800
+
+    Delete editor.xml
+
+commit 030442aacd0692a3647f354a394f32898191a8cc
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:18:48 2018 +0800
+
+    Delete github_settings.xml
+
+commit c98423c1c205f9ca214a1e233812acad2ddb0ec0
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:18:37 2018 +0800
+
+    Delete notifications.xml
+
+commit 9a9cab7d6ce7af56cb0692cad27afb299c2f33c5
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:18:23 2018 +0800
+
+    Delete R_User_Library.xml
+
+commit c141a077e63d1b8eed9b8d03c55835dc83827e15
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:18:05 2018 +0800
+
+    Delete laf.xml
+
+commit b187848028687ac82a8255404b2fb11f57fc198d
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:17:56 2018 +0800
+
+    Delete applicationLibraries.xml
+
+commit 4f88edaa2f6eef38f27a7e80dd408829ef04ac6f
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:17:46 2018 +0800
+
+    Delete git.xml
+
+commit 80cfa9c34d34431e75d207751d5404d728f67b2e
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:17:26 2018 +0800
+
+    Delete colors.scheme.xml
+
+commit 2eeb3074f68506c0b3aade95124e64fc7ef33693
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:16:27 2018 +0800
+
+    Delete markdown.xml
+
+commit 4c61dafb03aec9d68788fa8ee6637d32caa2adf6
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:16:15 2018 +0800
+
+    Delete vim_settings.xml
+
+commit 4ad1e101a83b7f253a4efa289ccdd0d400f30314
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:15:57 2018 +0800
+
+    Delete Monokai_2 copy1.icls
+
+commit 60cd859eee985f12da2174191a1e93dd788c1668
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:15:46 2018 +0800
+
+    Delete gvim.icls
+
+commit 5215ae26f22ae6dbd5e4ad778ba1ff25f60102a8
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:15:35 2018 +0800
+
+    Delete _@user_Darcula.icls
+
+commit 610a7fb6d9713b6a1ee65f89f62ca0d1902fc8d0
+Merge: ac90301 14e1452
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 04:15:16 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Merge branch 'master'
+    
+    Conflicts:
+            editor.xml
+            github_settings.xml
+            vim_settings.xml
+
+commit ac90301e9c94289b6ae64ce4d3439493cd57db3f
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 04:14:56 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml, editor.xml   Create Monokai_2 copy1.icls, colors.scheme.xml
+
+commit 14e14524112169d93b632dde4874854400bd5c76
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:03:25 2018 +0800
+
+    Delete Xcode Midnight.icls
+
+commit c827eeb67c55b9186d3ef5564dcd2abcc6bdf195
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:03:12 2018 +0800
+
+    Delete Vim dark.icls
+
+commit 3f0f3f26ac8ccc73cf1d9c818f91469956520e5c
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:03:02 2018 +0800
+
+    Delete Vibrant Unknown _Dracula_.icls
+
+commit 2cca23434ba79ac825c0bff1e9e6c6711c711b85
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:02:52 2018 +0800
+
+    Delete Vibrant Unknown _Dracula_ copy.icls
+
+commit 279917c98f33ca8f6901f45d273ee347c30e8b5d
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:02:40 2018 +0800
+
+    Delete Sublime Monokai True.icls
+
+commit ed94afbe66ab33a74f50f24017bab22404097619
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:02:29 2018 +0800
+
+    Delete RecognEyes.icls
+
+commit ce772968b3234502c7d5f455e004365077b380de
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:02:16 2018 +0800
+
+    Delete RecognEyes copy.icls
+
+commit fc0e3b29fddbeaa6cecd43f3c2200970a647a21b
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:02:05 2018 +0800
+
+    Delete Nice Python.icls
+
+commit 52443f306612921156e6313cab11cac5edc17840
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:01:53 2018 +0800
+
+    Delete Nice Python copy.icls
+
+commit 5763fb5e45f6fefabba3ebedc89696e2f2a8d726
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:01:44 2018 +0800
+
+    Delete Monokai_2.icls
+
+commit 0e40148f8cea254b19e15195c0d06f10ce03c266
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:01:29 2018 +0800
+
+    Delete Monokai_2 copy.icls
+
+commit d9f202738ada26638a6aacb0133c7944c29b1ffe
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 04:00:58 2018 +0800
+
+    Delete Default.xml
+
+commit f7c6bcb36c6f7615b881aada15e2bd4619e62e37
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 03:58:40 2018 +0800
+
+    11
+    
+    Signed-off-by: zhp9959 <zhp9959@qq.com>
+
+commit 936b2190af23ebbbf8a70d1e6c546bf3431078e2
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 03:58:12 2018 +0800
+
+    111
+    
+    Signed-off-by: zhp9959 <zhp9959@qq.com>
+
+commit e2f81c2433cd9dee328e51d8e21157acae3d52eb
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:55:19 2018 +0800
+
+    Delete ui.lnf.xml
+
+commit 9c1e398948ed4c5ec7482cfc5074e46465af5239
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:55:08 2018 +0800
+
+    Delete project.default.xml
+
+commit fb0d3b6d7693ec8665cb1542199dc546b7dd0ba1
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:54:57 2018 +0800
+
+    Delete plugin_ui.xml
+
+commit eaaa9f1ab7016b1c259946504f672cfdf6b09438
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 03:52:04 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update github_settings.xml
+
+commit 9563870b670e2ea98ecea000d2ac0d30bb8b82ea
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:45:00 2018 +0800
+
+    Delete github_settings.xml
+
+commit e9408abdfadc4860c6f67af8a521483b500957b1
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:44:48 2018 +0800
+
+    Delete filetypes.xml
+
+commit 9deb3133177fbf69aae9e7a1832a13cac3701bbe
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:44:36 2018 +0800
+
+    Delete editor.xml
+
+commit 0bce56c14cc391ca850bc3bfb55c0a136f8eb1f3
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:44:23 2018 +0800
+
+    Delete editor.codeinsight.xml
+
+commit b3d59bf4c6590bcfe65a9c3d61bccb8891463a16
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:44:12 2018 +0800
+
+    Delete vim_settings.xml
+
+commit 25ea813bf92f27fa9cd248f9b47b07003be720e9
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:44:00 2018 +0800
+
+    Delete vcs.xml
+
+commit fe215e0a06ab41948912b1c51f45d6819c7d4be4
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:43:50 2018 +0800
+
+    Delete docker-registry.xml
+
+commit 46ae9a389641b0d675d1557026174aac77b9f32a
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 03:43:39 2018 +0800
+
+    Delete debugger.xml
+
+commit a71d8e71e78f767fe8c7c348662ace68acae6078
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 03:37:31 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml
+
+commit cc425b8a9a427923863c3a51ea2630eeeaf3d853
+Merge: f9e3366 14db12c
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 03:30:41 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Overwrite remote https://github.com/magedu-python17/homework.git to local
+
+commit f9e33662d637626d3ffdb99ba24ab6c4eb4ba5c0
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:38:33 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml
+
+commit 14db12c0aa7fa22796296806d0311bc3e20a28d6
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:25:15 2018 +0800
+
+    Delete debugger.xml
+
+commit 9e02aca6dacc0fcd88cc4319c79e4f3da12ddf58
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:25:04 2018 +0800
+
+    Delete editor.codeinsight.xml
+
+commit d09a5d06804a89337107b776822eac00c0664a18
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:24:54 2018 +0800
+
+    Delete docker-registry.xml
+
+commit 6e6d6d5a1fa71f5bdf00348c808e98a0e1800246
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:13:48 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml, editor.xml   Create debugger.xml     Delete other.xml, jdk.table.xml
+
+commit 16579585d5104c7e50dda3832260289d677d097a
+Merge: ea270f6 3d40201
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:09:06 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Merge branch 'master'
+    
+    Conflicts:
+            vim_settings.xml
+
+commit ea270f6f8b09ce4b4d160fc2eabc8bf4d4111ed5
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:08:43 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Update vim_settings.xml
+
+commit 3d402011395b6c6e038401409fb839c5692538fe
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:08:19 2018 +0800
+
+    Delete debugger.xml
+
+commit f90fc00b0ec9c0c5b5a603f914cd4c9e443139ca
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:08:04 2018 +0800
+
+    Delete colors.scheme.xml
+
+commit ec4d16f41156771c7e9067616062c2194ee8d911
+Author: zhp995 <42415312+zhp995@users.noreply.github.com>
+Date:   Sun Nov 18 02:07:47 2018 +0800
+
+    Delete vim_settings.xml
+
+commit 98ac3be40f785d28fef843b119398ba661508f2b
+Merge: f0ca79d e98edee
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:04:58 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit f0ca79d0710cf398734f27b64935bee2ab251a82
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 00:55:07 2018 +0800
+
+    Create test.py
+    
+    Signed-off-by: zhp9959 <zhp9959@qq.com>
+
+commit e98edeeeb313cfd915f06b5ee0a1f0d76517fd10
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 02:01:27 2018 +0800
+
+    PY-2018.2.5 <Administrator@MININT-58Q9P05 Create markdown.xml, vim_settings.xml, git.xml, gvim.icls, project.default.xml, other.xml, Default.xml, applicationLibraries.xml, Vibrant Unknown _Dracula_.icls, Nice Python.icls, ui.lnf.xml, filetypes.xml, plugin_ui.xml, colors.scheme.xml, notifications.xml, _@user_Darcula.icls, github_settings.xml, Sublime Monokai True.icls, Nice Python copy.icls, laf.xml, jdk.table.xml, Vim dark.icls, Monokai_2.icls, Vibrant Unknown _Dracula_ copy.icls, Xcode Midnight.icls, vcs.xml, editor.codeinsight.xml, RecognEyes copy.icls, Monokai_2 copy.icls, docker-registry.xml, editor.xml, debugger.xml, RecognEyes.icls
+
+commit 2fcf05df275a0c8aa9b2b4392f5cc94ad21f8ac4
+Author: zhp9959 <zhp9959@qq.com>
+Date:   Sun Nov 18 00:55:07 2018 +0800
+
+    Create test.py
+
+commit 122949ec3dcad64c834f119b09d232b90515f1fa
+Author: root <root@localhost.localdomain>
+Date:   Fri Nov 16 05:16:16 2018 -0500
+
+    add test.py into JuliaJia
+
+commit b2752772263e2224449c7bf4520c1311cb36f46e
+Author: “xiaozhi” <“lz270978971@gmail.com”>
+Date:   Thu Nov 8 16:53:18 2018 +0800
+
+    init README.md
+
+commit d68a061bdfb6e4cbefebc758421be5e66a12249c
+Author: magedu-python <37565803+magedu-python@users.noreply.github.com>
+Date:   Thu Nov 8 16:46:50 2018 +0800
+
+    Initial commit

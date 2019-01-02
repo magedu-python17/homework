@@ -1,5 +1,5 @@
 #*******************************************
-#     My blog http://www.my-blog.top       #
+#     my blog : http://101.132.77.52       #
 #*******************************************
 #     Python                               #
 #     Version 3.6.3                        #
@@ -8,5 +8,8 @@
 for i in range(1,10):
 	for j in range(1,i+1):
 		s=i*j
-		print(j,'*',i,'=',s,end='|')
+		if len(str(s))==1: #对齐
+			print(j,'*',i,'=',s,end='  ')
+		else:
+			print(j,'*',i,'=',s,end=' ')
 	print('') #换行
