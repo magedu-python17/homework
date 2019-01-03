@@ -15,7 +15,7 @@
 
 
 def char_sort(s:str):
-    return sorted(s, key=lambda c: (c.isdigit(), c.isdigit() and int(c) % 2 == 0, c.isupper()))
+    return ''.join(sorted(s, key=lambda c: (c.isdigit(), c.isdigit() and int(c) % 2 == 0, c.isupper())))
 
 
 while True:
