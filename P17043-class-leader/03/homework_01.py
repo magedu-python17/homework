@@ -103,4 +103,7 @@ while True:
             ret.remove("零")
 
 
-    print(''.join(ret))
+    print( ''.join(ret) )
+
+
+        
