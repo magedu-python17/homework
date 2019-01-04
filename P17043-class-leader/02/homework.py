@@ -90,24 +90,21 @@ class run():
             print('管理员密码设置成功！！！')
         with open(self.filename, 'r') as fb1:
             self.new_dict = json.loads(fb1.read())
-            while True:
-                action = input(">>> ")
-                if not action:
-                    continue
-                if action in self.action_dict:
-                    passwd = getpass.getpass('请输入管理员密码:')
-                    if self.passwd_dict['password'] == passwd:
-                        func = self.action_dict.get(action)
-                        func()
-                    else:
-                        print('密码输入错误！！！')
+        while True:
+            action = input(">>> ")
+            if not action:
+                continue
+            if action in self.action_dict:
+                passwd = getpass.getpass('请输入管理员密码:')
+                if self.passwd_dict['password'] == passwd:
+                    func = self.action_dict.get(action)
+                    func()
                 else:
-                    print('命令格式: [delete|update|find|show|exit]')
+                    print('密码输入错误！！！')
+            else:
+                print('命令格式: [delete|update|find|show|exit]')
 
 
 if __name__ == "__main__":
     f = run()
     f.main()
-	
-	
-	
