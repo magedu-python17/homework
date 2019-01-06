@@ -131,3 +131,4 @@ while True:
             file.close()
             break
 
+# 既然都用函数了，可以考虑把功能分离下，作业提交最好分个目录哈

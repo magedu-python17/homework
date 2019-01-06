@@ -32,3 +32,6 @@ for n in range(len(lst4)):
 lst5 = sorted(lst)
 for q in range(len(lst5)):
     print(lst5[q][1],end='',sep='')
+
+
+# 还有更简单的写法，想想

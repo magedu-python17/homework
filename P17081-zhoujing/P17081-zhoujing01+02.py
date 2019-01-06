@@ -140,3 +140,5 @@ while True:
 			elif i=='exit':
 				savefile()
 				sys.exit()
+
+# 作业没有什么问题，记得区分下目录哈，比如01 就放第一次的作业

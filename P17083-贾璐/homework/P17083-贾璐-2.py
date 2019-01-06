@@ -223,4 +223,4 @@ while True:
     else:
         print("Wrong Command!")   
 
-# 贾独秀 没有毛病，就是文件名字最好以学号+姓名来命名下哈
+# 妥，ok，优秀，自己脑补下。。。

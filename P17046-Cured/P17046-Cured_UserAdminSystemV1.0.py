@@ -127,3 +127,5 @@ while True:
     else:
         print("Incorrect input ! ")
     continue
+
+# 写的很好，可以考虑下 字典和列表的嵌套哈，加油！

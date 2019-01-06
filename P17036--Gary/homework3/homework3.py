@@ -304,3 +304,4 @@ def main():
 
 if __name__=="__main__":
     main()
+# 可以，看到有些地方已经抽象出来了，sys和 operator 没有用到的话 可以删除

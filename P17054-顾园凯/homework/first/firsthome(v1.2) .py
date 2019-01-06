@@ -94,3 +94,5 @@ while True:   #死循环
         break
     else:
         print('Command input error') #命令输入错误的输出
+
+# ok,逻辑上没有太大的问题

@@ -15,3 +15,4 @@ new_string = str_sort(string)
 print(new_string)
 
 
+# 试试再简洁一些，代码还可以优化

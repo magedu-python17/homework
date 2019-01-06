@@ -179,6 +179,6 @@ if __name__ == '__main__':
             method.get(nums)(nameinfo)
 
 
-
+# 装饰器的方式，用的不错，逻辑上没有什么问题
 
 

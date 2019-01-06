@@ -14,3 +14,4 @@ for i in s:
         oddNum.append(i)
 print(''.join(sorted(oddNum)+sorted(evnNum)+sorted(lowStr)+sorted(uppStr)))
 
+# 没有什么问题，记得区分下目录，你的作业不好找

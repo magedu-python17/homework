@@ -142,3 +142,4 @@ while True:
         ver_exit()
         break
 
+# 逻辑上没有什么问题，密码校验的可以单独的抽出来

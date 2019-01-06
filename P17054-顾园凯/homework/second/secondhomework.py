@@ -194,3 +194,4 @@ while True:   #死循环
         break
     else:
         print('Command input error') #命令输入错误的输出
+# 基本可以拿出来用了

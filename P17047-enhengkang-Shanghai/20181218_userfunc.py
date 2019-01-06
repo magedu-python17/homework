@@ -99,3 +99,5 @@ if __name__ == '__main__':
         else:
             nameinfo = input('请输入用户名>>>')
             method.get(nums)(nameinfo)
+
+# 没有什么问题

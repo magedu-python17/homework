@@ -18,3 +18,5 @@ def fun(string):
 
 new_string = input('请输入字符串：')
 print(fun(new_string))
+
+# 想想 fun 里面的是不是可以用几行代码来代替呢？

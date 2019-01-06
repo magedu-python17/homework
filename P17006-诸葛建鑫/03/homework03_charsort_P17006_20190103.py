@@ -22,3 +22,4 @@ while True:
     get = input('<字符串> >>> ')
     print(char_sort(get.strip(', :')))
 
+# 不错！看来是理解了元组的比较排序了

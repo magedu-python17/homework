@@ -112,3 +112,5 @@ def sort_uperstr(ss_uperstr):
 
 if __name__ == '__main__':
     list_ls(st)
+
+# 最好有个目录来区分每次的作业哈，提示下这次的作业，可以考虑下元组的比较排序来做
