@@ -100,3 +100,5 @@ while True:
     register.get(cmd, illegal_cmd)()
     if cmd == 'exit':
         break
+
+# 这写的没有什么问题

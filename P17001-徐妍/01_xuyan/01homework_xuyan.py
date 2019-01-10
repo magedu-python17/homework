@@ -67,3 +67,5 @@ while True:
         elif choice == '6':     #退出循环。
             print('数据已保存')
             break
+
+# 逻辑上没有什么太大的问题,想想如何持久化保存

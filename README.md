@@ -1,20 +1,20 @@
 # homework
 
-## 马哥教育python实战15期
+## 马哥教育python实战17期
 
 ### 不要删除别人的代码！ 目录结构
                      
 ```
 01：第一次作业提交的目录         
-    mage 用自己的名字新建文件夹             
-    zuoye.py 作业的代码文件            
-    xiaozhi的目录          
-    zuoye.py 作业代码文件       
+    xuehao-mage 用自己的名字新建文件夹             
+    xuehao-zuoye.py 作业的代码文件            
+    xuehao-xiaozhi的目录          
+    xuehao-zuoye.py 作业代码文件       
 02：第二次作业提交的目录     
-    mage 用自己的名字新建文件夹          
-    zuoye.py 作业的代码文件                     
-    xiaozhi的目录              
-    zuoye.py 作业代码文件             
+    xuehao-mage 用自己的名字新建文件夹          
+    xuehao-zuoye.py 作业的代码文件                     
+    xuehao-xiaozhi的目录              
+    xuehao-zuoye.py 作业代码文件             
 以此类推
 ```
 
@@ -34,9 +34,11 @@ git clone https://github.com/magedu-python17/homework.git
 
 查看代码状态 git status
 
-后面添加代码，只需要下面三行即可：     
+后面添加代码，只需要下面三行即可：
+  git pull //拉取最新的代码文件
   git add .     
-  git commit -m "first commit" //第一次提交      
+  git commit -m "first commit" //第一次提交  
+  git pull //提交之前，先同步下最新版的代码，避免冲突
   git push -u origin master //同步到远程服务器      
 
 用命令行操作，要添加ssh的公钥到github里，操作方法
