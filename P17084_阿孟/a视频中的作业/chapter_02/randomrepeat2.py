@@ -18,20 +18,15 @@ lst1 = []
 seter = set()
 n = 0
 for i in range(10):
-    i = random.randint(10,20)
-    lst.append(i)
+    lst.append(random.randint(10,20))
 print('list1: {}'.format(lst))
 for s in range(10):
-    s = random.randint(10,20)
-    lst1.append(s)
+    lst1.append(random.randint(10,20))
 print('list2: {}'.format(lst1))
 seter.update(lst,lst1)
 lst3 = lst + lst1
-#print(lst3)
-#print('The random list is {}.'.format(seter))
 for t in seter:
     tms = lst3.count(t)
-    #print(tms)
     if tms == 1:
         print('{} is norepeat.'.format(t))
     else:
