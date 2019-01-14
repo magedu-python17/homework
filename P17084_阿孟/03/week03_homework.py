@@ -28,15 +28,17 @@ while 1:
     if lst == 'stop':
         break
     for i in lst:
-        if i <= '9':
-            number = i
-            if not int(number) % 2:
-                evenlst.append(number)
+        if ord(i) <= 57 and ord(i) >= 48:
+            if not int(i) % 2:
+                evenlst.append(i)
             else:
-                oddlst.append(number)
+                oddlst.append(i)
         else:
             letter.append(i)
         evenlst.sort()
         oddlst.sort()
         letter.sort(reverse=True)
     print(''.join(letter + oddlst + evenlst))
+    oddlst.clear()
+    evenlst.clear()
+    letter.clear()
