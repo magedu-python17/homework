@@ -1,13 +1,13 @@
-def foo1(b, b1=3):
-    print("foo1 called", b, b1)
-def foo2(c):
-    foo3(c)
-    print("foo2 called", c)
-def foo3(d):
-    print("foo3 called", d)
-def main():
-    print("main called")
-    foo1(100, 101)
-    foo2(200)
-    print("main ending")
-main()
+def foo(xyz=[], u='abc', z=123):
+    xyz.append(1)
+    def inner(a=10):
+        pass
+    print(inner)
+    def inner(a=100):
+        print(xyz)
+    print(inner)
+    return inner
+bar = foo()
+#print(id(foo),id(bar), foo.__defaults__, bar.__defaults__)
+del bar
+#print(id(foo),id(bar), foo.__defaults__, bar.__defaults__)
