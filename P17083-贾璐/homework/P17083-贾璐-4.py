@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-def add_ellipsis(input_type,comments):
+def add_ellipsis1(input_type,comments):
     if input_type == list:
         for i in comments:
             if type(i) != str:
@@ -20,12 +20,14 @@ def add_ellipsis(input_type,comments):
     else:
         print("wrong input type!")
 
-
+def add_ellipsis(length,comments):
+    return (x if len(x) < length else x[:length] + "..." for x in comments)
 
 comments = ("Implementation note",
             "Changed",
             "ABC for generator")
 
-input_type = type(comments)
+#input_type = type(comments)
 
-add_ellipsis(input_type,comments)
+length = int(input("Enter a length: "))
+print("\n".join(list(add_ellipsis(length,comments))))
