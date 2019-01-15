@@ -4,14 +4,15 @@
 #
 # Blog: http://www.my-blog.top
 #
-# Last modified: 2019-01-15 16:59
+# Last modified: 2019-01-15 17:57
 #
-# Filename: homework_week04.py
+# Filename: homework_week04_2.py
 #
 # Description: V1.0
 #
 #========================================================
 #
+#简化为列表解析式
 n = int(input('How many string do you want to stay? >>> '))
 comments = (
     "Implementation note",
@@ -21,9 +22,7 @@ comments = (
 )
 def add_ellipsis(n,word):
     for i in word:
-        lst = []
-        for j in i:
-           lst.append(j)
+        lst = [j for j in i] #简化为列表解析式
         print('{}{}'.format(''.join(lst[:n]),'......'))
 #test:
 add_ellipsis(n,comments)
