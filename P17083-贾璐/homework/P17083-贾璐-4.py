@@ -21,12 +21,12 @@ def add_ellipsis1(input_type,comments):
         print("wrong input type!")
 
 def add_ellipsis(length,comments):
-    return (x if len(x) < length else x[:length] + "..." for x in comments)
+    return (str(x) if len(str(x)) < length else str(x)[:length] + "..." for x in comments)
 
-comments = ("Implementation note",
-            "Changed",
-            "ABC for generator")
-
+#comments = ("Implementation note",
+#            "Changed",
+#            "ABC for generator")
+comments = (123432543,321321321,432543543543,12345)
 #input_type = type(comments)
 
 length = int(input("Enter a length: "))
