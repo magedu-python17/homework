@@ -11,7 +11,6 @@ comment = (
 
 def add_ellipsis(length, iterable):
     return (item if len(item) < length else item[0:length]+'......' for item in iterable)
-    # yield from (item if len(item) < length else item[0:length]+'......' for item in iterable)
 
 
 print('\n'.join(list(add_ellipsis(10, comment))))
