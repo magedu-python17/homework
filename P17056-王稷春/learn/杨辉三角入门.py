@@ -29,4 +29,20 @@ for i in range(2,n):
     b.append(1)
     print(b)
     pre=b #将pre替换为b 这样下次再打印的时候又可以和它一样了
-#这里用到的是列表加数值转换 像以前的斐波那数列一样 
+#这里用到的是列表加数值转换 像以前的斐波那数列一样
+# -*- coding: UTF-8 -*-
+#打印杨辉三角
+n=int(input("您想打印多少次杨慧三角:"))
+x=[1]
+print(x)
+y=[1,1]
+print(y)
+for i in range(2,n):
+    b=[1]
+    for j in range(i-1):
+        pre=y[j]+y[j+1]
+        b.append(pre)
+    b.append(1)
+    print(b)
+    y=b
+ 
