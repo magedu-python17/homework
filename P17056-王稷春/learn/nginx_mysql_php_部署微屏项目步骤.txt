@@ -149,3 +149,81 @@ https://blog.csdn.net/qq_35061546/article/details/79685751    Nginx+php7-fpm+MyS
 
 
 此外还加上域名解析 ssl证书部署
+
+确保以上的php mysql redis nginx 都安装好了则进行下面的部署 因环境需求当人数达到400人在线玩的时候缓存搞不过来 所以卡顿这个时候加入redis服务让它们更加的流畅:
+redis主配置文件:
+#master
+daemonize yes
+pidfile /var/run/redis-6779.pid
+
+port 6779
+bind 127.0.0.1 10.24.234.59 #注意修改该项,安全起见,限制IP访问
+timeout 30
+
+loglevel notice
+logfile /data/logs/redis/redis-6779.log
+
+databases 16
+stop-writes-on-bgsave-error yes
+rdbcompression yes
+rdbchecksum yes
+save 300 10
+dbfilename dump_m_6779.rdb
+
+dir /data/redis-rdb-6779/
+
+appendonly yes
+appendfilename appendonly-6779.aof
+appendfsync everysec
+auto-aof-rewrite-percentage 100
+auto-aof-rewrite-min-size 64mb
+aof-rewrite-incremental-fsync yes
+no-appendfsync-on-rewrite no
+
+slave-serve-stale-data yes
+slave-read-only yes
+repl-disable-tcp-nodelay no
+slave-priority 100
+
+maxmemory 4G
+
+lua-time-limit 5000
+slowlog-log-slower-than 10000
+slowlog-max-len 128
+hash-max-ziplist-entries 512
+hash-max-ziplist-value 64
+list-max-ziplist-entries 512
+list-max-ziplist-value 64
+set-max-intset-entries 512
+zset-max-ziplist-entries 128
+zset-max-ziplist-value 64
+activerehashing yes
+client-output-buffer-limit normal 0 0 0
+client-output-buffer-limit slave 256mb 64mb 60
+client-output-buffer-limit pubsub 32mb 8mb 60
+
+
+
+
+
+修改php配置文件安装php支持redis服务的模块源码包:
+4 install phpredis
+wget http://pecl.php.net/get/redis-2.2.7.tgz
+cd redis-2.2.7/
+/usr/local/php/bin/phpize
+./configure --with-php-config=/usr/local/php/bin/php-config
+make && make install
+#配置php.ini
+[redis]
+extension=redis.so
+
+如果是php7.0则会报错 解决方法:
+git clone https://github.com/nicolasff/phpredis
+
+git checkout php7
+
+/usr/local/php7/bin/phpize   #找不到phpize的路径可用whereis命令查看：whereis phpize 得到路径
+
+./configure --with-php-config=/usr/local/php/bin/php-config #此处为php-config的路径，可用whereis php-config查看路径
+
+make && make install
