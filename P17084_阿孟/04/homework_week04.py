@@ -27,3 +27,5 @@ def add_ellipsis(n,word):
         print('{}{}'.format(''.join(lst[:n]),'......'))
 #test:
 add_ellipsis(n,comments)
+
+# 这个取巧写法，没有问题

@@ -9,3 +9,4 @@ def add_ellipsis(lstinfo,length=10,dic={}):
 	return '\n'.join(dic.values())
 print(add_ellipsis(comments,length=7))
     
+# 逻辑上没有问题

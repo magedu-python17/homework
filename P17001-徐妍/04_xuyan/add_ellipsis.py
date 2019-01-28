@@ -27,3 +27,5 @@ def add_ellipsis(set_len,iterable):
 print('\n'.join(add_ellipsis(11,comments)))
 print('-------------')
 print('\n'.join(add_ellipsis(5,comments2)))
+
+# 没有问题~

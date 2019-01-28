@@ -3,3 +3,4 @@ def fun(string):
 
 s='Sorting1234'
 print(fun(sorted(s)))
+# 逻辑上没有问题

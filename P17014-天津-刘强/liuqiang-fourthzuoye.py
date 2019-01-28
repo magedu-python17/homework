@@ -29,3 +29,5 @@ comments = (
 x = add(comments,7)
 for i in x:
     print(i)
+
+# 不错。第二种更通用一些

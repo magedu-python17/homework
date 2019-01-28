@@ -14,3 +14,5 @@ for i in new_str:
         odd_number.append(i)
         
 print("".join(sorted(lower_case))+"".join(sorted(capital))+"".join(sorted(odd_number))+"".join(sorted(even_number)))
+
+# 这个也是，提示下元组的排序

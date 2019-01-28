@@ -26,3 +26,4 @@ odd_number.sort(key=int)
 
 print("".join(lower_case)+"".join(capital)+"".join(odd_number)+"".join(even_number))
 
+# 提示下，想想元组的排序

@@ -31,3 +31,5 @@ comments = (123432543,321321321,432543543543,12345)
 
 length = int(input("Enter a length: "))
 print("\n".join(list(add_ellipsis(length,comments))))
+
+# 独秀的逻辑上没有问题

@@ -57,3 +57,5 @@ def add_ellipsis(ls,num1):
         print(ls1)
 
 add_ellipsis(comments,14)
+
+# 逻辑上没有问题，add_ellipsis 可以写的更通用一些不？

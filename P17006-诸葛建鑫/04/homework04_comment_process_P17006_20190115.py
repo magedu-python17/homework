@@ -14,3 +14,5 @@ def add_ellipsis(length, iterable):
 
 
 print('\n'.join(list(add_ellipsis(10, comment))))
+
+# 没有问题

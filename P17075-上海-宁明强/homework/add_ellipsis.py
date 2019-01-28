@@ -7,3 +7,5 @@ comments = (
     "ABC for generator",
 )
 add_elipsis(comments,elnum=6)
+
+# 这样写，逻辑上也能行，对了 区分下目录哈
