@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-#lst = [5,6,2,1,9,3,8,4,7]
-
-lst = [1,1,1,1,1,1,1,1,1,2]
+lst = [int(x) for x in input("Enter numbers: ").split(" ")]
 count = len(lst)
 count2 = count // 2
 for i in range(count2):
@@ -23,6 +21,5 @@ for i in range(count2):
     if minorigin != minindex and lst[minorigin] != lst[minindex]:
         lst[minorigin],lst[minindex] = lst[minindex],lst[minorigin]
 
-    print(lst)
 print(lst)
         
