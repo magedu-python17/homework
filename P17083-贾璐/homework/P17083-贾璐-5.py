@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from collections import Iterable
+import requests
 
 def map(func_name,*iters):
     func = func_name
@@ -80,6 +81,31 @@ def filter(func_name,*iters):
                 rets.append(i)
         return rets
 
+def status():
+    r = ''
+    n = 1
+    while True:
+        url = yield r
+        if not url:
+            return
+        print("[CONSUMER] Consuming %s..." % n)
+        ret = requests.get(url)
+        r = "url -> {}, status -> {}".format(url,ret.status_code)
+        n += 1
+
+def produce(c,*urls):
+    c.__next__()
+    n = 1
+    for i in urls:
+        print('[PRODUCER] Producing %s...' % n)
+        r = c.send(i)
+        print(r)
+        n += 1
+    c.close()
+
+
+    
+        
 
 def fnc(x):
     #return x+y
@@ -89,4 +115,9 @@ def fnc(x):
 #print(list(map(lambda x: x * x , 1,2,3,4)))
 
 #print(reduce(fnc,[1,2,3],[1,2]))
-print(filter(fnc,[1,2,3,4]))
+#print(filter(fnc,[1,2,3,4]))
+
+
+c = status()
+urls = ["http://www.baidu.com","http://www.163.com","http://www.qq.com"]
+produce(c,*urls)
