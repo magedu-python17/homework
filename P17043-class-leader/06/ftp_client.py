@@ -29,7 +29,8 @@ class ftp_client():
                             res = self.client.recv(1024)
                             write_f.write(res)
                             recv_size += len(res)
-                    if recv_size == file_size:
+                    print(type(recv_size),type(file_size),recv_size == int(file_size))
+                    if recv_size == int(file_size):
                         print('get done !!! plz find file to {}'.format(filename))
                     else:
                         print('lost some data during trasfer...')

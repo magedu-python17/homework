@@ -40,7 +40,7 @@ class ftp_server():
                             conn.send('lost some data during trasfer...'.encode('utf-8'))
             elif cmd.startswith('get'):
                filename = cmd.split()[1]
-               print('filesize is {}'.format(filename))
+               print('filename is {}'.format(filename))
                filesize = getsize(filename)
                conn.send(str(filesize).encode('utf-8'))
                if conn.recv(1024).decode() == 'ack':
