@@ -65,5 +65,3 @@ if __name__ == '__main__':
     ip_port = ('localhost',8888)
     f_s = ftp_server(ip_port)
     f_s.run()
-
-    
