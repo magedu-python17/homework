@@ -104,6 +104,3 @@ while True:
 
 
     print( ''.join(ret) )
-
-# 考虑下正则的方式的来实现
-        

@@ -24,8 +24,6 @@ def add_ellipsis(comments,length=5):
     #     else:
     #         yield x
 
-gener = add_ellipsis(comments,length=100)
+gener = add_ellipsis(comments,length=4)
 
 print('\n'.join(gener))
-
-# 妥~
