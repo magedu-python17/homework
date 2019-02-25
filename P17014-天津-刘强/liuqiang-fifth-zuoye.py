@@ -48,3 +48,5 @@ def resemblereduce(fn,args):
 
 #print(resemblereduce(fn2,[1,2,3,4,5]))
 #print(resemblereduce(lambda x, y: x+y,[1,2,3,4,5]))
+
+# 高阶函数这边少个错误的提示，参考下raise的用法，再来完善下

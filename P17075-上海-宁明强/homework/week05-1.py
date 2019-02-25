@@ -40,4 +40,5 @@ print(mymap(fn1,(2,3,3,4,5,6)),'\n',mymap(fn1,123))
 print(myreduce(fn2,(2,3,3,4,5,6)),'\n',myreduce(fn2,123))
 print(myfilter(fn3,(2,3,3,4,5,6)),'\n',myfilter(fn3,123))
 
+# 这里如果不支持的话，最好raise 错误，而不是用return
 

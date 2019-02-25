@@ -23,3 +23,5 @@ def reduce_self_make(fn_reduce,*args):
     else:
         print('args too long,not support')
 print(list(map_self_make(fn_reduce,[1,2,3,4,5,6])))
+
+# 这个题是实现 map reduce 和filter， print 换成raise

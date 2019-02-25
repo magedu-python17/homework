@@ -181,3 +181,4 @@ class ClientHandler:
 
         print(current_dir)
 
+# ls cd  mkdir pwd 这些能不能写成一个通用的功能？

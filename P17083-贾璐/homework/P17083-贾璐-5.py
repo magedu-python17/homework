@@ -121,3 +121,6 @@ def fnc(x):
 c = status()
 urls = ["http://www.baidu.com","http://www.163.com","http://www.qq.com"]
 produce(c,*urls)
+
+# 高阶函数那边，最好用 raise 来抛出错误哈
+# 协程这个 没有什么问题

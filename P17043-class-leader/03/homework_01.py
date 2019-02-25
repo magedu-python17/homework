@@ -104,3 +104,5 @@ while True:
 
 
     print( ''.join(ret) )
+
+# 再想想有什么好的逻辑来实现妈？

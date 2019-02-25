@@ -94,3 +94,5 @@ class FtpServer:
 cs = FtpServer()
 cs.start()
 
+
+# 逻辑上没有什么问题，有些细节的地方可以参看下学号 p17027小伙伴的：像进度条，断点续传之类，认证之类的

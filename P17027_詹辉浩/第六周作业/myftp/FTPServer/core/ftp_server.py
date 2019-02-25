@@ -197,3 +197,6 @@ class MyFTPServerHandler(socketserver.BaseRequestHandler):
 
         else:
             self.send_code('405')
+
+
+# 已经超出我的预料之外了，尝试下服务端，ls cd pwd mkdir 这个能不能封装成一个功能呢？

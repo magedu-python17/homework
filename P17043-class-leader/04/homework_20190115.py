@@ -27,3 +27,5 @@ def add_ellipsis(comments,length=5):
 gener = add_ellipsis(comments,length=4)
 
 print('\n'.join(gener))
+
+# 下次尽量提前交作业哈
