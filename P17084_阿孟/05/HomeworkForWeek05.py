@@ -39,3 +39,17 @@ def filterself(fn,iterable):
     return lst
 
 print(filterself(fn,[1,2,3,4,5,6,7,8,9]))
+#########
+def fn(x,y):
+    return x + y
+def reduceself(fn,iterable):
+    if not isinstance(iterable,(dict,list,tuple,set)):
+        print("ERROR")
+    else:
+        ret = iterable.pop(0)
+    for i in iterable:
+        ret = fn(ret,i)
+    return ret
+
+a = reduceself(fn,[1,2,3,4,5])
+print(a)
