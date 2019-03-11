@@ -53,3 +53,4 @@ def reduceself(fn,iterable):
 
 a = reduceself(fn,[1,2,3,4,5])
 print(a)
+# print("error") 这个换成raise 看看

@@ -44,3 +44,5 @@ while switch:
 			json.dump(d, f)
 			print("加载入信息完成...")
 		switch = False
+
+# 作业完成的不错，争取把第二次的作业也补上来哈

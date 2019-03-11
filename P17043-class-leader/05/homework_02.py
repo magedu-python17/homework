@@ -22,3 +22,5 @@ for task in tasks:
     print('Task ret: ', task.result())
 
 print('TIME: ', now() - start)
+
+# 你这样有点偷懒了，要用源生的yield

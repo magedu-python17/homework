@@ -52,5 +52,6 @@ def map_self_filter(fn,*args):
 print(list(map_self_filter(fn_filter,[1,2,3,4,5,6,9,10,15])))
 
 # 这个题是实现 map reduce 和filter， print 换成raise
+# 可以连任 没有什么问题了
 
 
