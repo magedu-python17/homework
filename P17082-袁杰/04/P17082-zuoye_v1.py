@@ -27,14 +27,5 @@ def add_ellipsis_1(n,comments):
         else:
             print(i)
 add_ellipsis_1(10,comments_1)
-
-
 print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-def add_ellipsis_2(n,comments):
-    for i in comments:
-        if len(i) > n:
-            print(i[:n] + '...')
-        else:
-            print(i)
-
-add_ellipsis_2(7,comments_2)
+add_ellipsis_1(7,comments_2)
