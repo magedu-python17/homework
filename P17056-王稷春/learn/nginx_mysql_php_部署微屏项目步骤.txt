@@ -1,0 +1,229 @@
+关于微屏项目部署步骤:
+yum install nginx
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm 
+yum install php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel
+rpm -Uvh http://repo.mysql.com/mysql57-community-release-el7-7.noarch.rpm
+yum install mysql-server mysql-devel mysql
+vim nginx.conf
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+# Load dynamic modules. See /usr/share/nginx/README.dynamic.
+include /usr/share/nginx/modules/*.conf;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 2048;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    include /etc/nginx/conf.d/*.conf;
+
+   server {
+    listen 80;
+    server_name sparklesinfo.com;
+    root   /usr/share/nginx/html;
+    index index.php index.html;
+    location ~ \.php$ {
+        fastcgi_pass   127.0.0.1:9000;
+        fastcgi_index  index.php;
+        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        include        fastcgi_params;
+    }
+
+}
+
+
+# Settings for a TLS enabled server.
+#
+#    server {
+#        listen       443 ssl http2 default_server;
+#        listen       [::]:443 ssl http2 default_server;
+#        server_name  _;
+#        root         /usr/share/nginx/html;
+#
+#        ssl_certificate "/etc/pki/nginx/server.crt";
+#        ssl_certificate_key "/etc/pki/nginx/private/server.key";
+#        ssl_session_cache shared:SSL:1m;
+#        ssl_session_timeout  10m;
+#        ssl_ciphers HIGH:!aNULL:!MD5;
+#        ssl_prefer_server_ciphers on;
+#
+#        # Load configuration files for the default server block.
+#        include /etc/nginx/default.d/*.conf;
+#
+#        location / {
+#        }
+#
+#        error_page 404 /404.html;
+#            location = /40x.html {
+#        }
+#
+#        error_page 500 502 503 504 /50x.html;
+#            location = /50x.html {
+#        }
+#    }
+
+}
+
+
+
+
+cd /usr/share/nginx/html/  scp或其他方式上传代码到根目录
+
+chmod 777 html
+chown -R nginx:nginx html
+chmod 777 html/data
+chmod 777 version.inc.php  这个文件必须要有可写权限 否则报错
+
+vim /etc/php-fpm.d/www.conf 修改php运行用户
+user = nginx
+group = nginx
+:wq
+
+
+下面启动mysql 
+启动: service mysqld start 
+停止: service mysqld stop
+
+需要先启动mysql
+
+再查看一下mysql的默认密码
+
+grep 'temporary password' /var/log/mysqld.log
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'GuYuePass666!';
+FLUSH PRIVILEGES;
+
+
+nginx -s reload 重新加载配置文件然后进去登录设置即可 
+访问测试
+
+注意:mysql的root密码就是微屏的登录密码 因为与代码有关联 当然也可以指定其他用户的身份登录进去 需要到mysql里面去授权
+
+
+
+vim /etc/docker/daemon.json
+{
+   "registry-mirrors":["https://registry.docker-cn.com"]
+}
+:wq
+systemctl start docker.service
+
+https://www.cnblogs.com/EasonJim/p/9614577.html centos7用yum安装php5.6
+yum remove php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel  卸载php7.0
+yum install php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel 安装php7.0
+https://blog.csdn.net/happyrabbit456/article/details/44680597
+https://www.cnblogs.com/haozhen/p/9851712.html
+
+https://blog.csdn.net/wyj19950908/article/details/79684574 yum安装mysql5.6
+mysql -uroot -psiss@2019 
+https://centos.pkgs.org/7/centos-x86_64/php-mbstring-5.4.16-46.el7.x86_64.rpm.html 
+
+
+https://blog.csdn.net/qq_35061546/article/details/79685751    Nginx+php7-fpm+MySQL 
+
+
+此外还加上域名解析 ssl证书部署
+
+确保以上的php mysql redis nginx 都安装好了则进行下面的部署 因环境需求当人数达到400人在线玩的时候缓存搞不过来 所以卡顿这个时候加入redis服务让它们更加的流畅:
+redis主配置文件:
+#master
+daemonize yes
+pidfile /var/run/redis-6779.pid
+
+port 6779
+bind 127.0.0.1 10.24.234.59 #注意修改该项,安全起见,限制IP访问
+timeout 30
+
+loglevel notice
+logfile /data/logs/redis/redis-6779.log
+
+databases 16
+stop-writes-on-bgsave-error yes
+rdbcompression yes
+rdbchecksum yes
+save 300 10
+dbfilename dump_m_6779.rdb
+
+dir /data/redis-rdb-6779/
+
+appendonly yes
+appendfilename appendonly-6779.aof
+appendfsync everysec
+auto-aof-rewrite-percentage 100
+auto-aof-rewrite-min-size 64mb
+aof-rewrite-incremental-fsync yes
+no-appendfsync-on-rewrite no
+
+slave-serve-stale-data yes
+slave-read-only yes
+repl-disable-tcp-nodelay no
+slave-priority 100
+
+maxmemory 4G
+
+lua-time-limit 5000
+slowlog-log-slower-than 10000
+slowlog-max-len 128
+hash-max-ziplist-entries 512
+hash-max-ziplist-value 64
+list-max-ziplist-entries 512
+list-max-ziplist-value 64
+set-max-intset-entries 512
+zset-max-ziplist-entries 128
+zset-max-ziplist-value 64
+activerehashing yes
+client-output-buffer-limit normal 0 0 0
+client-output-buffer-limit slave 256mb 64mb 60
+client-output-buffer-limit pubsub 32mb 8mb 60
+
+
+
+
+
+修改php配置文件安装php支持redis服务的模块源码包:
+4 install phpredis
+wget http://pecl.php.net/get/redis-2.2.7.tgz
+cd redis-2.2.7/
+/usr/local/php/bin/phpize
+./configure --with-php-config=/usr/local/php/bin/php-config
+make && make install
+#配置php.ini
+[redis]
+extension=redis.so
+
+如果是php7.0则会报错 解决方法:
+git clone https://github.com/nicolasff/phpredis
+
+git checkout php7
+
+/usr/local/php7/bin/phpize   #找不到phpize的路径可用whereis命令查看：whereis phpize 得到路径
+
+./configure --with-php-config=/usr/local/php/bin/php-config #此处为php-config的路径，可用whereis php-config查看路径
+
+make && make install

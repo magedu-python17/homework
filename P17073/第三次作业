@@ -1,0 +1,6 @@
+li=list(input('input a string: '))
+li.sort(reverse=True)
+a=[i for i in li if i.isdigit() and int(i)%2==0]
+b=[i for i in li if i not in a]
+b.extend(a)
+''.join(b)

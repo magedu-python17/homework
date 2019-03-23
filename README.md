@@ -1,20 +1,20 @@
 # homework
 
-## 马哥教育python实战15期
+## 马哥教育python实战17期
 
 ### 不要删除别人的代码！ 目录结构
                      
 ```
 01：第一次作业提交的目录         
-    mage 用自己的名字新建文件夹             
-    zuoye.py 作业的代码文件            
-    xiaozhi的目录          
-    zuoye.py 作业代码文件       
+    xuehao-mage 用自己的名字新建文件夹             
+    xuehao-zuoye.py 作业的代码文件            
+    xuehao-xiaozhi的目录          
+    xuehao-zuoye.py 作业代码文件       
 02：第二次作业提交的目录     
-    mage 用自己的名字新建文件夹          
-    zuoye.py 作业的代码文件                     
-    xiaozhi的目录              
-    zuoye.py 作业代码文件             
+    xuehao-mage 用自己的名字新建文件夹          
+    xuehao-zuoye.py 作业的代码文件                     
+    xuehao-xiaozhi的目录              
+    xuehao-zuoye.py 作业代码文件             
 以此类推
 ```
 
@@ -34,9 +34,11 @@ git clone https://github.com/magedu-python17/homework.git
 
 查看代码状态 git status
 
-后面添加代码，只需要下面三行即可：     
+后面添加代码，只需要下面三行即可：
+  git pull //拉取最新的代码文件
   git add .     
-  git commit -m "first commit" //第一次提交      
+  git commit -m "first commit" //第一次提交  
+  git pull //提交之前，先同步下最新版的代码，避免冲突
   git push -u origin master //同步到远程服务器      
 
 用命令行操作，要添加ssh的公钥到github里，操作方法
@@ -49,5 +51,5 @@ git clone https://github.com/magedu-python17/homework.git
 
 登录github 点击右上方的Accounting，再点击settings图标 选择 SSH and GPGkeys， 点击 New SSH key 在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可 然后将上面拷贝的cat ~/.ssh/id_rsa.pub 出现的内容，粘贴到key一栏，在点击“Add SSH key”按钮就可以了。 添加过程github会提示你输入一次你的github密码 添加完成后再次执行git clone就可以成功克隆github上的代码库了。
 ```
-#2. windows：
+### 2. windows：
 安装视频和文件已经上传群共享
