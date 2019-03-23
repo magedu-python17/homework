@@ -2,7 +2,4 @@
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
   </component>
-  <component name="Registry">
-    <entry key="vcs.annotations.preload" value="true" />
-  </component>
 </application>
