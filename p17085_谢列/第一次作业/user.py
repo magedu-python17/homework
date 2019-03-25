@@ -43,4 +43,10 @@ while switch:
 		with open("user.json", "w") as f:
 			json.dump(d, f)
 			print("加载入信息完成...")
+<<<<<<< HEAD
 		switch = False
+=======
+		switch = False
+
+# 作业完成的不错，争取把第二次的作业也补上来哈
+>>>>>>> eb050f956f0e1532fde6ba5a848a6855e0f2f0bf
