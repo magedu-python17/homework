@@ -8,11 +8,11 @@ import threading
 
 class SystemMonitor():
 
-    def __init__(self):#³õÊ¼»¯Êı¾İ
+    def __init__(self):#ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.cpumemdisk = []
 
-    def get_ip_address(self, ifname):#»ñÈ¡IP
+    def get_ip_address(self, ifname):#ï¿½ï¿½È¡IP
         return socket.inet_ntoa(fcntl.ioctl(
             self.s.fileno(),
             0x8915,  # SIOCGIFADDR
@@ -20,17 +20,17 @@ class SystemMonitor():
         )[20:24])
 
 
-    def get_data(self):#»ñÈ¡Êı¾İ
+    def get_data(self):#ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 
-        cpu = psutil.cpu_percent(interval=1)#»ñÈ¡cpu
-        mem = psutil.virtual_memory()#»ñÈ¡ÄÚ´æ
-        muc = mem.used/mem.total#»ñÈ¡ÄÚ´æÊ¹ÓÃÂÊ
-        disk = psutil.disk_usage('/')#»ñÈ¡´ÅÅÌ
-        duc = disk.used/disk.total#»ñÈ¡´ÅÅÌÊ¹ÓÃÂÊ
-        ctime = "{:%Y/%m/%d %H:%M:%S}".format(datetime.datetime.now())#»ñÈ¡Ê±¼ä
+        cpu = psutil.cpu_percent(interval=1)#ï¿½ï¿½È¡cpu
+        mem = psutil.virtual_memory()#ï¿½ï¿½È¡ï¿½Ú´ï¿½
+        muc = mem.used/mem.total#ï¿½ï¿½È¡ï¿½Ú´ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½
+        disk = psutil.disk_usage('/')#ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
+        duc = disk.used/disk.total#ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½
+        ctime = "{:%Y/%m/%d %H:%M:%S}".format(datetime.datetime.now())#ï¿½ï¿½È¡Ê±ï¿½ï¿½
         return [cpu, muc, duc, ctime]
 
-    def wdata(self):#Ğ´ÈëÊı¾İ
+    def wdata(self):#Ğ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         count = 0
         while True:
             ip = self.get_ip_address(b'eth0')
@@ -38,21 +38,21 @@ class SystemMonitor():
             cpu, muc, duc, ctime = data
             self.cpumemdisk.append([ip, cpu, muc, duc, ctime])
             systemdata = "{}{}:{}'cpu':{}%, 'mem':{:.2%},'disk':{:.2%}, 'time':{}{}{}".format('{', ip, '{', cpu, muc, duc ,ctime, '}', '}')
-            with open('/home/python/platu/projects/homework/log', 'a') as f:#Ğ´Êı¾İ
+            with open('/home/python/platu/projects/homework/log', 'a') as f:#Ğ´ï¿½ï¿½ï¿½ï¿½
                 f.writelines(systemdata+'\n')
-            time.sleep(5)#5SĞ´Ò»´Î
+            time.sleep(5)#5SĞ´Ò»ï¿½ï¿½
             count += 5
-            if count == 3600:#Ò»¸öĞ¡Ê±
+            if count == 3600:#Ò»ï¿½ï¿½Ğ¡Ê±
                 command = input('please input cpu|mem|disk')
-                if command == 'cpu':#°´cpuÅÅĞò»ñÈ¡Ç°5
+                if command == 'cpu':#ï¿½ï¿½cpuï¿½ï¿½ï¿½ï¿½ï¿½È¡Ç°5
                   for ip,cpu,muc,duc, ctime in  sorted(self.cpumemdisk, key=lambda v: v[1], reverse=True)[:5]:
                       print( "{}{}:{}'cpu':{}%, 'mem':{:.2%},'disk':{:.2%}, 'time':{}{}{}".format('{', ip, '{', cpu, muc, duc ,ctime, '}', '}'))
 
-                elif command == 'mem':#°´memÅÅĞò»ñÈ¡Ç°5
+                elif command == 'mem':#ï¿½ï¿½memï¿½ï¿½ï¿½ï¿½ï¿½È¡Ç°5
                     for ip, cpu, muc, duc, ctime in sorted(self.cpumemdisk, key=lambda v: v[2], reverse=True)[:5]:
                         print("{}{}:{}'cpu':{}%, 'mem':{:.2%},'disk':{:.2%}, 'time':{}{}{}".format('{', ip, '{', cpu, muc, duc, ctime, '}', '}'))
 
-                elif command == 'disk':#°´diskÅÅĞò»ñÈ¡Ç°5
+                elif command == 'disk':#ï¿½ï¿½diskï¿½ï¿½ï¿½ï¿½ï¿½È¡Ç°5
                     for ip, cpu, muc, duc, ctime in sorted(self.cpumemdisk, key=lambda v: v[3], reverse=True)[:5]:
                         print("{}{}:{}'cpu':{}%, 'mem':{:.2%},'disk':{:.2%}, 'time':{}{}{}".format('{', ip, '{', cpu, muc, duc, ctime, '}', '}'))
 
@@ -64,3 +64,4 @@ class SystemMonitor():
 a = SystemMonitor()
 if __name__ == '__main__':
     a.wdata()
+# èƒ½ä¸èƒ½åŒæ—¶ç›‘æ§ï¼šmem disk cpu è¿™äº›ï¼Œå°è¯•ä¸‹

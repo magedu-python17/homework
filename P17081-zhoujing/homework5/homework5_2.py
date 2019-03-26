@@ -26,3 +26,5 @@ if __name__ == '__main__':
     loop.run_until_complete(asyncio.wait(tasks))
     loop.close()
     # run()
+
+# 如果不用这个装饰器的话，能不能实现呢？

@@ -116,3 +116,5 @@ while True:
     if cmd == 'q':
         ss.stop()
         break
+
+# 有个更方便的socketserver 你可以看下

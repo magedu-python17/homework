@@ -120,3 +120,5 @@ while switch:
 		lst1 = []
 		option1 = input('请输入你的选择，add添加用户数据，delete删除用户数据，update更新用户数据，find查找用户数据，list打印输出所有用户数据，exit保存退出,sorted选择字段排序:')
 
+# 写的不错，尝试用函数的方法写下
+
