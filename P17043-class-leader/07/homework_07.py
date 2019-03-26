@@ -38,3 +38,6 @@ def main(filepath,counttime=1*60*60,interval=5):
 if __name__ == '__main__':
     filepath = 'D:\\log.txt'
     main(filepath)
+
+
+# 尝试下封装成类对象
