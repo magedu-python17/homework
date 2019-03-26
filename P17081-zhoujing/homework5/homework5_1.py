@@ -58,7 +58,7 @@ ret7 = list(filter(func3, (i for i in range(1, 23, 3))))
 ret8 = list(filter_myself(lambda x: x % 2 == 1, (i for i in range(1, 23, 3))))
 print(ret1, ret2, ret3, ret4, ret5, ret6, ret7, ret8, sep='\n ~~~~~~~~\n')
 
-
+# 写的很好，如果能把这些的高阶函数的用法，再理一遍的话，那就更好了
 
 
 
