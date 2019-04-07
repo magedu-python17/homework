@@ -4,7 +4,7 @@
     <property name="created">2018-11-20T03:41:22</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.5.0.0</property>
-    <property name="modified">2019-04-03T17:03:16</property>
+    <property name="modified">2019-04-08T02:35:40</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -19,7 +19,22 @@
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="DOCUMENTATION_COLOR" value="263238" />
-    <option name="FILESTATUS_COPIED" value="629755" />
+    <option name="FILESTATUS_ADDED" value="a9dc76" />
+    <option name="FILESTATUS_COPIED" value="a9dc76" />
+    <option name="FILESTATUS_DELETED" value="727072" />
+    <option name="FILESTATUS_HIJACKED" value="ffd866" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="727072" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_MERGED" value="ab9df2" />
+    <option name="FILESTATUS_MODIFIED" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="78dce8" />
     <option name="FILESTATUS_RENAMED" value="3a8484" />
+    <option name="FILESTATUS_SUPPRESSED" value="727072" />
+    <option name="FILESTATUS_SWITCHED" value="ab9df2" />
+    <option name="FILESTATUS_UNKNOWN" value="f59762" />
   </colors>
 </scheme>
