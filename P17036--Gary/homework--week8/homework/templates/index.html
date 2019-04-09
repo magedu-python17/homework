@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的电脑信息</title>
+    <style>
+        table,td,th
+        {
+	        border:1px solid pink;
+        }
+        td
+        {
+	        text-align:center;
+             width: 200px;
+        }
+        .tab {
+            margin: 20px 20px;
+        }
+    </style>
+</head>
+<body>
+        <table class="tab">
+            <th colspan="6">电脑使用信息如下:</th>
+            <tr>
+              <td>cpu:{{cpu}}%</td>
+              <td>men:{{men}}%</td>
+              <td>disk_C:{{disk_C}}%</td>
+              <td>disk_D:{{disk_D}}%</td>
+              <td>disk_E:{{disk_E}}%</td>
+              <td>disk_F:{{disk_F}}%</td>
+            </tr>
+        </table>
+</body>
+</html>
