@@ -14,7 +14,7 @@ while count > 0:
     count -= 1
 
 lst = list(d.keys())
-lst.sort()
+lst.sort(reverse=True)
 for key in lst:
     print("{}:{}".format(key,d[key]))
 
