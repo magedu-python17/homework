@@ -9,7 +9,12 @@
       <file name="/Dummy.txt" timestamp="1542535497545">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553463046558">
+      <file name="D:/workhome/hello.py" timestamp="1555517088240">
+        <mark key="[" line="0" column="1" />
+        <mark key="]" line="0" column="1" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1555517016380">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="D:/Program Files (x86)/Vim/_vimrc" timestamp="1536691390039">
@@ -36,6 +41,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="D:/workhome/test.sh" timestamp="1555516609570">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="/Bash" timestamp="1554282155614">
         <mark key="[" line="0" column="0" />
       </file>
@@ -55,6 +65,9 @@
       <file name="$USER_HOME$/Documents/GitHub/homework/P17058-zhanghaipeng/123.py" timestamp="1542485203808">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/hello" timestamp="1555517050316">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/1.py" />
@@ -66,7 +79,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">Cg==</text>
+        <text>#</text>
       </register>
       <register name="2" type="4">
         <text>set nocompatible &quot; be iMproved, required
@@ -103,7 +116,7 @@ filetype plugin indent on    &quot; required</text>
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text>#</text>
       </register>
     </registers>
     <search>
