@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://127.0.0.1:8000/static/js/jquery-3.4.0.min.js"></script>
+    <script src="http://127.0.0.1:8000/static/js/echarts.min.js"></script>
+</head>
+<body>
+    <div class="cpu-mem" style="width: 800px; height: 300px"></div>
+    <div class="disk" style="width: 800px; height: 300px"></div>
+    <script type="text/javascript">
+        let myChart1 = echarts.init(document.getElementsByClassName('cpu-mem')[0]);
+        let myChart2 = echarts.init(document.getElementsByClassName('disk')[0]);
+        $.get('http://127.0.0.1:8000/state/127.0.0.1?item=cpu&item=mem', function(data){
+            let keys = [];
+            Object.keys(data).forEach(value => {if (value !== 'date') keys.push(value)});
+            let option = {
+                title: {
+                    text: 'cpu及内存使用率',
+                },
+                tooltip: {},
+                yAxis: {type: 'value'},
+            };
+            option.legend = {data: keys};
+            option.xAxis = {data: data['date']};
+            let se = [];
+            keys.forEach(value => {
+                se.push({
+                    name: value,
+                    type: 'line',
+                    data: data[value]
+                })
+            });
+            option.series = se;
+            myChart1.setOption(option);
+        });
+
+        $.get('http://127.0.0.1:8000/state/127.0.0.1?item=disk', function(data){
+            let keys = [];
+            Object.keys(data).forEach(value => {if (value !== 'date') keys.push(value)});
+            let option = {
+                title: {
+                    text: '磁盘使用率',
+                },
+                tooltip: {},
+                yAxis: {type: 'value'},
+            };
+            option.legend = {data: keys};
+            option.xAxis = {data: data['date']};
+            let se = [];
+            keys.forEach(value => {
+                se.push({
+                    name: value,
+                    type: 'line',
+                    data: data[value]
+                })
+            });
+            option.series = se;
+            myChart2.setOption(option);
+        });
+    </script>
+</body>
+</html>
