@@ -24,3 +24,7 @@ urlpatterns = [
     path('',views.index),
     path('index/',views.index),
 ]
+
+# 不建议直接写到主路由里面，每个app的路由，应该有主路由器来分发到子路由里面
+
+# 别的没有啥问题，你在看下django
