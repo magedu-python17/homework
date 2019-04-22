@@ -25,3 +25,4 @@ STATE_RUNNING = 0
 STATE_FAILED = 1
 STATE_PENDING = 2
 
+# config 的配置文件，考虑用.ini的形式来试试

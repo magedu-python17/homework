@@ -131,9 +131,9 @@ def time_width_max(before, data: list, start, stop, width):
 
 
 
+# web 里面测试的话可以用print，不过最好建议要用logging 好点
 
-
-
+# setting 里面 配置还不完善，等学完，回头再看看你的这个代码
 
 
 
