@@ -31,11 +31,13 @@ def cache(fn):
         for i in zip(keys,args):
             only_tuple += i
         for k, v in sorted(kwargs.items()):
-            only_tuple += only_tuple + (k,v)
+            if k not in only_tuple:
+                only_tuple += (k,v)
         for k , v in sorted(params.items()):
             if v.default is not inspect._empty :
                 if k not in only_tuple:
                     only_tuple += (k,v.default)
+        #print(only_tuple)
         if only_tuple in only_dict.keys():
             return only_dict[only_tuple]
         else:
