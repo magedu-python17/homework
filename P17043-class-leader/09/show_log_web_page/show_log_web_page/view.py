@@ -6,5 +6,3 @@ def show_log(request):
     log_data_dict = main.log_generate()
     print(log_data_dict)
     return render(request, 'index.html',{'data':log_data_dict})
-
-# 既然用django了，何不用django的app来写呢？

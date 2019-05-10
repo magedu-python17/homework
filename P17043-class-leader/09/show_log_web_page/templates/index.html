@@ -14,7 +14,7 @@
 </head>
 <body background="http://www.ps123.net/sucai/UploadFiles_0715/201210/20121024074614930.jpg">
     <p style="font-family:Arial;color: black;font-size: 50px;text-align: center;">
-        简单页面展示
+        页面展示
     </p>
     <table border="3" width="1720px" style="font-family: Arial;color: black; font-size: 30px">
 
@@ -33,11 +33,21 @@
         {% endfor %}
 
     </table>
+
+    <div align="center">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <input type="button" onclick="javascript:window.location.reload() " value="请点击这里来刷新页面" style="font-family: Arial;color: black; font-size: 30px"/>
+    </div>
     <script language="JavaScript">
         function myrefresh(){
         window.location.reload();
         }
-        setTimeout('myrefresh()',1000); //指定1秒刷新一次
+        setTimeout('myrefresh()',5000); //指定5秒刷新一次
+
     </script>
+
 </body>
 </html>
