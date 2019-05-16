@@ -1,0 +1,27 @@
+{% extends "./base.html" %}
+{% load comment_block %}
+{% block title %}{{post.title}}{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet"
+href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/googlecode.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{% endblock %}
+
+{% block main %}
+{% if post %}
+<h1>标题：{{post.title}}</h1>
+<div>
+    <span>作者：{{post.user.username}}</span>
+    <span>类别：{{post.category.name}}</span>
+</div>
+<hr/>
+{% autoescape off %}
+<p>内容：{{post.content_html}}</p>
+{% endautoescape %}
+{% else %}
+<h1>无数据</h1>
+{% endif %}
+{% comment_block request.path %}
+{% endblock %}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客项目</title>
+    <meta name="viewport " content="width=device-width initial-scale=1" >
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+        .post{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">首页</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            python
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Django
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            854021135@qq.com
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search">
+                    <button class="btn btn-outline-success" type="submit">搜索</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-4">typeidea</h1>
+            <p class="lead">基于Django的多人博客</p>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="row">
+            <div class="col-9 post-list">
+                <div class="card post">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">这里是标题</a></h5>
+                        <span class="card-link">作者：<a href="#">周京</a> </span>
+                        <span class="card-link">分类：<a href="#">python</a> </span>
+                        <span class="card-link">标签：
+                            <a href="#">python</a>
+                            <a href="#">Django</a>
+                            <a href="#">个人项目</a>
+                        </span>
+                        <p class="card-text">这里是文章缩略显示或者摘要
+                        <a href="#">完整内容</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card post">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">这里是标题</a></h5>
+                        <span class="card-link">作者：<a href="#">周京</a> </span>
+                        <span class="card-link">分类：<a href="#">python</a> </span>
+                        <span class="card-link">标签：
+                            <a href="#">python</a>
+                            <a href="#">Django</a>
+                            <a href="#">个人项目</a>
+                        </span>
+                        <p class="card-text">这里是文章缩略显示或者摘要
+                        <a href="#">完整内容</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card post">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">这里是标题</a></h5>
+                        <span class="card-link">作者：<a href="#">周京</a> </span>
+                        <span class="card-link">分类：<a href="#">python</a> </span>
+                        <span class="card-link">标签：
+                            <a href="#">python</a>
+                            <a href="#">Django</a>
+                            <a href="#">个人项目</a>
+                        </span>
+                        <p class="card-text">这里是文章缩略显示或者摘要
+                        <a href="#">完整内容</a>
+                        </p>
+                    </div>
+                </div>
+                <a href="?page={{page_obj.previous_page_number}}">上一页</a>
+                page 1 of 1
+                <a href="?page={{page_obj.next_page_number}}">下一页</a>
+            </div>
+            <div class="col-3">
+                <div class="card sidebar">
+                    <div class="card-body">
+                        <h4 class="card-title">关于作者</h4>
+                        <p>网名：Mountan python编码爱好者</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <hr />
+            <nav class="nav category">
+                <a href="#" class="nav-link">读书</a>
+                <a href="#" class="nav-link">产品</a>
+                <a href="#" class="nav-link">工作经历</a>
+            </nav>
+        </div>
+        <div class="container power">
+            <span class="text-muted">power by Typeidea@Mountan</span>
+        </div>
+    </footer>
+</body>
+</html>
