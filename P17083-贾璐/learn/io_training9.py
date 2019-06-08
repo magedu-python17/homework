@@ -27,7 +27,7 @@ with open("sample.txt",encoding=encoding) as f:
                 d[word] = d.get(word,0) + 1
 
 
-print(sorted(d.items(),keys=lambda item:item[1],reverse=True))
+print(sorted(d.items(),key=lambda item:item[1],reverse=True))
 
 
 for k in d:
