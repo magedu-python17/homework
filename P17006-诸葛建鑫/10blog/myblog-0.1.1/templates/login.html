@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'js/account.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/account.css' %}">
+</head>
+<body>
+<div class="account-outer">
+    <div class="account-inner">
+        <div class="account-title">
+            用户登录
+        </div>
+        <div class="account-err-tip">
+            <span></span>
+        </div>
+        <form class='account-fm form-horizontal' action="{% url 'user-web:login' %}" method="post" novalidate onsubmit="return false">
+            {% csrf_token %}
+            <div class="fm-item form-group">
+                <label class="col-sm-3" for="id_user">用户名</label>
+                <div class="col-sm-9">
+                    <input type="text" name="user" id="id_user" class="regValidate form-control" placeholder="用户名">
+                    <span class="jsTipUser"></span>
+                </div>
+            </div>
+
+            <div class="fm-item form-group">
+                <label class="col-sm-3" for="id_pwd">密码</label>
+                <div class="col-sm-9">
+                    <input type="password" name="pwd" id="id_pwd" class="regValidate form-control" placeholder="密码">
+                    <span class="jsTipPwd"></span>
+                </div>
+            </div>
+
+            <div class="fm-item form-group">
+                <label class="col-sm-3" for="id_check_code">验证码</label>
+                <div class="col-sm-9">
+                    <div class="col-sm-4">
+                        <input type="text" name="check_code"  id="id_check_code" class="check_code form-control" placeholder="验证码" >
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-7">
+                        <img class="jsCodeImg" src="{% url "user-web:check_code" %}" alt="">
+                    </div>
+                    <span class="jsTipCode"></span>
+                </div>
+            </div>
+            <button class="jsSubmit btn btn-success">登录</button>
+        </form>
+        <div class="account-foot">
+            <span>没有账户？<a href="{% url 'user-web:reg' %}">立即注册</a></span>
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        let obj = new AccountValidate([".regValidate", ".check_code"]);
+        obj.EventBind();
+        obj.submitEvent();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.hide {
+    display: none;
+}
+.layout-inner{
+    margin: 0px 8px;
+}
+/* ---------- 头部 ----------*/
+/* -- 本例设计了子导航栏 -- */
+.head-area .head-outer{
+    background-color: #3d97cb;
+}
+.head-area .head-inner{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding-right: 20px;
+}
+.head-area .web-logo {
+    display: inline-block;
+    background-color: #2f72ab;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.head-area .nav-item {
+    float: left;
+    position: relative;
+}
+.head-area .nav-item a{
+    color: white;
+}
+.head-area .nav-item>a{
+    display: inline-block;
+    min-width: 60px;
+    height: 32px;
+    text-align: center;
+}
+.head-area .nav-item-content>a {
+    display: none;
+    background-color: #3d97cb;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid black;
+}
+.head-area .nav-item a:hover {
+    background-color: #1c5a9c;
+}
+.head-area .nav-item .logged-account:hover{
+    background-color: transparent;
+}
+.head-area .nav-item:hover .nav-item-content {
+    position: absolute;
+    top: 32px;
+    z-index: 2;
+}
+.head-area .nav-item:hover .nav-item-content>a {
+    display: block;
+}
+.head-area .logged-account i{
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+.head-area .logged-account span{
+    padding-left: 28px;
+}
+
+
+/* ------------ 主页整体布局 ------------*/
+.body-area .body-inner{
+    position: relative;
+    background-color: #e8e8e8;
+}
+.body-area .menu-area {
+    position: absolute;
+    width: 200px;
+    padding: 10px 5px;
+    background-color: #f7fbfd;
+}
+.body-area .menu-left{
+    left: 0px;
+}
+.body-area .menu-right{
+    right: 0px;
+}
+.body-area .content-area{
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    padding: 10px 5px;
+}
+
+
+
+/* ---------- 正文： 左侧菜单部分 ----------*/
+.menu-area .menu-item{
+    margin-bottom: 20px;
+}
+.menu-area .menu-item-title{
+    border: 1px solid #fff;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d9ebf5
+}
+.menu-area .menu-item-option a{
+    display: block;
+    width: 140px;
+    border-left: 10px solid transparent;
+    padding-left: 4px;
+    margin: 5px 0px;
+}
+.menu-area .menu-item-option a.active{
+    border-left: 10px solid #1c5a9c;
+}
+.menu-area .menu-item-option a:hover{
+    color: rgb(255, 102, 0);
+    text-decoration: underline;
+}
+
+/* ---------- 正文： 文章列表区 ----------*/
+.article-list .article-list-item {
+    padding: 20px 10px;
+    border-bottom: 1px dashed #9d9d9d;
+}
+.article-list-item .article-title {
+    font-weight: bold;
+    padding: 0px 20px 10px 10px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #3d97cb;
+    border-left: 12px solid transparent;
+}
+.article-list-item:hover .article-title{
+    border-left: 12px solid #3d97cb;
+}
+.article-list-item .article-title a {
+    font-size: 16px;
+    color: #000;
+}
+.article-list-item .article-summary{
+    margin: 8px 8px;
+}
+.article-list-item .author-avatar {
+    float: left;
+}
+.article-list-item .author-avatar img{
+    width: 54px;
+    height: 54px;
+}
+.article-list-item .article-summary::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.article-list-item .article-foot {
+    text-align: left;
+}
+.article-list-item .article-foot .author-index{
+    color: #3d97cb;
+    font-weight: bold;
+}
+.article-list-item a:hover{
+    color: rgb(255, 102, 0) !important;
+    text-decoration: underline !important;
+}
+
+/* ------------ 正文：分页组件样式 ------------*/
+.content-area .article-pagination {
+    padding:20px 10px;
+}
+.pagi li>a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 5px;
+    float: left;
+}
+.pagi .pagi-forbid>a{
+    border: 1px solid #e8e8e8;
+    color: #e8e8e8;
+}
+.pagi .pagi-inject>a{
+    border: none;
+}
+.pagi .pagi-active>a {
+    background-color: #3d97cb;
+    color: white;
+}
+.pagi a:hover{
+    text-decoration: none;
+}
+.pagi::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-pagination .pagi{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

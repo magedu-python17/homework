@@ -1,0 +1,63 @@
+{% extends "home_layout.html" %}
+
+{% block header %}
+    {% load static %}
+{% endblock %}
+
+{% block content %}
+    <div class="article-page">
+        <div class="article-detail">
+            <h1>{{ article.title }}</h1><hr>
+            {{ article.articledetail.content|safe }}
+        </div>
+        <div class="article-category">
+            <div>分类:
+                <a href="/{{ blog.site }}/category/{{ article.category_id }}.html">{{ article.category.title }}</a>
+            </div>
+            <div>标签:
+                {% for tag in tags %}
+                    <a href="/{{ blog.site }}/tag/{{ tag.nid }}.html">{{ tag.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="article-author">
+            <div class="author-info">
+                <img class="author-avatar" src="/{{ blog.user.avatar }}" alt="">
+                <a href="/{{ blog.site }}.html">作者:
+                        {% if blog.user.nickname %}
+                            {{ blog.user.nickname }}
+                        {% else %}
+                            {{ blog.user.name }}
+                        {% endif %}
+                </a><br>
+                <a href="#">粉丝： {{ blog.user.fans.count }}</a><br>
+                <a href="#">关注： {{ blog.user.interests.count }}</a><br>
+                <a href="#">+加关注</a>
+            </div>
+            <div class="article-recommend">
+                <a href="#" class="up">
+                    <i class="fa fa-thumbs-o-up fa-3" aria-hidden="true" style="font-size: 25px"></i>
+                    <div>{{ article.up_count }}</div>
+                </a>
+                <a href="#" class="down">
+                    <i class="fa fa-thumbs-o-down fa-3" aria-hidden="true" style="font-size: 25px"></i>
+                    <div>{{ article.down_count }}</div>
+                </a>
+            </div>
+        </div>
+        <div class="article-foot">
+            <span>{{ article.create_time|date:"Y-m-d H:i:s" }}</span>
+            <span>
+                {% if blog.user.nickname %}
+                    {{ blog.user.nickname }}
+                {% else %}
+                    {{ blog.user.name }}
+                {% endif %}
+            </span>
+            <span>阅读({{ article.read_count }})</span>
+            <span>赞({{ article.up_count }})</span>
+            <span>踩({{ article.down_count }})</span>
+            <a href="#">评论</a>
+        </div>
+    </div>
+{% endblock %}

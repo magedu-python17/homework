@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body{
+    min-height: 1080px;
+    background-image: url('/static/background/1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pg-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* ------------ 博客标题部分 ------------*/
+.head-area {
+    height: 80px;
+    background-color: #3d97cb;
+    position: relative;
+    color: #ffffff;
+}
+.head-area .title>a {
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 20px;
+    color: #fff;
+}
+.head-area .menu-list {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+.head-area .menu-list a{
+    display: inline-block;
+    padding: 0px 5px;
+    color: #ffffff;
+}
+
+/* ------------ 博客主体整体布局 ------------*/
+.body-area .body-menu {
+    float: left;
+    width: 240px;
+    padding: 0px 5px;
+    background-color: #f7fbfd;
+}
+.body-area .body-content {
+    float: right;
+    width: 950px;
+}
+.body-area::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ------------ 博客主体：菜单栏样式 ------------*/
+.body-menu .menu-item {
+    margin-bottom: 20px;
+}
+.body-menu .notice {
+    padding-top: 30px;
+}
+.body-menu .notice .memo {
+    text-indent: 2em;
+    margin: 15px 0px;
+}
+.body-menu .menu-item-head {
+    border: 1px solid #fff;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d9ebf5
+}
+.body-menu .menu-item-body {
+    padding: 0 10px;
+}
+.body-menu a:hover{
+    color: rgb(255, 102, 0);
+    text-decoration: underline;
+}
+
+
+.body-area .body-content{
+    background-color: #fff;
+}
+/* ------------ 博客主体：文章列表样式 ------------*/
+.article-list .article-list-item {
+    padding: 20px 10px;
+    border-bottom: 1px dashed #9d9d9d;
+}
+.article-list-item .article-title {
+    font-weight: bold;
+    padding: 0px 20px 10px 10px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #3d97cb;
+    border-left: 12px solid transparent;
+}
+.article-list-item:hover .article-title{
+    border-left: 12px solid #3d97cb;
+}
+.article-list-item .article-title a {
+    font-size: 16px;
+    color: #000;
+}
+.article-list-item .article-summary{
+    margin: 8px 8px;
+}
+.article-list-item .author-avatar {
+    float: left;
+}
+.article-list-item .author-avatar img{
+    width: 54px;
+    height: 54px;
+}
+.article-list-item .article-summary::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.article-list-item .article-foot {
+    text-align: left;
+}
+.article-list-item .article-foot .author-index{
+    color: #3d97cb;
+    font-weight: bold;
+}
+.article-list-item a:hover{
+    color: rgb(255, 102, 0) !important;
+    text-decoration: underline !important;
+}
+
+/* ------------ 博客主体：文章列表之分页组件样式 ------------*/
+.article-pagination .pagi {
+    padding:20px 10px;
+}
+.pagi li>a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 5px;
+    float: left;
+}
+.pagi .pagi-forbid>a{
+    border: 1px solid #e8e8e8;
+    color: #e8e8e8;
+}
+.pagi .pagi-inject>a{
+    border: none;
+}
+.pagi .pagi-active>a {
+    background-color: #3d97cb;
+    color: white;
+}
+.pagi a:hover{
+    text-decoration: none;
+}
+.pagi::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-pagination .pagi{
+    margin-left: 100px;
+}
+
+
+/* ------------ 博客主体：文章详细页的样式 ------------*/
+.article-page {
+    line-height: 1.6em;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+}
+.article-page .article-category {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.article-page .article-category a{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.article-page .author-info{
+    float: left;
+}
+.article-page .author-avatar{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.article-page .article-recommend{
+    float: right;
+}
+.article-page .article-recommend>a {
+    margin: 5px 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+.article-page .article-author::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-page .article-foot{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

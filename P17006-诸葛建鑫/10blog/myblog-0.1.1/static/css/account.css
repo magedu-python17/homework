@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.account-outer {
+    width: 336px;
+    border: 1px solid grey;
+    margin: 100px auto;
+}
+.account-inner {
+    width: 288px;
+    margin: 20px auto;
+}
+.account-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.account-err-tip {
+    position: relative;
+}
+.account-err-tip span {
+    position: absolute;
+    top: -30px;
+    font-size: 14px;
+    color: red;
+}
+.account-fm .fm-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+.fm-item label, .fm-item div {
+    padding: 0;
+}
+.fm-item label {
+    height: 34px;
+    line-height: 34px;
+}
+.fm-item span{
+    position: absolute;
+    left: 0px;
+    top: 34px;
+    font-size: 12px;
+    color: red
+}
+.account-fm button{
+    width: 50%;
+    margin: 0 84px;
+}
+.account-foot{
+    margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+{% extends "backend_layout.html" %}
+
+{% block css %}
+    {% load static %}
+    <script src="{% static 'plugins/kindeditor/kindeditor-all.js' %}"></script>
+    <script src="{% static 'plugins/kindeditor/lang/zh-CN.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/kindeditor/themes/default/default.css' %}">
+    <script src="{% static 'js/initkindeditor.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="article-info">
+        <form action="{% url 'app-backend:backend-article-add' %}" method="post" novalidate onsubmit="return false">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="id_title">标题(128个字符以内)</label>
+                <span class="err_title"></span>
+                <input type="text" class="form-control" name="title" id="id_title" maxlength="128">
+            </div>
+            <div class="form-group">
+                <label for="id_summary">摘要(文章摘要，255个字符以内)</label>
+                <span class="err_summary"></span>
+                <textarea name="summary" class="form-control" maxlength="255" rows="2" id="id_summary"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="id_content">正文</label>
+                <textarea name="content" class="form-control kind-editor" rows="30" id="id_content"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="">文章分类</label>
+                <span class="err_category"></span>
+                <div>
+                    {% for category in category_choice %}
+                        <input type="radio" name="category_id" value="{{ category.0 }}">{{ category.1 }}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">文章标签</label>
+                <span class="err_tag_id"></span>
+                <div>
+                    {% for tag in tag_choice %}
+                        <input type="radio" name="tag_id" value="{{ tag.0 }}">{{ tag.1 }}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="form-group">
+            <div class="form-group">
+                <label for="">使用新的标签（多个关键字之间用“,”分隔，最多不超过10个）</label>
+                <input type="text" class="form-control" name="newtags">
+            </div>
+                <label for="">网站分类</label>
+                <div>
+                    {% for atc in article_type_choice %}
+                        <input type="radio" name="article_type_id" value="{{ atc.0 }}">{{ atc.1 }}
+                    {% endfor %}
+                </div>
+            </div>
+            <button class="jsSubmit btn btn-success">发布</button>
+        </form>
+    </div>
+{% endblock %}

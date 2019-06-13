@@ -1,0 +1,55 @@
+{% extends 'backend_layout.html' %}
+
+{% block css %}
+    {% load static %}
+    <script src="{% static 'js/ajaxAction.js' %}"></script>
+    <script>
+    $(function(){
+        ajaxDeleteEvent('.option-delete');
+    })
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="article-list-area">
+        <div class="article-option">
+            {% if 'add' in request.user_action %}
+                <a class="btn btn-success" href="{{ request.path_info }}?t=add">新随笔</a>
+            {% endif %}
+        </div>
+        <table class="article-table table table-hover">
+            <thead>
+            <tr>
+                <th class="article-title">标题</th>
+                <th class="article-pubtime">发布时间</th>
+                <th class="article-category">所属分类</th>
+                <th>阅读数</th>
+                <th>评论数</th>
+                <th class="article-ope">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for article in article_lst %}
+                <tr aid="{{ article.nid }}">
+                    <td><a href="/{{ request.logged_blog.site }}/{{ article.nid }}.html">{{ article.title }}</a></td>
+                    <td>{{ article.create_time|date:"Y-m-d" }}</td>
+                    <td>{{ article.category.title }}</td>
+                    <td>{{ article.read_count }}</td>
+                    <td>{{ article.comment_count }}</td>
+                    <td>
+                        {% if 'edit' in request.user_action %}
+                            <a href="{{ request.path_info }}?t=edit&aid={{ article.nid }}">编辑</a>
+                        {% endif %}
+                        {% if 'delete' in request.user_action %}
+                            <a class="option-delete" href="{{ request.path_info }}?t=delete&aid={{ article.nid }}">删除</a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="article-pagination">
+        {{ pagination }}
+    </div>
+{% endblock %}

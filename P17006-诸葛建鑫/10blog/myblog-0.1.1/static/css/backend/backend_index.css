@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.hide {
+    display: none;
+}
+.head-area{
+    min-width: 1000px;
+    background-color: #2f72ab;
+    height: 32px;
+    padding-right: 60px;
+    line-height: 32px;
+}
+.head-area .logo {
+    font-size: 24px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.head-area .nav-item {
+    float: left;
+    position: relative;
+}
+
+.nav-item a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 48px;
+}
+.nav-item a:hover{
+    text-decoration: none;
+}
+
+.nav-item .nav-item-content{
+    display: none;
+}
+.nav-item .nav-item-content>a{
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #fff;
+    background-color: #2f72ab;
+}
+.nav-item:hover .nav-item-title {
+    background-color: #1c5a9c;
+}
+.nav-item:hover .nav-item-content {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    /* 由于.body-area .content也是用了position: absolute,设置z-index确保不被覆盖 */
+}
+.head-area .nav-item-content>a:hover {
+    background-color: #1c5a9c;
+
+}
+.nav-item.author-avatar a{
+    width: 120px;
+}
+.nav-item.author-avatar .nav-item-title img{
+    position: absolute;
+    left: 0px;
+    height: 32px;
+    border-radius: 50px;
+}
+.nav-item.author-avatar .nav-item-title span{
+    display: block;
+    margin-left: 34px;
+    text-align: left;
+}
+.nav-item.author-avatar:hover .nav-item-title{
+    background-color: transparent;
+}
+.head-area::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* -------------------- body部分: 整体布局（固定左侧菜单栏和页面高度） ----------------------*/
+/* .pg-body .menu 中采用绝对定位实现固定左侧菜单栏: top: bottom, width*/
+/* .pg-body .content中采用绝对定位， 其中left:200px. right:0px将盒子宽度拉伸开来， top和bottom拉伸高度*/
+/* 由于设置了overflow: scroll，此时.content下如有<div style="width:100px;height:200px;border: 1px solid black"></div>
+   可以看到此时的滚动条是content的滚动条，左侧菜单栏没有改变 */
+.body-area .menu-area {
+    width: 199px;
+    border-right: 1px solid #e8e8e8;
+    position: absolute;
+    top: 32px;
+    bottom: 0px;
+    /*background-color: red;*/
+}
+.body-area .content-area {
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    bottom: 0px;
+    left: 200px;
+    overflow: auto;
+    padding: 10px;
+}
+
+/* -------------------- body部分：左侧导航栏样式 ----------------------*/
+.body-area .menu-area {
+    padding: 10px;
+    background-color: #d7d7d7;
+}
+
+.menu-area .menu-item-title, .menu-area .menu-item-option {
+    padding-left: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.menu-area .menu-item-title:hover, .menu-area .menu-item-option:hover{
+    background-color: #2f72ab;
+    color: white;
+}
+.menu-area .menu-item-content {
+    padding-left: 2em;
+    display: none
+}
+.menu-area .menu-item-title.active+.menu-item-content {
+    display: block;
+}
+.menu-area .menu-item-option {
+    display: block;
+}
+.menu-area .menu-item-option {
+    border-left: 10px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.menu-area .menu-item-option.active {
+    border-left: 10px solid #2f72ab;
+    border-bottom: 1px solid #2f72ab;
+}
+
+
+/* -------------------- body-area: content-area(文章列表) ----------------------*/
+.article-list-area .article-option, .article-list-area .article-table{
+    margin-top: 20px;
+}
+.article-table .article-title{
+    width: auto;
+}
+.article-table .article-pubtime, .article-table .article-category{
+    width: 90px;
+}
+.article-table th {
+    width: 60px;
+}
+.article-table .article-ope {
+    width: 160px;
+}
+.article-table td a{
+    color: #1c5a9c;
+}
+
+/* -------------------- body-area: content-area(文章编辑界面) ----------------------*/
+.content-area .article-info {
+    padding: 20px;
+}
+.article-info form>li>ul>li {
+    margin: 0 10px;
+    float: left;
+}
+.article-info form>li>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 新增文章的输入表单有错误提示时的样式 */
+.article-info form>li>span{
+    display: inline-block;
+    color: red;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+
+/* -------------------- body-area: content-area(文章列表的分页组件) ----------------------*/
+.content-area .article-pagination {
+    padding:20px 10px;
+}
+.pagi li>a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 5px;
+    float: left;
+}
+.pagi .pagi-forbid>a{
+    border: 1px solid #e8e8e8;
+    color: #e8e8e8;
+}
+.pagi .pagi-inject>a{
+    border: none;
+}
+.pagi .pagi-active>a {
+    background-color: #3d97cb;
+    color: white;
+}
+.pagi a:hover{
+    text-decoration: none;
+}
+.pagi::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-pagination .pagi{
+    margin-left: 100px;
+}
+
+
+/* -------------------- body-area: content-area 分类列表区域) ----------------------*/
+.content-area .content-item-area {
+    margin: 20px 0px;
+}
+
+.content-item-area .item-title{
+    margin: 10px 0px;
+    padding-left: 10px;
+    background-color: #3d97cb;
+    color: #fff;
+    font-size: 14px;
+
+}
+.item-add form{
+    width: 400px;
+}
+.item-add form li {
+    margin: 10px 0px;
+}
+.error-tip {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

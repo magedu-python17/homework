@@ -1,0 +1,26 @@
+{% extends "backend_layout.html" %}
+
+{% block css %}
+    {% load static %}
+    <script src="{% static 'plugins/kindeditor/kindeditor-all.js' %}"></script>
+    <script src="{% static 'plugins/kindeditor/lang/zh-CN.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/kindeditor/themes/default/default.css' %}">
+{% endblock %}
+
+
+{# 这是使用form组件自动生成html元素 #}
+{% block content %}
+    <div class="article-info">
+        <form action="{% url 'app-backend:backend-article' %}" method="post" novalidate onsubmit="return false">
+            <input type="hidden" name="t" value="add">
+            {% csrf_token %}
+            {{ afm.as_ul }}
+            <button class="jsSubmit btn btn-success">发布</button>
+        </form>
+    </div>
+{% endblock %}
+
+
+{% block js %}
+    <script src="{% static 'js/initkindeditor.js' %}"></script>
+{% endblock %}

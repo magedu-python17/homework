@@ -1,0 +1,39 @@
+{% extends "home_layout.html" %}
+
+{% load static %}
+{% block content %}
+    <div class="article-list">
+        {% for article in article_lst %}
+            <div class="article-list-item">
+                <div class="article-title">
+                    <a href="/{{ blog.site }}/{{ article.nid }}.html">{{ article.title }}</a>
+                </div>
+                <div class="article-summary">
+                    <div class="author-avatar">
+                        <a href="{{ blog.site }}.html">
+                            <img src="{% static 'img/avatar/default.png' %}" alt="">
+                        </a>
+                    </div>
+                    <a href="/{{ blog.site }}/{{ article.nid }}.html">{{ article.summary }}</a>
+                </div>
+                <div class="article-foot">
+                    <a class="author-index" href="{{ blog.site }}.html">
+                        {% if blog.user.nickname %}
+                            {{ blog.user.nickname }}
+                        {% else %}
+                            {{ blog.user.name }}
+                        {% endif %}
+                    </a>发布于
+                    <span>{{ article.create_time|date:"Y-m-d H:i:s" }}</span>
+                    <span>阅读({{ article.read_count }})</span>
+                    <span>赞({{ article.up_count }})</span>
+                    <span>踩({{ article.down_count }})</span>
+                    <a href="#">评论</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="article-pagination">
+        {{ pagination }}
+    </div>
+{% endblock %}

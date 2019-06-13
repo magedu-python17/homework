@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <script src="{% static "js/jquery-3.4.1.js" %}"></script>
+    <link rel="stylesheet" href="{% static "plugins/bootstrap/css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "css/theme" %}/{{ blog.theme }}">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %}">
+    {% block header %}{% endblock %}
+</head>
+<body>
+<div class="pg-outer">
+    <div class="pg-inner">
+        <div class="head-area">
+            <div class="title">
+                <a href="/{{ blog.site }}.html" class="menu-item">{{ blog.title }}</a>
+            </div>
+            <div class="menu-list">
+                <a href="/" class="menu-item">首页</a>
+                <a href="/{{ blog.site }}.html" class="menu-item">个人主页</a>
+                <a href="{% url 'app-backend:backend-article' %}?t=add" class="menu-item">新随笔</a>
+                <a href="/backend/" class="menu-item">管理</a>
+            </div>
+        </div>
+        <div class="body-area">
+            <div class="body-menu">
+                <div class="notice menu-item">
+                    <div class="notice-head menu-item-head">公告</div>
+                    <div class="notice-body menu-item-body">
+                        <div class="memo">
+                            {{ blog.memo }}
+                        </div>
+                        <ul>
+                            <li>昵称：
+                                {% if blog.user.nickname %}
+                                    {{ blog.user.nickname }}
+                                {% else %}
+                                    {{ blog.user.name }}
+                                {% endif %}
+                            </li>
+                            <li>粉丝： {{ blog.user.fans.count }}</li>
+                            <li>关注： {{ blog.user.interests.count }}</li>
+                            <li>邮箱： {{ blog.user.email }}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category menu-item">
+                    <div class="category-head menu-item-head">文章分类</div>
+                    <div class="category-body menu-item-body">
+                        <ul>
+                            {% for category in category_lst %}
+                                <li><a href="/{{ blog.site }}/category/{{ category.nid }}.html">{{ category.title }}({{ category.article_count }})</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="tags menu-item">
+                    <div class="tags-head menu-item-head">我的标签</div>
+                    <div class="tags-body menu-item-body">
+                        <ul>
+                            {% for tag in tag_lst %}
+                                <li><a href="/{{ blog.site }}/tag/{{ tag.nid }}.html">{{ tag.title }}({{ tag.article_count }})</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="date menu-item">
+                    <div class="date-head menu-item-head">文章归档</div>
+                    <div class="date-body menu-item-body">
+                        <ul>
+                            {% for date in date_lst %}
+                                <li><a href="/{{ blog.site }}/date/{{ date.archive }}.html">{{ date.archive }}({{ date.article_count }})</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="body-content">
+                {% block content%}{% endblock %}
+            </div>
+        </div>
+        <div class="pg-foot">
+            {% block foot %}{% endblock %}
+        </div>
+    </div>
+</div>
+{% block js %}{% endblock %}
+</body>
+</html>

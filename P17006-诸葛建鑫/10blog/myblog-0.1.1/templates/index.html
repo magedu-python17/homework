@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script src="{% static 'js/ajaxLogout.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+<div class="head-area">
+    <div class="head-outer layout-outer">
+        <div class="head-inner layout-inner">
+            <a class="web-logo left" href="{% url 'user-web:index' %}">
+                    LuckySonia
+            </a>
+            <div class="nav-left left">
+            </div>
+            <div class="nav-right right">
+                {% if request.payload.logged_in_blog %}
+                    <div class="nav-item account-area">
+                        <a class="logged-account" href="{% url 'user-web:home_article_list' request.payload.logged_in_blog.site %}">
+                            <i class="fa fa-user-circle fa-2x user-icon" aria-hidden="true"></i>
+                            <span>
+                                {% if request.payload.logged_in_blog.user.nickname %}
+                                    {{ request.payload.logged_in_blog.user.nickname }}
+                                {% else %}
+                                    {{ request.payload.logged_in_blog.user.name }}
+                                {% endif %}
+                            </span>
+                        </a>
+                        <div class="nav-item-content">
+                            <a href="{% url 'user-web:home_article_list' request.payload.logged_in_blog.site %}">主页</a>
+                            <a href="{% url 'app-backend:backend-index' %}">管理</a>
+                            <a class="account-logout" href="javascript:void(0)" url="{% url 'user-web:logout' %}">退出登录</a>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="nav-item">
+                        <a href="{% url 'user-web:login' %}">登录</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="{% url 'user-web:reg' %}">注册</a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-area">
+    <div class="body-outer layout-outer">
+        <div class="body-inner layout-inner">
+            <div class="menu-area menu-left">
+                <div class="webplate menu-item">
+                    <div class="webplate-title menu-item-title">网站板块</div>
+                    <div class="webplate-option menu-item-option">
+                        <ul>
+                            {% for plate in plate_lst %}
+                                {% if plate.nid == plate_id %}
+                                    <li><a class="active" href="{% url 'user-web:index' %}?plate={{ plate.nid }}">{{ plate.title }}({{ plate.article_count }})</a></li>
+                                {% else %}
+                                    <li><a href="{% url 'user-web:index' %}?plate={{ plate.nid }}">{{ plate.title }}({{ plate.article_count }})</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="article-list">
+                    {% for article in article_lst %}
+                        <div class="article-list-item">
+                            <div class="article-title">
+                                <a href="/{{ article.blog.site }}/{{ article.nid }}.html">{{ article.title }}</a>
+                            </div>
+                            <div class="article-summary">
+                                <div class="author-avatar">
+                                    <a href="{{ article.blog.site }}.html">
+                                        <img src="{% static 'img/avatar/default.png' %}" alt="">
+                                    </a>
+                                </div>
+                                <a href="/{{ article.blog.site }}/{{ article.nid }}.html">{{ article.summary }}</a>
+                            </div>
+                            <div class="article-foot">
+                                <a class="author-index" href="{{ article.blog.site }}.html">
+                                    {% if article.blog.user.nickname %}
+                                        {{ article.blog.user.nickname }}
+                                    {% else %}
+                                        {{ article.blog.user.name }}
+                                    {% endif %}
+                                </a>发布于
+                                <span>{{ article.create_time|date:"Y-m-d H:i:s" }}</span>
+                                <span>阅读({{ article.read_count }})</span>
+                                <span>赞({{ article.up_count }})</span>
+                                <span>踩({{ article.down_count }})</span>
+                                <a href="#">评论</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="article-pagination">
+                    {{ pagination }}
+                </div>
+            </div>
+            <div class="menu-area menu-right">
+                <div style="width: 100%;height:800px">
+                    排行榜或者广告区
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="foot-area"></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    {% load static %}
+    <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'js/menu_option_click.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/backend/backend_index.css' %}">
+    {% block css %}{% endblock %}
+</head>
+<body>
+<div class="head-area">
+    <div class="logo left">LuckySonia</div>
+    <div class="nav-list left">
+        <div class="nav-item">
+            <a class="nav-item-title" href="{% url 'user-web:index' %}">首页</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-item-title" href="{% url 'user-web:home_article_list'  request.logged_blog.site %}">个人主页</a>
+        </div>
+    </div>
+    <div class="nav-list right">
+        <div class="nav-item author-avatar">
+            <a class="nav-item-title" href="#">
+                <img src="{% static 'img/avatar/default.png' %}" alt="">
+                <span>{{ request.logged_blog.user.name }}</span>
+            </a>
+        </div>
+        <div class="nav-item"><a class="nav-item-title" href="{% url 'app-backend:backend-logout' %}">退出登录</a></div>
+    </div>
+</div>
+
+<div class="body-area">
+    <div class="menu-area">
+        {{ request.user_menu }}
+    </div>
+    <div class="content-area">
+        {% block content %}{% endblock %}
+    </div>
+</div>
+
+{% block js %}{% endblock %}
+</body>
+</html>
