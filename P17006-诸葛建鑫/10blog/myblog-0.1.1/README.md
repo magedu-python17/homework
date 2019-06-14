@@ -1,2 +1,2 @@
 效果详见：
-blog.luckysonia.cn
+http://blog.luckysonia.cn
