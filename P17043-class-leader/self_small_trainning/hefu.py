@@ -28,11 +28,10 @@ class base():
         except TypeError:
             self.num = None
         self.version_num = self.version.replace('.', '_')
-        logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                        datefmt='%a, %d %b %Y %H:%M:%S',
-                        filename='hefu.log',
-                        filemode='w')
+        logging.basicConfig(level=logging.DEBUG,
+                            format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                            datefmt='%a, %d %b %Y %H:%M:%S',
+                            filename='/tmp/hefu.log',filemode='w')
     def getgametype(self):
         minion_conf = salt.config.client_config('/etc/salt/minon')
         grains = salt.loader.grains(minion_conf)
@@ -85,7 +84,7 @@ class base():
         3.修改首服之后的名字为debain
         '''
         shutdown_game = 'sudo /mnt/db.bak/xl/end_game.py'
-        dump_db = 'pg_dump -h db -U postgres lyingdragon2 -f /mnt/db.bak/data/wly/$(hostname).sql'
+        dump_db = 'sudo pg_dump -h db -U postgres lyingdragon2 -f /mnt/db.bak/data/wly/$(hostname).sql'
         change_hostname_debain = 'sudo /mnt/db.bak/xl/shell_xl/changeHostname.sh debain'
         logging.info('开始关闭区服')
         #self.remote_exec(self.remote_ssh,shutdown_game)
@@ -104,7 +103,7 @@ class base():
         1.复制数据库表结构
         2.合服
         '''
-        db_dump_schema = 'pg_dump -h db -U postgres lyingdragon2 -sf /mnt/data/data/wly/lyingdragon.schema'
+        db_dump_schema = 'sudo pg_dump -h db -U postgres lyingdragon2 -sf /mnt/data/data/wly/lyingdragon.schema'
         cp_dump_schema = 'sudo cp /mnt/data/data/wly/lyingdragon.schema /var/lib/postgresql/lyingdragon.schema'
         if not self.mergename:
             self.mergename = raw_input('请输入合服名字(区服名字全称,比如wly-lehh-1010): ')
@@ -179,4 +178,3 @@ if __name__ == '__main__':
     Base = base()
     Base.main()
 
-    
