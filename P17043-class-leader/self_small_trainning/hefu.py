@@ -5,8 +5,8 @@ import os
 import argparse
 import paramiko
 import logging
-import salt.config
-import salt.loader
+# import salt.config
+# import salt.loader
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -28,17 +28,9 @@ class base():
         except TypeError:
             self.num = None
         self.version_num = self.version.replace('.', '_')
-        logging.basicConfig(level=logging.DEBUG,
+        logging.basicConfig(level=logging.INFO,
                             format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                            datefmt='%a, %d %b %Y %H:%M:%S',
-                            filename='/tmp/hefu.log',filemode='w')
-    def getgametype(self):
-        minion_conf = salt.config.client_config('/etc/salt/minon')
-        grains = salt.loader.grains(minion_conf)
-        hostname = grains['localhost']
-        self.game = hostname.split('-')[0]
-        return True
-
+                            datefmt='%a, %d %b %Y %H:%M:%S')
     def arguments(self):
         '''
         参数定义
@@ -87,14 +79,17 @@ class base():
         dump_db = 'sudo pg_dump -h db -U postgres lyingdragon2 -f /mnt/db.bak/data/wly/$(hostname).sql'
         change_hostname_debain = 'sudo /mnt/db.bak/xl/shell_xl/changeHostname.sh debain'
         logging.info('开始关闭区服')
+        # 执行shell
         #self.remote_exec(self.remote_ssh,shutdown_game)
         logging.info('区服关闭成功')
         logging.info('正在导出各个区服数据库')
+        # 执行shell
         self.remote_exec(self.remote_ssh,dump_db)
         logging.info('各个区服数据库导出完成')
         for idx, host in enumerate(self.hosts):
             if idx != 0:
                 logging.info('正在修改{}服的名字为debain'.format(host))
+                # 执行shell
                 #self.remote_ssh(host,change_hostname_debain)
                 logging.info('{}服的名字修改完成'.format(host))
         return True
@@ -107,10 +102,11 @@ class base():
         cp_dump_schema = 'sudo cp /mnt/data/data/wly/lyingdragon.schema /var/lib/postgresql/lyingdragon.schema'
         if not self.mergename:
             self.mergename = raw_input('请输入合服名字(区服名字全称,比如wly-lehh-1010): ')
-        print('合服区服名字为{}'.format(self.mergename))
-        print('合服版本号为{}'.format(self.version))
+        logging.info('合服区服名字为{}'.format(self.mergename))
+        logging.info('合服版本号为{}'.format(self.version))
         logging.info('开始合服')
-        print('开始合服')
+        logging.info('开始合服')
+        # 执行shell
         print('{4} && {5} &&  cd /mnt/data/data/wly/ && sleep 3 && sudo php {0}_{1}.php comb wly{2} {3} > tmp.log'.format(
             self.hefuscriptforhead,
             self.version_num,
@@ -120,7 +116,6 @@ class base():
             cp_dump_schema
         ))
         logging.info('合服结束')
-        print('合服结束')
         return True
     def picklocation(self):
         '''
@@ -140,40 +135,45 @@ class base():
             elif r == 2:
                 self.hefuscriptforhead = 'vn_new_comb_server'
             else:
-                print('您选择的东西不支持，退出')
+                logging.error('您选择的东西不支持，退出')
                 sys.exit(1)
         if not os.path.isfile('/mnt/data/data/{}_{}.php'.format(self.hefuscriptforhead, self.version_num)):
             logging.error('合服脚本不存在，请检查！！！')
-            print('合服脚本不存在，请检查！！！')
             sys.exit(1)
         else:
+            # 执行shell
             print('sudo cp {} {}'.format(
                 '/mnt/data/data/{}_{}.php'.format(self.hefuscriptforhead, self.version_num),
                 '/mnt/data/data/wly/'))
         return True
     def changeconfig(self):
         logging.info('正在修改游戏配置文件')
+        # 执行shell
         #self.remote_ssh(self.hosts[0], 'sudo /mnt/db.bak/xl/xiayang/kaifu.py')
         logging.info('游戏配置文件修改完成')
         return True
     def dboperate(self):
         dropdb = 'dropdb -h db -U postgres lyingdragon2'
         createdb = 'createdb -h db -U postgres lyingdragon2'
-        psql = 'psql -h db -U postgres lyingdragon2 -f ~/wly{}_bak'
+        psql = 'psql -h db -U postgres lyingdragon2 -f /mnt/data/data/wly/wly{}_bak > /dev/null'
         cmd1 = ('{} && {} && {}'.format(dropdb,createdb,psql.format(self.mergename.split('-')[-1])))
         print(cmd1)
+        # 执行shell
         #self.remote_ssh(self.hosts[0],cmd1)
         return True
     def main(self):
         logging.info('开始合服操作')
-        if self.getgametype():
-            logging.info(self.game)
-            if self.shutdown():
-                if self.picklocation():
-                    if self.merge():
-                        if self.dboperate():
-                            if self.changeconfig():
-                                logging.info('合服操作结束')
+        flag = False
+        if self.shutdown():
+            if self.picklocation():
+                if self.merge():
+                    if self.dboperate():
+                        if self.changeconfig():
+                            logging.info('合服操作结束')
+                            flag = True
+        if flag is not True:
+            logging.error('脚本还没执行完就退出了')
 if __name__ == '__main__':
     Base = base()
     Base.main()
+
