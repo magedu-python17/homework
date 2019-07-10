@@ -1,0 +1,1 @@
+{"DEFAULT": {"a": "test"}, "mysql": {"mysql_code": "utf8", "value": "100", "a": "test"}, "mysqld": {"datadir": "/home/python/", "mysql_code": "utf8", "port": "3306", "sql_mode": "safe", "a": "test"}}
